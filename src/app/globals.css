@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #07100c;
+  --night: #0b1611;
+  --forest: #0a7c15;
+  --leaf: #a8d965;
+  --mint: #58ae8d;
+  --mist: #e8fef6;
+  --signal: #eace43;
+  --paper: #eef4ea;
+  color-scheme: dark;
+}
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
+}
+
+body {
+  background: var(--ink);
+  color: var(--mist);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection { background: var(--leaf); color: var(--ink); }
+
+:focus-visible { outline: 2px solid var(--leaf); outline-offset: 3px; border-radius: 2px; }
+
+@layer components {
+  .eyebrow { @apply font-mono text-[11px] uppercase tracking-[0.22em] text-mint; }
+  .display { @apply font-display font-extrabold uppercase leading-[0.86] tracking-[-0.01em]; }
+  .container-x { @apply mx-auto w-full max-w-[1440px] px-4 sm:px-6 lg:px-10; }
+  .chip { @apply inline-flex items-center gap-1.5 rounded-full border border-mint/30 px-2.5 py-1 font-mono text-[11px] text-mist/80; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-md px-4 py-2.5 text-sm font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-50; }
+  .btn-primary { @apply btn bg-leaf text-ink hover:bg-mist; }
+  .btn-ghost { @apply btn border border-mist/20 text-mist hover:border-leaf hover:text-leaf; }
+  .btn-danger { @apply btn border border-red-400/40 text-red-300 hover:bg-red-500/10; }
+  .field { @apply w-full rounded-md border border-mist/15 bg-ink/60 px-3 py-2 text-sm text-mist placeholder:text-mist/30 focus:border-leaf focus:outline-none; }
+  .label { @apply mb-1.5 block font-mono text-[11px] uppercase tracking-[0.16em] text-mist/60; }
+}
+
+/* Subtle grid + grain texture used on dark scenes */
+.bg-grid {
+  background-image:
+    linear-gradient(to right, rgb(168 217 101 / 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(168 217 101 / 0.06) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+.grain::after {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  opacity: 0.07;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+.text-outline { -webkit-text-stroke: 1.5px var(--leaf); color: transparent; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
