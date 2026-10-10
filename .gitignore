@@ -1,0 +1,26 @@
+node_modules
+.next
+out
+test-results
+playwright-report
+*.tsbuildinfo
+next-env.d.ts
+
+# Secrets — only the empty template is committed
+.env
+.env.*
+!.env.example
+
+# Runtime data written by the admin (content.json, uploads); the seed in src/lib is the source of truth
+storage/*
+!storage/uploads/
+storage/uploads/*
+!storage/uploads/.gitkeep
+
+# Local tooling
+.vercel
+.claude/
+*.bak
+*.log
+.DS_Store
+Thumbs.db
