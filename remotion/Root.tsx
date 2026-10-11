@@ -1,40 +1,40 @@
 import React from "react";
 import { Composition } from "remotion";
-import { Presentation } from "./Presentation";
-import { FPS, HEIGHT, WIDTH, type PresentationProps } from "./types";
+import { Commercial, type CommercialProps } from "./Commercial";
+import { FPS, HEIGHT, WIDTH } from "./types";
 
-// Props come from scripts/studio/render.ts (script.json + manifest.json).
+// Real props come from scripts/studio/render.ts (script.json + manifest.json).
 const placeholder = {
   data: {
     locale: "en",
+    copy: { hook: "", appsTitle: "", rangeTitle: "", peopleTitle: "", roles: ["", ""], rolesSub: ["", ""], cta: "", today: "", proof: ["", ""] },
+    lines: [],
     displayName: "Herrmann",
     fullName: "Gabriel Herrmann Grecchi",
-    headline: "",
-    roles: [],
-    intro: "",
-    bio: [],
+    role: "",
     location: "",
     email: "",
     availability: "",
-    stats: [],
-    skills: [],
-    featured: [],
-    others: [],
-    recommendations: [],
+    proof: [],
+    apps: [],
+    wall: [],
+    tech: [],
+    quotes: [],
+    logos: [],
   },
-  track: { hash: "", src: "/studio/en/video.mp3", duration: 5, scenes: [{ kind: "intro", start: 0, end: 5 }], sentences: [] },
+  timing: { bpm: 100, bar: 2.4, duration: 5, voice: "/studio/en/commercial-voice.mp3", music: "/studio/en/commercial-music.mp3", beats: [], sentences: [] },
   siteUrl: "https://herrmann-portfolio.vercel.app",
-} satisfies PresentationProps;
+} satisfies CommercialProps;
 
 export const Root: React.FC = () => (
   <Composition
-    id="Presentation"
-    component={Presentation}
+    id="Commercial"
+    component={Commercial}
     fps={FPS}
     width={WIDTH}
     height={HEIGHT}
     durationInFrames={FPS * 5}
-    defaultProps={placeholder as PresentationProps}
-    calculateMetadata={({ props }) => ({ durationInFrames: Math.ceil((props.track.duration + 1.2) * FPS) })}
+    defaultProps={placeholder as CommercialProps}
+    calculateMetadata={({ props }) => ({ durationInFrames: Math.ceil(props.timing.duration * FPS) })}
   />
 );

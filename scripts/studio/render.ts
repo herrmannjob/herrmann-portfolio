@@ -1,11 +1,12 @@
 /**
- * Step 3 of the studio pipeline: renders the Remotion presentation
- * (remotion/) once per locale with its Kokoro narration and the music bed.
+ * Step 3 of the studio pipeline: renders the Remotion commercial
+ * (remotion/Commercial.tsx) once per locale with its narration and score.
  *
- *   public/studio/<locale>/presentation.mp4   1080p H.264 + AAC
- *   public/studio/<locale>/poster.jpg
+ *   public/studio/<locale>/commercial.mp4   1080p H.264 + AAC
+ *   public/studio/<locale>/commercial.jpg   poster (the name reveal)
  *
  * Run: npm run studio:render [-- pt en]
+ * (Also runs on GitHub Actions — see .github/workflows/studio-render.yml.)
  */
 import { readFileSync, statSync, writeFileSync } from "node:fs";
 import path from "node:path";
@@ -28,15 +29,15 @@ async function main() {
   const serveUrl = await bundle({ entryPoint: path.join(root, "remotion", "index.ts"), publicDir: path.join(root, "public") });
 
   for (const locale of targets) {
-    const track = manifest.tracks?.[locale]?.video;
-    if (!track) {
-      console.warn(`skip ${locale}: no narration (run npm run studio:audio)`);
+    const timing = manifest.commercial?.[locale];
+    if (!timing) {
+      console.warn(`skip ${locale}: no commercial audio (run npm run studio:audio)`);
       continue;
     }
-    const inputProps = { data: script.video[locale], track, siteUrl };
-    const composition = await selectComposition({ serveUrl, id: "Presentation", inputProps, port: RENDER_PORT });
+    const inputProps = { data: script.commercial[locale], timing, siteUrl };
+    const composition = await selectComposition({ serveUrl, id: "Commercial", inputProps, port: RENDER_PORT });
     const dir = path.join(root, "public", "studio", locale);
-    const out = path.join(dir, "presentation.mp4");
+    const out = path.join(dir, "commercial.mp4");
     const t0 = Date.now();
     await renderMedia({
       serveUrl,
@@ -44,33 +45,34 @@ async function main() {
       composition,
       inputProps,
       codec: "h264",
-      crf: 25,
+      crf: 22,
       x264Preset: "slow",
-      audioBitrate: "160k",
+      audioBitrate: "192k",
       pixelFormat: "yuv420p",
       outputLocation: out,
       concurrency: Math.max(2, Math.floor(os.cpus().length / 2)),
       timeoutInMilliseconds: 180_000,
       onProgress: ({ progress }) => process.stdout.write(`\r${locale}: ${(progress * 100).toFixed(0).padStart(3)}%`),
     });
+    const reveal = timing.beats.find((b: { id: string }) => b.id === "reveal");
     await renderStill({
       serveUrl,
       port: RENDER_PORT,
       composition,
       inputProps,
-      frame: Math.round(4.2 * composition.fps),
-      output: path.join(dir, "poster.jpg"),
+      frame: Math.round(((reveal?.start ?? 4) + 2.6) * composition.fps),
+      output: path.join(dir, "commercial.jpg"),
       imageFormat: "jpeg",
-      jpegQuality: 82,
+      jpegQuality: 84,
       timeoutInMilliseconds: 180_000,
     });
     const mb = (statSync(out).size / 1e6).toFixed(1);
-    console.log(`\r${locale}: presentation.mp4 ${mb} MB in ${((Date.now() - t0) / 1000).toFixed(0)}s`);
-    manifest.tracks[locale].video = { ...track, video: `/studio/${locale}/presentation.mp4`, poster: `/studio/${locale}/poster.jpg` };
-}
+    console.log(`\r${locale}: commercial.mp4 ${mb} MB in ${((Date.now() - t0) / 1000).toFixed(0)}s`);
+    manifest.commercial[locale] = { ...timing, video: `/studio/${locale}/commercial.mp4`, poster: `/studio/${locale}/commercial.jpg` };
+  }
 
-writeFileSync(manifestPath, JSON.stringify(manifest, null, 1));
-console.log("manifest.json updated");
+  writeFileSync(manifestPath, JSON.stringify(manifest, null, 1));
+  console.log("manifest.json updated");
 }
 
 main().catch((e) => {

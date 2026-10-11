@@ -1,7 +1,7 @@
 name: Render presentation videos
 
-# Renders the Remotion presentation (remotion/) for every locale from the
-# committed Kokoro narrations in public/studio and commits the MP4s back.
+# Renders the Remotion commercial (remotion/Commercial.tsx) for every locale from the
+# committed narration and score in public/studio and commits the MP4s back.
 # Runs on Linux so the Remotion compositor/ffmpeg binaries can execute.
 on:
   workflow_dispatch:
@@ -17,7 +17,7 @@ on:
       - "remotion/**"
       - "scripts/studio/render.ts"
       - "scripts/studio/build-script.ts"
-      - "src/lib/summary.ts"
+      - "src/lib/commercial.ts"
 
 permissions:
   contents: write
