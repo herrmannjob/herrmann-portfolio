@@ -124,15 +124,20 @@ Inglês, português, espanhol e chinês. O idioma vem do cookie `locale` (defini
 
 Botão de fone no menu e no hero. Gera no navegador do visitante, a partir do conteúdo do site, um resumo em três tamanhos (curto, médio, completo) para **ler**, **ouvir** (Web Speech API, voz e velocidade ajustáveis, parágrafo atual destacado), copiar, baixar em .txt e imprimir/salvar em PDF — e uma **apresentação em vídeo** desenhada em canvas, narrada e legendada, que toca na hora e pode ser baixada em WebM (com legendas embutidas; navegadores não gravam voz sintetizada). Nada é enviado a servidores. Código em `src/lib/summary.ts` e `src/components/site/studio/`.
 
-#### Narração por IA e vídeo em motion graphics (pré-gerados)
+#### Narração por IA e comercial em motion graphics (pré-gerados)
 
-Para soar natural, o site toca áudios e vídeos gerados offline a partir do **mesmo** conteúdo:
+O site toca áudios e um **comercial** gerados offline:
+
+- **Resumo narrado** (primeira pessoa) — gerado do mesmo conteúdo do site, em três tamanhos.
+- **Comercial** (~90 s, narrador em terceira pessoa) — roteiro escrito à mão em `src/lib/commercial.ts` nos quatro idiomas: gancho → origem (2014, Novo Hamburgo) → escala (super app bancário, −50% no tempo de carregamento) → apps do dia a dia → repertório e IA → o que dizem os colegas → líder e executor → revelação do nome → chamada. Cada fala entra no início de um compasso de uma trilha original (100 BPM, com bateria, sidechain, riser e impacto na revelação) e as animações pulsam no tempo da música.
 
 | Passo | Comando | Gera |
 |---|---|---|
-| 1. Roteiro | `npm run studio:script` | `.studio/script.json` — 4 idiomas × cortes (curto, médio, completo, vídeo), frase a frase |
-| 2. Voz + trilha | `npm run studio:audio` | `public/studio/<idioma>/<corte>.mp3` com **Kokoro-82M** (IA open-source, Apache-2.0, roda local — sem chave), trilha ambiente original sintetizada em numpy (`bed.mp3`) e `manifest.json` com o tempo de cada frase |
-| 3. Vídeo | `npm run studio:render` | `public/studio/<idioma>/presentation.mp4` (1080p) + `poster.jpg`, renderizados com **Remotion** (`remotion/`) |
+| 1. Roteiro | `npm run studio:script` | `.studio/script.json` — resumos frase a frase + dados do comercial nos 4 idiomas |
+| 2. Vozes + trilha | `npm run studio:audio` | `public/studio/<idioma>/{short,medium,full}.mp3`, `commercial-voice.mp3`, `commercial-music.mp3` e `manifest.json` com o tempo de cada frase e de cada bloco. Vozes **Kokoro-82M** (IA open-source, Apache-2.0, local, sem chave); música sintetizada em numpy, sem nada a licenciar |
+| 3. Vídeo | `npm run studio:render` | `public/studio/<idioma>/commercial.mp4` (1080p) + `commercial.jpg`, renderizados com **Remotion** (`remotion/Commercial.tsx`) |
+
+Voz de estúdio opcional: com `STUDIO_TTS=elevenlabs` e `ELEVENLABS_API_KEY` (opcionalmente `ELEVENLABS_VOICE_ID`) no ambiente, o passo 2 usa a ElevenLabs no lugar do Kokoro. A chave é lida só da variável de ambiente e nunca é gravada.
 
 Tudo de uma vez: `npm run studio`. Para ajustar o vídeo ao vivo: `npm run studio:preview`.
 
