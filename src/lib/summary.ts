@@ -3,12 +3,10 @@ import type { Locale } from "./i18n/config";
 /**
  * Builds a spoken/written summary of the portfolio from its (already
  * localized) content. Pure and deterministic: the same scenes drive the
- * text summary, the read-aloud and the video presentation.
+ * text summary, the read-aloud and the live (in-browser) video fallback.
  */
 
 export type SummaryLength = "short" | "medium" | "full";
-/** "video" is the tighter cut used by the pre-rendered Remotion presentation. */
-export type ScriptCut = SummaryLength | "video";
 
 export type StudioWork = {
   slug: string;
@@ -155,12 +153,11 @@ function firstSentence(s: string): string {
   return (m ? m[0] : s).trim();
 }
 
-export function buildScenes(d: StudioData, length: ScriptCut): Scene[] {
+export function buildScenes(d: StudioData, length: SummaryLength): Scene[] {
   const p = P[d.locale];
   const scenes: Scene[] = [];
   const nWorks = length === "short" ? 2 : length === "medium" ? 4 : d.featured.length;
-  const nQuotes = length === "short" ? 0 : length === "medium" || length === "video" ? 1 : 3;
-  const brief = length === "short" || length === "video";
+  const nQuotes = length === "short" ? 0 : length === "medium" ? 1 : 3;
 
   scenes.push({ kind: "intro", title: d.displayName, kicker: d.headline, sub: d.fullName, narration: p.hello(d) });
 
@@ -170,10 +167,9 @@ export function buildScenes(d: StudioData, length: ScriptCut): Scene[] {
   }
 
   d.featured.slice(0, nWorks).forEach((w, i) => {
-    const work = brief ? { ...w, summary: firstSentence(w.summary) } : w;
-    // In the video, role, period and metrics are on screen — the voice only names the work.
-    let narration = length === "video" ? `${work.company}${d.locale === "zh" ? "。" : ". "}${work.summary}` : p.workLine(work);
-    if (length !== "short" && length !== "video" && w.metrics[0]) narration += p.sep + p.metricLine(w.metrics[0]);
+    const work = length === "short" ? { ...w, summary: firstSentence(w.summary) } : w;
+    let narration = p.workLine(work);
+    if (length !== "short" && w.metrics[0]) narration += p.sep + p.metricLine(w.metrics[0]);
     if (length === "full" && w.highlights.length) narration += p.sep + w.highlights.slice(0, 3).join(d.locale === "zh" ? "；" : ". ") + (d.locale === "zh" ? "。" : ".");
     scenes.push({ kind: "work", index: i, work, kicker: p.selected, narration });
   });

@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Download, Pause, Play, RotateCcw } from "lucide-react";
 import { useDictionary } from "@/lib/i18n/client";
-import type { MediaTrack } from "@/lib/studio-media";
+import type { CommercialMedia, MediaTrack } from "@/lib/studio-media";
 
 const fmt = (s: number) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
 
@@ -131,8 +131,8 @@ export function NarrationPlayer({
   );
 }
 
-/** The Remotion presentation, rendered offline per language. */
-export function PresentationVideo({ track, locale, onFallback }: { track: MediaTrack; locale: string; onFallback: () => void }) {
+/** The Remotion commercial, rendered offline per language. */
+export function PresentationVideo({ track, locale, onFallback }: { track: CommercialMedia; locale: string; onFallback: () => void }) {
   const t = useDictionary().studio;
   if (!track.video) return null;
   return (
@@ -150,7 +150,7 @@ export function PresentationVideo({ track, locale, onFallback }: { track: MediaT
         />
       </div>
       <div className="mt-3 flex flex-wrap items-center gap-2">
-        <a href={track.video} download={`herrmann-presentation-${locale}.mp4`} className="btn-ghost py-2 text-sm">
+        <a href={track.video} download={`herrmann-commercial-${locale}.mp4`} className="btn-ghost py-2 text-sm">
           <Download size={15} aria-hidden /> {t.downloadVideo}
         </a>
         <button type="button" className="btn-ghost py-2 text-sm" onClick={onFallback}>
