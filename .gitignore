@@ -24,3 +24,6 @@ storage/uploads/*
 *.log
 .DS_Store
 Thumbs.db
+
+# Studio pipeline working files (narration cache, script)
+.studio/

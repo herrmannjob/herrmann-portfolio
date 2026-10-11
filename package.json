@@ -8,7 +8,12 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "media:localize": "node scripts/localize-media.mjs"
+    "media:localize": "node scripts/localize-media.mjs",
+    "studio:script": "tsx scripts/studio/build-script.ts",
+    "studio:audio": "python scripts/studio/tts.py",
+    "studio:render": "tsx scripts/studio/render.ts",
+    "studio:preview": "remotion studio remotion/index.ts",
+    "studio": "npm run studio:script && npm run studio:audio && npm run studio:render"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
@@ -27,6 +32,12 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.64.0",
+    "@remotion/bundler": "4.0.534",
+    "@remotion/cli": "4.0.534",
+    "@remotion/google-fonts": "4.0.534",
+    "@remotion/media-utils": "4.0.534",
+    "@remotion/renderer": "4.0.534",
+    "@remotion/transitions": "4.0.534",
     "@types/node": "^26.6.5",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
@@ -34,7 +45,9 @@
     "eslint": "^9.39.5",
     "eslint-config-next": "^15.5.27",
     "postcss": "^8.5.29",
+    "remotion": "4.0.534",
     "tailwindcss": "^3.4.19",
+    "tsx": "4.23.15",
     "typescript": "^5.9.3"
   }
 }
