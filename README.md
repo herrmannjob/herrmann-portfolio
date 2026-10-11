@@ -124,6 +124,24 @@ Inglês, português, espanhol e chinês. O idioma vem do cookie `locale` (defini
 
 Botão de fone no menu e no hero. Gera no navegador do visitante, a partir do conteúdo do site, um resumo em três tamanhos (curto, médio, completo) para **ler**, **ouvir** (Web Speech API, voz e velocidade ajustáveis, parágrafo atual destacado), copiar, baixar em .txt e imprimir/salvar em PDF — e uma **apresentação em vídeo** desenhada em canvas, narrada e legendada, que toca na hora e pode ser baixada em WebM (com legendas embutidas; navegadores não gravam voz sintetizada). Nada é enviado a servidores. Código em `src/lib/summary.ts` e `src/components/site/studio/`.
 
+#### Narração por IA e vídeo em motion graphics (pré-gerados)
+
+Para soar natural, o site toca áudios e vídeos gerados offline a partir do **mesmo** conteúdo:
+
+| Passo | Comando | Gera |
+|---|---|---|
+| 1. Roteiro | `npm run studio:script` | `.studio/script.json` — 4 idiomas × cortes (curto, médio, completo, vídeo), frase a frase |
+| 2. Voz + trilha | `npm run studio:audio` | `public/studio/<idioma>/<corte>.mp3` com **Kokoro-82M** (IA open-source, Apache-2.0, roda local — sem chave), trilha ambiente original sintetizada em numpy (`bed.mp3`) e `manifest.json` com o tempo de cada frase |
+| 3. Vídeo | `npm run studio:render` | `public/studio/<idioma>/presentation.mp4` (1080p) + `poster.jpg`, renderizados com **Remotion** (`remotion/`) |
+
+Tudo de uma vez: `npm run studio`. Para ajustar o vídeo ao vivo: `npm run studio:preview`.
+
+O passo 3 também roda no GitHub Actions (`.github/workflows/studio-render.yml`): ao enviar novas narrações (`public/studio/**/*.mp3`) ou mudar `remotion/`, o workflow renderiza os quatro vídeos em Linux e faz commit dos MP4 — útil em máquinas Windows com Smart App Control, que bloqueia o ffmpeg do Remotion. Também dá para disparar manualmente em *Actions → Render presentation videos*.
+
+Requisitos do passo 2 (só para gerar, não para rodar o site): Python 3.12 e `python -m pip install -r scripts/studio/requirements.txt` (GPU NVIDIA opcional — instale o `torch` com CUDA antes). Cada frase fica em cache em `.studio/cache`, então regerar após editar um texto só sintetiza o que mudou.
+
+O manifesto guarda um hash da narração: se o conteúdo for editado no admin e os áudios não forem regerados, o site percebe a diferença e volta a usar a voz do navegador — nunca toca uma gravação desatualizada. Remotion é gratuito para pessoas físicas e empresas de até 3 pessoas ([licença](https://www.remotion.dev/license)).
+
 ### Acessibilidade
 
 Auditado com axe-core (home e páginas de case): zero violações. Link "pular para o conteúdo", `lang` correto por idioma (inclusive nas citações traduzidas), diálogos modais com foco preso e Esc, abas navegáveis por setas, contraste AA, regiões roláveis acessíveis por teclado, legendas e alternativa em texto para o vídeo, `prefers-reduced-motion` respeitado.
