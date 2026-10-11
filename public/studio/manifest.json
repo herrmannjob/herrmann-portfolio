@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "engine": "Kokoro-82M",
  "voices": {
   "en": "am_michael",
@@ -898,255 +898,6 @@
       "text": "Thanks for watching.",
       "start": 447.656,
       "end": 448.784
-     }
-    ]
-   },
-   "video": {
-    "hash": "1hncadk",
-    "src": "/studio/en/video.mp3",
-    "duration": 156.732,
-    "scenes": [
-     {
-      "kind": "intro",
-      "start": 0.35,
-      "end": 11.241
-     },
-     {
-      "kind": "text",
-      "start": 11.241,
-      "end": 23.978
-     },
-     {
-      "kind": "work",
-      "start": 23.978,
-      "end": 39.636
-     },
-     {
-      "kind": "work",
-      "start": 39.636,
-      "end": 50.791
-     },
-     {
-      "kind": "work",
-      "start": 50.791,
-      "end": 61.522
-     },
-     {
-      "kind": "work",
-      "start": 61.522,
-      "end": 75.515
-     },
-     {
-      "kind": "work",
-      "start": 75.515,
-      "end": 85.417
-     },
-     {
-      "kind": "work",
-      "start": 85.417,
-      "end": 90.407
-     },
-     {
-      "kind": "work",
-      "start": 90.407,
-      "end": 106.178
-     },
-     {
-      "kind": "stats",
-      "start": 106.178,
-      "end": 122.896
-     },
-     {
-      "kind": "quote",
-      "start": 122.896,
-      "end": 144.239
-     },
-     {
-      "kind": "outro",
-      "start": 144.239,
-      "end": 156.132
-     }
-    ],
-    "sentences": [
-     {
-      "scene": 0,
-      "text": "Hi, I'm Herrmann — full name Gabriel Herrmann Grecchi.",
-      "start": 0.35,
-      "end": 3.503
-     },
-     {
-      "scene": 0,
-      "text": "Lead AI Engineer · Fullstack & Frontend Specialist, based in Novo Hamburgo, RS — Brazil.",
-      "start": 3.823,
-      "end": 10.491
-     },
-     {
-      "scene": 1,
-      "text": "I build mission-critical platforms for banking, healthcare and tech — enterprise frontend architecture, scalable backends and, since 2020, AI and LLM-powered products.",
-      "start": 11.241,
-      "end": 23.228
-     },
-     {
-      "scene": 2,
-      "text": "Zup Innovation.",
-      "start": 23.978,
-      "end": 25.072
-     },
-     {
-      "scene": 2,
-      "text": "Frontend specialist on a large-scale banking super app used by millions — corporate treasury (PJ) and investment-broker platforms with strict security, performance and reliability requirements.",
-      "start": 25.392,
-      "end": 38.886
-     },
-     {
-      "scene": 3,
-      "text": "Deal.",
-      "start": 39.636,
-      "end": 40.225
-     },
-     {
-      "scene": 3,
-      "text": "Web banking platforms for two financial-sector clients on a Micro Frontend architecture — technical reference for frontend standards and architecture.",
-      "start": 40.545,
-      "end": 50.041
-     },
-     {
-      "scene": 4,
-      "text": "TaqTaq.",
-      "start": 50.791,
-      "end": 51.59
-     },
-     {
-      "scene": 4,
-      "text": "Technical leadership of a new cross-platform app for B2C, B2B and events — from concept to production, on time and on budget.",
-      "start": 51.91,
-      "end": 60.772
-     },
-     {
-      "scene": 5,
-      "text": "CI&T.",
-      "start": 61.522,
-      "end": 62.418
-     },
-     {
-      "scene": 5,
-      "text": "International projects for large financial and corporate companies — real-estate credit applications with Angular, C#/.",
-      "start": 62.738,
-      "end": 70.54
-     },
-     {
-      "scene": 5,
-      "text": "NET and Python, and technical leadership on cloud projects.",
-      "start": 70.86,
-      "end": 74.765
-     },
-     {
-      "scene": 6,
-      "text": "ECS Inovação.",
-      "start": 75.515,
-      "end": 76.953
-     },
-     {
-      "scene": 6,
-      "text": "Technical owner of Pharmalink Online — a pharmaceutical hub and marketplace used by many players in the sector.",
-      "start": 77.273,
-      "end": 84.667
-     },
-     {
-      "scene": 7,
-      "text": "Herrmann IT Consultoria.",
-      "start": 85.417,
-      "end": 87.186
-     },
-     {
-      "scene": 7,
-      "text": "My own technology consultancy.",
-      "start": 87.506,
-      "end": 89.657
-     },
-     {
-      "scene": 8,
-      "text": "Pacto Soluções.",
-      "start": 90.407,
-      "end": 91.671
-     },
-     {
-      "scene": 8,
-      "text": "Frontend for Pacto's fitness-management ecosystem — including the member apps of two of the largest gym chains in southern Brazil, Engenharia do Corpo and Usina do Corpo, and their hotsites.",
-      "start": 91.991,
-      "end": 105.428
-     },
-     {
-      "scene": 9,
-      "text": "12+: years shipping software (since 2014).",
-      "start": 106.178,
-      "end": 110.098
-     },
-     {
-      "scene": 9,
-      "text": "1M+: users on the banking super app I worked on.",
-      "start": 110.418,
-      "end": 114.404
-     },
-     {
-      "scene": 9,
-      "text": "−50%: load time via caching (Pharmalink).",
-      "start": 114.724,
-      "end": 118.625
-     },
-     {
-      "scene": 9,
-      "text": "20+: companies and products delivered.",
-      "start": 118.945,
-      "end": 122.146
-     },
-     {
-      "scene": 10,
-      "text": "“Gabriel is a hard-working, committed and very talented professional!",
-      "start": 122.896,
-      "end": 127.296
-     },
-     {
-      "scene": 10,
-      "text": "Always open to dialogue, he takes criticism well and always strives to deliver the best possible quality.",
-      "start": 127.616,
-      "end": 134.724
-     },
-     {
-      "scene": 10,
-      "text": "Having him on your team means having someone hard-working, sincere and with a great sense of humor!”",
-      "start": 135.044,
-      "end": 141.3
-     },
-     {
-      "scene": 10,
-      "text": "— Lucas Assumpção de Oliveira.",
-      "start": 141.62,
-      "end": 143.489
-     },
-     {
-      "scene": 11,
-      "text": "Open to Lead AI Engineer and Tech Lead opportunities — remote, Brazil & international.",
-      "start": 144.239,
-      "end": 150.52
-     },
-     {
-      "scene": 11,
-      "text": "Write to me at herrmannjob@gmail.",
-      "start": 150.84,
-      "end": 153.017
-     },
-     {
-      "scene": 11,
-      "text": "com.",
-      "start": 153.337,
-      "end": 153.934
-     },
-     {
-      "scene": 11,
-      "text": "Thanks for watching.",
-      "start": 154.254,
-      "end": 155.382
      }
     ]
    }
@@ -2049,255 +1800,6 @@
       "end": 422.729
      }
     ]
-   },
-   "video": {
-    "hash": "hro1vw",
-    "src": "/studio/pt/video.mp3",
-    "duration": 145.489,
-    "scenes": [
-     {
-      "kind": "intro",
-      "start": 0.35,
-      "end": 9.351
-     },
-     {
-      "kind": "text",
-      "start": 9.351,
-      "end": 21.114
-     },
-     {
-      "kind": "work",
-      "start": 21.114,
-      "end": 36.648
-     },
-     {
-      "kind": "work",
-      "start": 36.648,
-      "end": 47.509
-     },
-     {
-      "kind": "work",
-      "start": 47.509,
-      "end": 57.427
-     },
-     {
-      "kind": "work",
-      "start": 57.427,
-      "end": 70.992
-     },
-     {
-      "kind": "work",
-      "start": 70.992,
-      "end": 80.045
-     },
-     {
-      "kind": "work",
-      "start": 80.045,
-      "end": 85.56
-     },
-     {
-      "kind": "work",
-      "start": 85.56,
-      "end": 98.855
-     },
-     {
-      "kind": "stats",
-      "start": 98.855,
-      "end": 114.97
-     },
-     {
-      "kind": "quote",
-      "start": 114.97,
-      "end": 134.062
-     },
-     {
-      "kind": "outro",
-      "start": 134.062,
-      "end": 144.889
-     }
-    ],
-    "sentences": [
-     {
-      "scene": 0,
-      "text": "Olá, eu sou o Herrmann — nome completo Gabriel Herrmann Grecchi.",
-      "start": 0.35,
-      "end": 3.606
-     },
-     {
-      "scene": 0,
-      "text": "Lead AI Engineer · Especialista Fullstack e Frontend, em Novo Hamburgo, RS — Brasil.",
-      "start": 3.926,
-      "end": 8.601
-     },
-     {
-      "scene": 1,
-      "text": "Construo plataformas de missão crítica para bancos, saúde e tecnologia — arquitetura frontend enterprise, backends escaláveis e, desde 2020, produtos com IA e LLMs.",
-      "start": 9.351,
-      "end": 20.364
-     },
-     {
-      "scene": 2,
-      "text": "Zup Innovation.",
-      "start": 21.114,
-      "end": 22.407
-     },
-     {
-      "scene": 2,
-      "text": "Especialista frontend em um super app bancário de grande escala usado por milhões — plataformas de tesouraria corporativa (PJ) e corretora de investimentos, com requisitos rígidos de segurança, performance e confiabilidade.",
-      "start": 22.727,
-      "end": 35.898
-     },
-     {
-      "scene": 3,
-      "text": "Deal.",
-      "start": 36.648,
-      "end": 37.304
-     },
-     {
-      "scene": 3,
-      "text": "Plataformas de internet banking para dois clientes do setor financeiro em arquitetura de Micro Frontends — referência técnica em padrões e arquitetura frontend.",
-      "start": 37.624,
-      "end": 46.759
-     },
-     {
-      "scene": 4,
-      "text": "TaqTaq.",
-      "start": 47.509,
-      "end": 48.351
-     },
-     {
-      "scene": 4,
-      "text": "Liderança técnica de um novo app multiplataforma para B2C, B2B e eventos — do conceito à produção, dentro do prazo e do orçamento.",
-      "start": 48.671,
-      "end": 56.677
-     },
-     {
-      "scene": 5,
-      "text": "CI&T.",
-      "start": 57.427,
-      "end": 58.571
-     },
-     {
-      "scene": 5,
-      "text": "Projetos internacionais para grandes empresas financeiras e corporativas — aplicações de crédito imobiliário com Angular, C#/.",
-      "start": 58.891,
-      "end": 66.514
-     },
-     {
-      "scene": 5,
-      "text": "NET e Python, e liderança técnica em projetos cloud.",
-      "start": 66.834,
-      "end": 70.242
-     },
-     {
-      "scene": 6,
-      "text": "ECS Inovação.",
-      "start": 70.992,
-      "end": 72.504
-     },
-     {
-      "scene": 6,
-      "text": "Responsável técnico pelo Pharmalink Online — hub e marketplace farmacêutico usado por muitos players do setor.",
-      "start": 72.824,
-      "end": 79.295
-     },
-     {
-      "scene": 7,
-      "text": "Herrmann IT Consultoria.",
-      "start": 80.045,
-      "end": 81.859
-     },
-     {
-      "scene": 7,
-      "text": "Minha própria consultoria de tecnologia.",
-      "start": 82.179,
-      "end": 84.81
-     },
-     {
-      "scene": 8,
-      "text": "Pacto Soluções.",
-      "start": 85.56,
-      "end": 86.827
-     },
-     {
-      "scene": 8,
-      "text": "Frontend do ecossistema de gestão fitness da Pacto — incluindo os apps de alunos de duas das maiores redes de academias do Sul do Brasil, Engenharia do Corpo e Usina do Corpo, e seus hotsites.",
-      "start": 87.147,
-      "end": 98.105
-     },
-     {
-      "scene": 9,
-      "text": "12+: anos entregando software (desde 2014).",
-      "start": 98.855,
-      "end": 102.629
-     },
-     {
-      "scene": 9,
-      "text": "1M+: usuários no super app bancário em que trabalhei.",
-      "start": 102.949,
-      "end": 106.543
-     },
-     {
-      "scene": 9,
-      "text": "−50%: no tempo de carregamento com cache (Pharmalink).",
-      "start": 106.863,
-      "end": 111.094
-     },
-     {
-      "scene": 9,
-      "text": "20+: empresas e produtos entregues.",
-      "start": 111.414,
-      "end": 114.22
-     },
-     {
-      "scene": 10,
-      "text": "“Gabriel é um profissional esforçado, comprometido e com muito talento!",
-      "start": 114.97,
-      "end": 119.019
-     },
-     {
-      "scene": 10,
-      "text": "Sempre disposto a dialogar, aceita críticas com receptividade e sempre se esforça para entregar a melhor qualidade possível.",
-      "start": 119.339,
-      "end": 126.713
-     },
-     {
-      "scene": 10,
-      "text": "Tê-lo em sua equipe é ter alguém trabalhador, sincero e com muito bom humor!”",
-      "start": 127.033,
-      "end": 131.097
-     },
-     {
-      "scene": 10,
-      "text": "— Lucas Assumpção de Oliveira.",
-      "start": 131.417,
-      "end": 133.312
-     },
-     {
-      "scene": 11,
-      "text": "Aberto a oportunidades como Lead AI Engineer e Tech Lead — remoto, Brasil e exterior.",
-      "start": 134.062,
-      "end": 138.883
-     },
-     {
-      "scene": 11,
-      "text": "Escreva para herrmannjob@gmail.",
-      "start": 139.203,
-      "end": 141.498
-     },
-     {
-      "scene": 11,
-      "text": "com.",
-      "start": 141.818,
-      "end": 142.289
-     },
-     {
-      "scene": 11,
-      "text": "Obrigado por assistir.",
-      "start": 142.609,
-      "end": 144.139
-     }
-    ]
    }
   },
   "es": {
@@ -3192,255 +2694,6 @@
       "end": 427.391
      }
     ]
-   },
-   "video": {
-    "hash": "1culfh5",
-    "src": "/studio/es/video.mp3",
-    "duration": 146.361,
-    "scenes": [
-     {
-      "kind": "intro",
-      "start": 0.35,
-      "end": 9.576
-     },
-     {
-      "kind": "text",
-      "start": 9.576,
-      "end": 21.389
-     },
-     {
-      "kind": "work",
-      "start": 21.389,
-      "end": 35.783
-     },
-     {
-      "kind": "work",
-      "start": 35.783,
-      "end": 46.743
-     },
-     {
-      "kind": "work",
-      "start": 46.743,
-      "end": 56.646
-     },
-     {
-      "kind": "work",
-      "start": 56.646,
-      "end": 70.985
-     },
-     {
-      "kind": "work",
-      "start": 70.985,
-      "end": 80.052
-     },
-     {
-      "kind": "work",
-      "start": 80.052,
-      "end": 85.039
-     },
-     {
-      "kind": "work",
-      "start": 85.039,
-      "end": 98.825
-     },
-     {
-      "kind": "stats",
-      "start": 98.825,
-      "end": 115.387
-     },
-     {
-      "kind": "quote",
-      "start": 115.387,
-      "end": 134.839
-     },
-     {
-      "kind": "outro",
-      "start": 134.839,
-      "end": 145.761
-     }
-    ],
-    "sentences": [
-     {
-      "scene": 0,
-      "text": "Hola, soy Herrmann — nombre completo Gabriel Herrmann Grecchi.",
-      "start": 0.35,
-      "end": 3.618
-     },
-     {
-      "scene": 0,
-      "text": "Lead AI Engineer · Especialista Fullstack y Frontend, desde Novo Hamburgo, RS — Brasil.",
-      "start": 3.938,
-      "end": 8.826
-     },
-     {
-      "scene": 1,
-      "text": "Construyo plataformas de misión crítica para banca, salud y tecnología — arquitectura frontend empresarial, backends escalables y, desde 2020, productos con IA y LLMs.",
-      "start": 9.576,
-      "end": 20.639
-     },
-     {
-      "scene": 2,
-      "text": "Zup Innovation.",
-      "start": 21.389,
-      "end": 22.532
-     },
-     {
-      "scene": 2,
-      "text": "Especialista frontend en una super app bancaria a gran escala usada por millones — plataformas de tesorería corporativa y bróker de inversiones, con requisitos estrictos de seguridad, rendimiento y fiabilidad.",
-      "start": 22.852,
-      "end": 35.033
-     },
-     {
-      "scene": 3,
-      "text": "Deal.",
-      "start": 35.783,
-      "end": 36.406
-     },
-     {
-      "scene": 3,
-      "text": "Plataformas de banca web para dos clientes del sector financiero sobre una arquitectura de Micro Frontends — referente técnico en estándares y arquitectura frontend.",
-      "start": 36.726,
-      "end": 45.993
-     },
-     {
-      "scene": 4,
-      "text": "TaqTaq.",
-      "start": 46.743,
-      "end": 47.571
-     },
-     {
-      "scene": 4,
-      "text": "Liderazgo técnico de una nueva app multiplataforma para B2C, B2B y eventos — del concepto a producción, en plazo y presupuesto.",
-      "start": 47.891,
-      "end": 55.896
-     },
-     {
-      "scene": 5,
-      "text": "CI&T.",
-      "start": 56.646,
-      "end": 57.933
-     },
-     {
-      "scene": 5,
-      "text": "Proyectos internacionales para grandes empresas financieras y corporativas — aplicaciones de crédito hipotecario con Angular, C#/.",
-      "start": 58.253,
-      "end": 66.522
-     },
-     {
-      "scene": 5,
-      "text": "NET y Python, y liderazgo técnico en proyectos cloud.",
-      "start": 66.842,
-      "end": 70.235
-     },
-     {
-      "scene": 6,
-      "text": "ECS Inovação.",
-      "start": 70.985,
-      "end": 72.368
-     },
-     {
-      "scene": 6,
-      "text": "Responsable técnico de Pharmalink Online — hub y marketplace farmacéutico usado por muchos actores del sector.",
-      "start": 72.688,
-      "end": 79.302
-     },
-     {
-      "scene": 7,
-      "text": "Herrmann IT Consultoria.",
-      "start": 80.052,
-      "end": 81.824
-     },
-     {
-      "scene": 7,
-      "text": "Mi propia consultora tecnológica.",
-      "start": 82.144,
-      "end": 84.289
-     },
-     {
-      "scene": 8,
-      "text": "Pacto Soluções.",
-      "start": 85.039,
-      "end": 86.246
-     },
-     {
-      "scene": 8,
-      "text": "Frontend del ecosistema de gestión fitness de Pacto — incluidas las apps para socios de dos de las mayores cadenas de gimnasios del sur de Brasil, Engenharia do Corpo y Usina do Corpo, y sus hotsites.",
-      "start": 86.566,
-      "end": 98.075
-     },
-     {
-      "scene": 9,
-      "text": "12+: años entregando software (desde 2014).",
-      "start": 98.825,
-      "end": 102.438
-     },
-     {
-      "scene": 9,
-      "text": "1M+: usuarios en la super app bancaria en la que trabajé.",
-      "start": 102.758,
-      "end": 106.69
-     },
-     {
-      "scene": 9,
-      "text": "−50%: en tiempo de carga gracias al caché (Pharmalink).",
-      "start": 107.01,
-      "end": 111.404
-     },
-     {
-      "scene": 9,
-      "text": "20+: empresas y productos entregados.",
-      "start": 111.724,
-      "end": 114.637
-     },
-     {
-      "scene": 10,
-      "text": "“¡Gabriel es un profesional esforzado, comprometido y con mucho talento!",
-      "start": 115.387,
-      "end": 119.52
-     },
-     {
-      "scene": 10,
-      "text": "Siempre dispuesto a dialogar, recibe las críticas con apertura y siempre se esfuerza por entregar la mejor calidad posible.",
-      "start": 119.84,
-      "end": 126.996
-     },
-     {
-      "scene": 10,
-      "text": "Tenerlo en tu equipo es tener a alguien trabajador, sincero y con muy buen humor.”",
-      "start": 127.316,
-      "end": 131.929
-     },
-     {
-      "scene": 10,
-      "text": "— Lucas Assumpção de Oliveira.",
-      "start": 132.249,
-      "end": 134.089
-     },
-     {
-      "scene": 11,
-      "text": "Abierto a oportunidades como Lead AI Engineer y Tech Lead — remoto, Brasil e internacional.",
-      "start": 134.839,
-      "end": 140.184
-     },
-     {
-      "scene": 11,
-      "text": "Escríbeme a herrmannjob@gmail.",
-      "start": 140.504,
-      "end": 142.705
-     },
-     {
-      "scene": 11,
-      "text": "com.",
-      "start": 143.025,
-      "end": 143.548
-     },
-     {
-      "scene": 11,
-      "text": "Gracias por ver.",
-      "start": 143.868,
-      "end": 145.011
-     }
-    ]
    }
   },
   "zh": {
@@ -4191,256 +3444,831 @@
       "end": 358.35
      }
     ]
-   },
-   "video": {
-    "hash": "1efuwvh",
-    "src": "/studio/zh/video.mp3",
-    "duration": 140.454,
-    "scenes": [
-     {
-      "kind": "intro",
-      "start": 0.35,
-      "end": 9.902
-     },
-     {
-      "kind": "text",
-      "start": 9.902,
-      "end": 20.391
-     },
-     {
-      "kind": "work",
-      "start": 20.391,
-      "end": 33.364
-     },
-     {
-      "kind": "work",
-      "start": 33.364,
-      "end": 42.489
-     },
-     {
-      "kind": "work",
-      "start": 42.489,
-      "end": 52.105
-     },
-     {
-      "kind": "work",
-      "start": 52.105,
-      "end": 63.565
-     },
-     {
-      "kind": "work",
-      "start": 63.565,
-      "end": 76.107
-     },
-     {
-      "kind": "work",
-      "start": 76.107,
-      "end": 87.255
-     },
-     {
-      "kind": "work",
-      "start": 87.255,
-      "end": 98.194
-     },
-     {
-      "kind": "stats",
-      "start": 98.194,
-      "end": 112.371
-     },
-     {
-      "kind": "quote",
-      "start": 112.371,
-      "end": 129.483
-     },
-     {
-      "kind": "outro",
-      "start": 129.483,
-      "end": 139.854
-     }
-    ],
-    "sentences": [
-     {
-      "scene": 0,
-      "text": "你好，我是 Herrmann，全名 Gabriel Herrmann Grecchi。",
-      "start": 0.35,
-      "end": 3.189
-     },
-     {
-      "scene": 0,
-      "text": "首席 AI 工程师 · 全栈与前端专家，常驻巴西南里奥格兰德州新汉堡。",
-      "start": 3.509,
-      "end": 9.152
-     },
-     {
-      "scene": 1,
-      "text": "我为银行、医疗和科技行业打造关键业务平台——企业级前端架构、可扩展的后端，以及自 2020 年起的 AI 与大语言模型产品。",
-      "start": 9.902,
-      "end": 19.641
-     },
-     {
-      "scene": 2,
-      "text": "Zup Innovation。",
-      "start": 20.391,
-      "end": 21.386
-     },
-     {
-      "scene": 2,
-      "text": "在一款拥有数百万用户的大型银行超级应用中担任前端专家——负责企业资金管理和投资经纪平台，对安全性、性能和可靠性有严格要求。",
-      "start": 21.706,
-      "end": 32.614
-     },
-     {
-      "scene": 3,
-      "text": "Deal。",
-      "start": 33.364,
-      "end": 33.798
-     },
-     {
-      "scene": 3,
-      "text": "基于微前端架构，为两家金融行业客户打造网上银行平台——担任前端规范与架构的技术负责人。",
-      "start": 34.118,
-      "end": 41.739
-     },
-     {
-      "scene": 4,
-      "text": "TaqTaq。",
-      "start": 42.489,
-      "end": 43.032
-     },
-     {
-      "scene": 4,
-      "text": "主导一款面向 B2C、B2B 和活动场景的全新跨平台应用的技术工作——从概念到上线，按时且不超预算。",
-      "start": 43.352,
-      "end": 51.355
-     },
-     {
-      "scene": 5,
-      "text": "CI&T。",
-      "start": 52.105,
-      "end": 52.616
-     },
-     {
-      "scene": 5,
-      "text": "为大型金融与企业客户开展国际项目——使用 Angular、C#/.",
-      "start": 52.936,
-      "end": 57.256
-     },
-     {
-      "scene": 5,
-      "text": "NET 和 Python 构建房地产信贷应用，并在云项目中担任技术负责人。",
-      "start": 57.576,
-      "end": 62.815
-     },
-     {
-      "scene": 6,
-      "text": "ECS Inovação。",
-      "start": 63.565,
-      "end": 64.385
-     },
-     {
-      "scene": 6,
-      "text": "Pharmalink Online 的技术负责人——这是一个被众多行业参与者使用的医药枢纽与交易平台。",
-      "start": 64.705,
-      "end": 71.193
-     },
-     {
-      "scene": 6,
-      "text": "主导了从 AngularJS 1.",
-      "start": 71.513,
-      "end": 72.965
-     },
-     {
-      "scene": 6,
-      "text": "8 到 Angular 14 的完整迁移。",
-      "start": 73.285,
-      "end": 75.357
-     },
-     {
-      "scene": 7,
-      "text": "Herrmann IT Consultoria。",
-      "start": 76.107,
-      "end": 77.497
-     },
-     {
-      "scene": 7,
-      "text": "我自己的技术咨询公司。",
-      "start": 77.817,
-      "end": 79.754
-     },
-     {
-      "scene": 7,
-      "text": "为银行、医疗和 SaaS 领域的国内外客户提供前端工程、全栈开发与应用架构服务。",
-      "start": 80.074,
-      "end": 86.505
-     },
-     {
-      "scene": 8,
-      "text": "Pacto Soluções。",
-      "start": 87.255,
-      "end": 88.232
-     },
-     {
-      "scene": 8,
-      "text": "负责 Pacto 健身管理生态的前端——包括巴西南部两大连锁健身房 Engenharia do Corpo 和 Usina do Corpo 的会员应用及其官网落地页。",
-      "start": 88.552,
-      "end": 97.444
-     },
-     {
-      "scene": 9,
-      "text": "12+：年软件交付经验（始于 2014 年）；1M+：我参与的银行超级应用的用户数；−50%：通过缓存缩短的加载时间（Pharmalink）；20+：家已交付的公司与产品。",
-      "start": 98.194,
-      "end": 111.621
-     },
-     {
-      "scene": 10,
-      "text": "“Gabriel 是一位勤奋、投入且非常有才华的专业人士！",
-      "start": 112.371,
-      "end": 116.274
-     },
-     {
-      "scene": 10,
-      "text": "他总是乐于沟通，能虚心接受批评，并始终努力交付最好的质量。",
-      "start": 116.594,
-      "end": 121.958
-     },
-     {
-      "scene": 10,
-      "text": "团队里有他，就有了一位勤恳、真诚又很有幽默感的伙伴！”",
-      "start": 122.278,
-      "end": 126.544
-     },
-     {
-      "scene": 10,
-      "text": "——Lucas Assumpção de Oliveira",
-      "start": 126.864,
-      "end": 128.733
-     },
-     {
-      "scene": 11,
-      "text": "正在寻找首席 AI 工程师和技术负责人机会——远程，巴西及海外均可。",
-      "start": 129.483,
-      "end": 135.247
-     },
-     {
-      "scene": 11,
-      "text": "邮箱：herrmannjob@gmail.",
-      "start": 135.567,
-      "end": 136.94
-     },
-     {
-      "scene": 11,
-      "text": "com。",
-      "start": 137.26,
-      "end": 137.708
-     },
-     {
-      "scene": 11,
-      "text": "感谢观看。",
-      "start": 138.028,
-      "end": 139.104
-     }
-    ]
    }
+  }
+ },
+ "commercial": {
+  "pt": {
+   "bpm": 100,
+   "bar": 2.4,
+   "duration": 91.2,
+   "voice": "/studio/pt/commercial-voice.mp3",
+   "music": "/studio/pt/commercial-music.mp3",
+   "narrator": "pf_dora",
+   "beats": [
+    {
+     "id": "hook",
+     "bar": 1,
+     "endBar": 4,
+     "start": 2.4,
+     "voiceStart": 2.7,
+     "voiceEnd": 8.395,
+     "end": 9.6
+    },
+    {
+     "id": "origin",
+     "bar": 4,
+     "endBar": 8,
+     "start": 9.6,
+     "voiceStart": 9.9,
+     "voiceEnd": 18.017,
+     "end": 19.2
+    },
+    {
+     "id": "scale",
+     "bar": 8,
+     "endBar": 12,
+     "start": 19.2,
+     "voiceStart": 19.5,
+     "voiceEnd": 28.203,
+     "end": 28.8
+    },
+    {
+     "id": "apps",
+     "bar": 12,
+     "endBar": 15,
+     "start": 28.8,
+     "voiceStart": 29.1,
+     "voiceEnd": 34.185,
+     "end": 36.0
+    },
+    {
+     "id": "range",
+     "bar": 15,
+     "endBar": 21,
+     "start": 36.0,
+     "voiceStart": 36.3,
+     "voiceEnd": 47.855,
+     "end": 50.4
+    },
+    {
+     "id": "people",
+     "bar": 21,
+     "endBar": 24,
+     "start": 50.4,
+     "voiceStart": 50.7,
+     "voiceEnd": 55.553,
+     "end": 57.6
+    },
+    {
+     "id": "value",
+     "bar": 24,
+     "endBar": 27,
+     "start": 57.6,
+     "voiceStart": 57.9,
+     "voiceEnd": 63.57,
+     "end": 67.2
+    },
+    {
+     "id": "reveal",
+     "bar": 28,
+     "endBar": 32,
+     "start": 67.2,
+     "voiceStart": 68.1,
+     "voiceEnd": 73.961,
+     "end": 76.8
+    },
+    {
+     "id": "cta",
+     "bar": 32,
+     "endBar": 37,
+     "start": 76.8,
+     "voiceStart": 77.1,
+     "voiceEnd": 81.842,
+     "end": 88.8
+    }
+   ],
+   "sentences": [
+    {
+     "beat": 0,
+     "text": "Por trás de todo produto em que as pessoas confiam, existe alguém que não aceita o bom o suficiente.",
+     "start": 2.7,
+     "end": 8.395
+    },
+    {
+     "beat": 1,
+     "text": "Em 2014, em Novo Hamburgo, no sul do Brasil, um desenvolvedor colocou seu primeiro código em produção.",
+     "start": 9.9,
+     "end": 16.395
+    },
+    {
+     "beat": 1,
+     "text": "E nunca mais parou.",
+     "start": 16.675,
+     "end": 18.017
+    },
+    {
+     "beat": 2,
+     "text": "Um super app bancário usado por milhões.",
+     "start": 19.5,
+     "end": 22.081
+    },
+    {
+     "beat": 2,
+     "text": "Um marketplace farmacêutico reconstruído do zero — com o tempo de carregamento cortado pela metade.",
+     "start": 22.361,
+     "end": 28.203
+    },
+    {
+     "beat": 3,
+     "text": "Apps que as pessoas abrem todos os dias — de redes de varejo, restaurantes e academias.",
+     "start": 29.1,
+     "end": 34.185
+    },
+    {
+     "beat": 4,
+     "text": "Angular em escala enterprise.",
+     "start": 36.3,
+     "end": 38.195
+    },
+    {
+     "beat": 4,
+     "text": "Micro frontends.",
+     "start": 38.475,
+     "end": 39.768
+    },
+    {
+     "beat": 4,
+     "text": "Python, .",
+     "start": 40.048,
+     "end": 40.81
+    },
+    {
+     "beat": 4,
+     "text": "NET, Node e Flutter.",
+     "start": 41.09,
+     "end": 42.558
+    },
+    {
+     "beat": 4,
+     "text": "E, desde 2020, inteligência artificial: LLMs, RAG e agentes.",
+     "start": 42.838,
+     "end": 47.855
+    },
+    {
+     "beat": 5,
+     "text": "Os colegas o descrevem como comprometido, criativo — e sempre disposto a ensinar.",
+     "start": 50.7,
+     "end": 55.553
+    },
+    {
+     "beat": 6,
+     "text": "Tech Lead quando o projeto precisa de direção.",
+     "start": 57.9,
+     "end": 60.719
+    },
+    {
+     "beat": 6,
+     "text": "Mão na massa quando precisa de resultado.",
+     "start": 60.999,
+     "end": 63.57
+    },
+    {
+     "beat": 7,
+     "text": "Este é o Herrmann.",
+     "start": 68.1,
+     "end": 69.386
+    },
+    {
+     "beat": 7,
+     "text": "Gabriel Herrmann Grecchi.",
+     "start": 69.936,
+     "end": 71.501
+    },
+    {
+     "beat": 7,
+     "text": "Lead AI Engineer.",
+     "start": 72.051,
+     "end": 73.411
+    },
+    {
+     "beat": 8,
+     "text": "Seu próximo produto merece o mesmo cuidado.",
+     "start": 77.1,
+     "end": 79.944
+    },
+    {
+     "beat": 8,
+     "text": "Vamos construir juntos.",
+     "start": 80.224,
+     "end": 81.842
+    }
+   ]
+  },
+  "en": {
+   "bpm": 100,
+   "bar": 2.4,
+   "duration": 86.4,
+   "voice": "/studio/en/commercial-voice.mp3",
+   "music": "/studio/en/commercial-music.mp3",
+   "narrator": "af_heart",
+   "beats": [
+    {
+     "id": "hook",
+     "bar": 1,
+     "endBar": 4,
+     "start": 2.4,
+     "voiceStart": 2.7,
+     "voiceEnd": 7.707,
+     "end": 9.6
+    },
+    {
+     "id": "origin",
+     "bar": 4,
+     "endBar": 8,
+     "start": 9.6,
+     "voiceStart": 9.9,
+     "voiceEnd": 18.296,
+     "end": 19.2
+    },
+    {
+     "id": "scale",
+     "bar": 8,
+     "endBar": 12,
+     "start": 19.2,
+     "voiceStart": 19.5,
+     "voiceEnd": 26.401,
+     "end": 28.8
+    },
+    {
+     "id": "apps",
+     "bar": 12,
+     "endBar": 15,
+     "start": 28.8,
+     "voiceStart": 29.1,
+     "voiceEnd": 33.436,
+     "end": 36.0
+    },
+    {
+     "id": "range",
+     "bar": 15,
+     "endBar": 21,
+     "start": 36.0,
+     "voiceStart": 36.3,
+     "voiceEnd": 47.722,
+     "end": 50.4
+    },
+    {
+     "id": "people",
+     "bar": 21,
+     "endBar": 24,
+     "start": 50.4,
+     "voiceStart": 50.7,
+     "voiceEnd": 54.959,
+     "end": 57.6
+    },
+    {
+     "id": "value",
+     "bar": 24,
+     "endBar": 27,
+     "start": 57.6,
+     "voiceStart": 57.9,
+     "voiceEnd": 62.255,
+     "end": 67.2
+    },
+    {
+     "id": "reveal",
+     "bar": 28,
+     "endBar": 31,
+     "start": 67.2,
+     "voiceStart": 68.1,
+     "voiceEnd": 73.423,
+     "end": 74.4
+    },
+    {
+     "id": "cta",
+     "bar": 31,
+     "endBar": 35,
+     "start": 74.4,
+     "voiceStart": 74.7,
+     "voiceEnd": 78.45,
+     "end": 84.0
+    }
+   ],
+   "sentences": [
+    {
+     "beat": 0,
+     "text": "Behind every product people trust, there's someone who refuses to settle for good enough.",
+     "start": 2.7,
+     "end": 7.707
+    },
+    {
+     "beat": 1,
+     "text": "In 2014, in Novo Hamburgo, in the south of Brazil, a developer shipped his first code to production.",
+     "start": 9.9,
+     "end": 16.594
+    },
+    {
+     "beat": 1,
+     "text": "He never stopped shipping.",
+     "start": 16.874,
+     "end": 18.296
+    },
+    {
+     "beat": 2,
+     "text": "A banking super app used by millions.",
+     "start": 19.5,
+     "end": 21.658
+    },
+    {
+     "beat": 2,
+     "text": "A pharma marketplace rebuilt from the ground up — with load times cut in half.",
+     "start": 21.938,
+     "end": 26.401
+    },
+    {
+     "beat": 3,
+     "text": "Apps people open every day — for retail chains, restaurants and gyms.",
+     "start": 29.1,
+     "end": 33.436
+    },
+    {
+     "beat": 4,
+     "text": "Angular at enterprise scale.",
+     "start": 36.3,
+     "end": 37.907
+    },
+    {
+     "beat": 4,
+     "text": "Micro frontends.",
+     "start": 38.187,
+     "end": 39.425
+    },
+    {
+     "beat": 4,
+     "text": "Python, .",
+     "start": 39.705,
+     "end": 40.458
+    },
+    {
+     "beat": 4,
+     "text": "NET, Node and Flutter.",
+     "start": 40.738,
+     "end": 42.155
+    },
+    {
+     "beat": 4,
+     "text": "And since 2020, artificial intelligence: LLMs, RAG and agents.",
+     "start": 42.435,
+     "end": 47.722
+    },
+    {
+     "beat": 5,
+     "text": "Colleagues describe him as committed, creative — and always ready to teach.",
+     "start": 50.7,
+     "end": 54.959
+    },
+    {
+     "beat": 6,
+     "text": "A tech lead when the project needs direction.",
+     "start": 57.9,
+     "end": 60.225
+    },
+    {
+     "beat": 6,
+     "text": "A builder when it needs results.",
+     "start": 60.505,
+     "end": 62.255
+    },
+    {
+     "beat": 7,
+     "text": "This is Herrmann.",
+     "start": 68.1,
+     "end": 69.037
+    },
+    {
+     "beat": 7,
+     "text": "Gabriel Herrmann Grecchi.",
+     "start": 69.587,
+     "end": 71.012
+    },
+    {
+     "beat": 7,
+     "text": "Lead AI Engineer.",
+     "start": 71.562,
+     "end": 72.873
+    },
+    {
+     "beat": 8,
+     "text": "Your next product deserves the same care.",
+     "start": 74.7,
+     "end": 76.89
+    },
+    {
+     "beat": 8,
+     "text": "Let's build it together.",
+     "start": 77.17,
+     "end": 78.45
+    }
+   ]
+  },
+  "es": {
+   "bpm": 100,
+   "bar": 2.4,
+   "duration": 91.2,
+   "voice": "/studio/es/commercial-voice.mp3",
+   "music": "/studio/es/commercial-music.mp3",
+   "narrator": "ef_dora",
+   "beats": [
+    {
+     "id": "hook",
+     "bar": 1,
+     "endBar": 5,
+     "start": 2.4,
+     "voiceStart": 2.7,
+     "voiceEnd": 9.118,
+     "end": 12.0
+    },
+    {
+     "id": "origin",
+     "bar": 5,
+     "endBar": 9,
+     "start": 12.0,
+     "voiceStart": 12.3,
+     "voiceEnd": 20.677,
+     "end": 21.6
+    },
+    {
+     "id": "scale",
+     "bar": 9,
+     "endBar": 13,
+     "start": 21.6,
+     "voiceStart": 21.9,
+     "voiceEnd": 30.483,
+     "end": 31.2
+    },
+    {
+     "id": "apps",
+     "bar": 13,
+     "endBar": 16,
+     "start": 31.2,
+     "voiceStart": 31.5,
+     "voiceEnd": 36.508,
+     "end": 38.4
+    },
+    {
+     "id": "range",
+     "bar": 16,
+     "endBar": 22,
+     "start": 38.4,
+     "voiceStart": 38.7,
+     "voiceEnd": 49.933,
+     "end": 52.8
+    },
+    {
+     "id": "people",
+     "bar": 22,
+     "endBar": 25,
+     "start": 52.8,
+     "voiceStart": 53.1,
+     "voiceEnd": 58.164,
+     "end": 60.0
+    },
+    {
+     "id": "value",
+     "bar": 25,
+     "endBar": 28,
+     "start": 60.0,
+     "voiceStart": 60.3,
+     "voiceEnd": 66.155,
+     "end": 69.6
+    },
+    {
+     "id": "reveal",
+     "bar": 29,
+     "endBar": 32,
+     "start": 69.6,
+     "voiceStart": 70.5,
+     "voiceEnd": 76.071,
+     "end": 76.8
+    },
+    {
+     "id": "cta",
+     "bar": 32,
+     "endBar": 37,
+     "start": 76.8,
+     "voiceStart": 77.1,
+     "voiceEnd": 81.681,
+     "end": 88.8
+    }
+   ],
+   "sentences": [
+    {
+     "beat": 0,
+     "text": "Detrás de cada producto en el que la gente confía, hay alguien que no se conforma con lo suficientemente bueno.",
+     "start": 2.7,
+     "end": 9.118
+    },
+    {
+     "beat": 1,
+     "text": "En 2014, en Novo Hamburgo, en el sur de Brasil, un desarrollador llevó su primer código a producción.",
+     "start": 12.3,
+     "end": 18.738
+    },
+    {
+     "beat": 1,
+     "text": "Y nunca dejó de hacerlo.",
+     "start": 19.018,
+     "end": 20.677
+    },
+    {
+     "beat": 2,
+     "text": "Una super app bancaria usada por millones.",
+     "start": 21.9,
+     "end": 24.589
+    },
+    {
+     "beat": 2,
+     "text": "Un marketplace farmacéutico reconstruido desde cero — con el tiempo de carga reducido a la mitad.",
+     "start": 24.869,
+     "end": 30.483
+    },
+    {
+     "beat": 3,
+     "text": "Apps que la gente abre todos los días — para cadenas de retail, restaurantes y gimnasios.",
+     "start": 31.5,
+     "end": 36.508
+    },
+    {
+     "beat": 4,
+     "text": "Angular a escala empresarial.",
+     "start": 38.7,
+     "end": 40.507
+    },
+    {
+     "beat": 4,
+     "text": "Micro frontends.",
+     "start": 40.787,
+     "end": 41.981
+    },
+    {
+     "beat": 4,
+     "text": "Python, .",
+     "start": 42.261,
+     "end": 42.906
+    },
+    {
+     "beat": 4,
+     "text": "NET, Node y Flutter.",
+     "start": 43.186,
+     "end": 44.593
+    },
+    {
+     "beat": 4,
+     "text": "Y desde 2020, inteligencia artificial: LLMs, RAG y agentes.",
+     "start": 44.873,
+     "end": 49.933
+    },
+    {
+     "beat": 5,
+     "text": "Sus colegas lo describen como comprometido, creativo — y siempre dispuesto a enseñar.",
+     "start": 53.1,
+     "end": 58.164
+    },
+    {
+     "beat": 6,
+     "text": "Tech Lead cuando el proyecto necesita dirección.",
+     "start": 60.3,
+     "end": 63.111
+    },
+    {
+     "beat": 6,
+     "text": "Manos a la obra cuando necesita resultados.",
+     "start": 63.391,
+     "end": 66.155
+    },
+    {
+     "beat": 7,
+     "text": "Este es Herrmann.",
+     "start": 70.5,
+     "end": 71.569
+    },
+    {
+     "beat": 7,
+     "text": "Gabriel Herrmann Grecchi.",
+     "start": 72.119,
+     "end": 73.652
+    },
+    {
+     "beat": 7,
+     "text": "Lead AI Engineer.",
+     "start": 74.202,
+     "end": 75.521
+    },
+    {
+     "beat": 8,
+     "text": "Tu próximo producto merece el mismo cuidado.",
+     "start": 77.1,
+     "end": 79.93
+    },
+    {
+     "beat": 8,
+     "text": "Construyámoslo juntos.",
+     "start": 80.21,
+     "end": 81.681
+    }
+   ]
+  },
+  "zh": {
+   "bpm": 100,
+   "bar": 2.4,
+   "duration": 88.8,
+   "voice": "/studio/zh/commercial-voice.mp3",
+   "music": "/studio/zh/commercial-music.mp3",
+   "narrator": "zf_xiaoxiao",
+   "beats": [
+    {
+     "id": "hook",
+     "bar": 1,
+     "endBar": 4,
+     "start": 2.4,
+     "voiceStart": 2.7,
+     "voiceEnd": 7.209,
+     "end": 9.6
+    },
+    {
+     "id": "origin",
+     "bar": 4,
+     "endBar": 9,
+     "start": 9.6,
+     "voiceStart": 9.9,
+     "voiceEnd": 19.416,
+     "end": 21.6
+    },
+    {
+     "id": "scale",
+     "bar": 9,
+     "endBar": 13,
+     "start": 21.6,
+     "voiceStart": 21.9,
+     "voiceEnd": 29.575,
+     "end": 31.2
+    },
+    {
+     "id": "apps",
+     "bar": 13,
+     "endBar": 16,
+     "start": 31.2,
+     "voiceStart": 31.5,
+     "voiceEnd": 36.064,
+     "end": 38.4
+    },
+    {
+     "id": "range",
+     "bar": 16,
+     "endBar": 21,
+     "start": 38.4,
+     "voiceStart": 38.7,
+     "voiceEnd": 48.736,
+     "end": 50.4
+    },
+    {
+     "id": "people",
+     "bar": 21,
+     "endBar": 24,
+     "start": 50.4,
+     "voiceStart": 50.7,
+     "voiceEnd": 54.712,
+     "end": 57.6
+    },
+    {
+     "id": "value",
+     "bar": 24,
+     "endBar": 27,
+     "start": 57.6,
+     "voiceStart": 57.9,
+     "voiceEnd": 63.122,
+     "end": 67.2
+    },
+    {
+     "id": "reveal",
+     "bar": 28,
+     "endBar": 31,
+     "start": 67.2,
+     "voiceStart": 68.1,
+     "voiceEnd": 73.899,
+     "end": 74.4
+    },
+    {
+     "id": "cta",
+     "bar": 31,
+     "endBar": 36,
+     "start": 74.4,
+     "voiceStart": 74.7,
+     "voiceEnd": 79.137,
+     "end": 86.4
+    }
+   ],
+   "sentences": [
+    {
+     "beat": 0,
+     "text": "每一个值得信赖的产品背后，都有一个不满足于“还不错”的人。",
+     "start": 2.7,
+     "end": 7.209
+    },
+    {
+     "beat": 1,
+     "text": "2014年，在巴西南部的新汉堡，一位开发者把他的第一行代码送上了生产环境。",
+     "start": 9.9,
+     "end": 16.84
+    },
+    {
+     "beat": 1,
+     "text": "从那以后，他再也没有停下。",
+     "start": 17.12,
+     "end": 19.416
+    },
+    {
+     "beat": 2,
+     "text": "一款数百万人使用的银行超级应用。",
+     "start": 21.9,
+     "end": 24.818
+    },
+    {
+     "beat": 2,
+     "text": "一个从零重建的医药交易平台——加载时间缩短了一半。",
+     "start": 25.098,
+     "end": 29.575
+    },
+    {
+     "beat": 3,
+     "text": "人们每天都在打开的应用——零售连锁、餐厅和健身房。",
+     "start": 31.5,
+     "end": 36.064
+    },
+    {
+     "beat": 4,
+     "text": "企业级 Angular。",
+     "start": 38.7,
+     "end": 39.933
+    },
+    {
+     "beat": 4,
+     "text": "微前端。",
+     "start": 40.213,
+     "end": 41.232
+    },
+    {
+     "beat": 4,
+     "text": "Python、.",
+     "start": 41.512,
+     "end": 42.239
+    },
+    {
+     "beat": 4,
+     "text": "NET、Node 和 Flutter。",
+     "start": 42.519,
+     "end": 43.756
+    },
+    {
+     "beat": 4,
+     "text": "自2020年起，还有人工智能：大语言模型、RAG 和智能体。",
+     "start": 44.036,
+     "end": 48.736
+    },
+    {
+     "beat": 5,
+     "text": "同事们说他投入、有创造力，而且总是乐于分享。",
+     "start": 50.7,
+     "end": 54.712
+    },
+    {
+     "beat": 6,
+     "text": "项目需要方向时，他是技术负责人；需要结果时，他亲自动手。",
+     "start": 57.9,
+     "end": 63.122
+    },
+    {
+     "beat": 7,
+     "text": "他就是 Herrmann。",
+     "start": 68.1,
+     "end": 69.286
+    },
+    {
+     "beat": 7,
+     "text": "Gabriel Herrmann Grecchi。",
+     "start": 69.836,
+     "end": 71.263
+    },
+    {
+     "beat": 7,
+     "text": "首席 AI 工程师。",
+     "start": 71.813,
+     "end": 73.349
+    },
+    {
+     "beat": 8,
+     "text": "你的下一个产品，值得同样的用心。",
+     "start": 74.7,
+     "end": 77.403
+    },
+    {
+     "beat": 8,
+     "text": "让我们一起打造。",
+     "start": 77.683,
+     "end": 79.137
+    }
+   ]
   }
  }
 }
