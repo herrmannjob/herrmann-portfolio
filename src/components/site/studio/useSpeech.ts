@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
+export { splitSentences } from "@/lib/summary";
 
 /**
  * Thin wrapper over the Web Speech API (speechSynthesis).
@@ -10,9 +11,6 @@ import { useCallback, useEffect, useRef, useState } from "react";
 
 export type SpeechState = "idle" | "speaking" | "paused";
 
-export function splitSentences(text: string): string[] {
-  return (text.match(/[^.!?。！？\n]+[.!?。！？]*["”»]?/g) ?? [text]).map((s) => s.trim()).filter(Boolean);
-}
 
 export function useSpeech(lang: string) {
   const supported = typeof window !== "undefined" && "speechSynthesis" in window;
