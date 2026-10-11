@@ -9,17 +9,21 @@ import { buildScenes, estimateSeconds, scenesToText, type StudioData, type Summa
 import { STUDIO_EVENT, type StudioTab } from "./StudioTrigger";
 import { splitSentences, useSpeech } from "./useSpeech";
 import { drawFrame, H, W } from "./render";
+import { NarrationPlayer, PresentationVideo } from "./Premium";
+import type { StudioMedia } from "@/lib/studio-media";
 
 /**
  * "Listen & watch": a summary of the portfolio you can read, hear (speech
  * synthesis) or watch as a narrated video generated on the fly — all on the
  * visitor's device.
  */
-export function Studio({ data }: { data: StudioData }) {
+export function Studio({ data, media = {} }: { data: StudioData; media?: StudioMedia }) {
   const t = useDictionary().studio;
   const [open, setOpen] = useState(false);
   const [tab, setTab] = useState<StudioTab>("summary");
   const [length, setLength] = useState<SummaryLength>("medium");
+  const [live, setLive] = useState(false);
+  const premiumVideo = tab === "video" && !live && Boolean(media.video?.video);
   const opener = useRef<HTMLElement | null>(null);
   const dialogRef = useRef<HTMLDivElement>(null);
   const titleId = useId();
@@ -137,7 +141,7 @@ export function Studio({ data }: { data: StudioData }) {
               </button>
             ))}
           </div>
-          <fieldset className="flex flex-wrap items-center gap-2">
+          <fieldset className={`flex flex-wrap items-center gap-2 ${premiumVideo ? "invisible" : ""}`} disabled={premiumVideo}>
             <legend className="sr-only">{t.length}</legend>
             {(["short", "medium", "full"] as const).map((l) => (
               <label key={l} className={`cursor-pointer rounded-full border px-3 py-1 font-mono text-[11px] transition-colors has-[:focus-visible]:ring-2 has-[:focus-visible]:ring-leaf ${length === l ? "border-leaf text-leaf" : "border-mist/20 text-mist/70 hover:border-mist/50"}`}>
@@ -150,9 +154,15 @@ export function Studio({ data }: { data: StudioData }) {
 
         <div key={tab} className="min-h-0 flex-1 overflow-y-auto">
           {tab === "summary" ? (
-            <SummaryPanel data={data} scenes={scenes} speech={speech} />
+            <SummaryPanel data={data} scenes={scenes} speech={speech} track={media[length]} />
+          ) : (
+            premiumVideo ? (
+            <div id="studio-panel-video" role="tabpanel" aria-labelledby="studio-tab-video" className="p-4 sm:p-6">
+              <PresentationVideo track={media.video!} locale={data.locale} onFallback={() => setLive(true)} />
+            </div>
           ) : (
             <VideoPanel key={length} data={data} scenes={scenes} speech={speech} />
+          )
           )}
         </div>
       </div>
@@ -167,9 +177,16 @@ type Scenes = ReturnType<typeof buildScenes>;
 /* Summary: read, listen, copy, download, print                         */
 /* ------------------------------------------------------------------ */
 
-function SummaryPanel({ data, scenes, speech }: { data: StudioData; scenes: Scenes; speech: Speech }) {
+function SummaryPanel({ data, scenes, speech, track }: { data: StudioData; scenes: Scenes; speech: Speech; track?: StudioMedia[SummaryLength] }) {
   const t = useDictionary().studio;
   const [active, setActive] = useState(-1);
+  const [sentence, setSentence] = useState(-1);
+  const seek = useRef<((i: number) => void) | null>(null);
+  // Global sentence index for each (scene, sentence) pair, matching the pre-rendered track.
+  const sentenceIds = useMemo(() => {
+    let n = 0;
+    return scenes.map((s) => splitSentences(s.narration).map(() => n++));
+  }, [scenes]);
   const [copied, setCopied] = useState(false);
   const text = useMemo(() => scenesToText(data, scenes), [data, scenes]);
   const paragraphs = useMemo(() => scenes.map((s) => s.narration), [scenes]);
@@ -208,7 +225,19 @@ function SummaryPanel({ data, scenes, speech }: { data: StudioData; scenes: Scen
 
   return (
     <div id="studio-panel-summary" role="tabpanel" aria-labelledby="studio-tab-summary" className="p-4 sm:p-6">
-      <SpeechBar speech={speech} onListen={listen} />
+      {track ? (
+        <NarrationPlayer
+          track={track}
+          fileName={`herrmann-summary-${data.locale}.mp3`}
+          seekRef={seek}
+          onSentence={(i) => {
+            setSentence(i);
+            setActive(i >= 0 ? (track.sentences[i]?.scene ?? -1) : -1);
+          }}
+        />
+      ) : (
+        <SpeechBar speech={speech} onListen={listen} />
+      )}
       <div className="mt-3 flex flex-wrap gap-2">
         <button
           type="button"
@@ -233,13 +262,31 @@ function SummaryPanel({ data, scenes, speech }: { data: StudioData; scenes: Scen
         <h3 className="display text-4xl text-leaf">{data.displayName}</h3>
         <p className="font-mono text-xs text-mist/60">{data.fullName} · {data.headline}</p>
         <div className="mt-5 space-y-4 text-[17px] leading-relaxed">
-          {paragraphs.slice(1).map((p, i) => (
+          {paragraphs.map((p, i) => (
             <p
               key={i}
-              aria-current={active === i + 1 ? "true" : undefined}
-              className={`whitespace-pre-line rounded-md px-2 py-1 transition-colors ${active === i + 1 ? "bg-leaf/15 text-mist" : "text-mist/80"}`}
+              aria-current={active === i ? "true" : undefined}
+              className={`whitespace-pre-line rounded-md px-2 py-1 transition-colors ${active === i ? "bg-leaf/10 text-mist" : "text-mist/80"}`}
             >
-              {p}
+              {track
+                ? // Read-along: each sentence highlights while spoken; click one to jump there.
+                  splitSentences(p).map((s, j) => {
+                    const id = sentenceIds[i]?.[j] ?? -1;
+                    return (
+                      <span key={j}>
+                        <span
+                          role="button"
+                          tabIndex={0}
+                          onClick={() => seek.current?.(id)}
+                          onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && (e.preventDefault(), seek.current?.(id))}
+                          className={`cursor-pointer rounded px-0.5 transition-colors hover:text-leaf ${sentence === id ? "bg-leaf/25 text-mist" : ""}`}
+                        >
+                          {s}
+                        </span>{" "}
+                      </span>
+                    );
+                  })
+                : p}
             </p>
           ))}
         </div>
