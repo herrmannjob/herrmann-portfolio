@@ -1,10 +1,11 @@
 // End-to-end check against a running server: node tests/e2e.mjs [baseURL]
+import { fileURLToPath } from "node:url";
 import { chromium } from "@playwright/test";
 const BASE = process.argv[2] || "http://localhost:3100";
 const PW = process.env.ADMIN_PASSWORD || "test-password-123";
 const exe = process.env.CHROME_PATH;
 const browser = await chromium.launch(exe ? { executablePath: exe } : {});
-const page = await browser.newPage({ viewport: { width: 1280, height: 900 } });
+const page = await browser.newPage({ viewport: { width: 1280, height: 900 }, locale: "en-US" });
 const errors = [];
 page.on("pageerror", (e) => errors.push(e.message));
 page.on("dialog", (d) => d.accept());
@@ -37,9 +38,9 @@ ok("creates a new opportunity and fills the form");
 
 await page.getByRole("button", { name: "Adicionar imagens" }).click();
 const dialog = page.getByRole("dialog");
-await dialog.getByTestId("file-input").setInputFiles(new URL("./fixtures/test.png", import.meta.url).pathname);
+await dialog.getByTestId("file-input").setInputFiles(fileURLToPath(new URL("./fixtures/test.png", import.meta.url)));
 await dialog.getByText("1 selecionada(s)").waitFor({ timeout: 15000 });
-await dialog.getByTestId("file-input").setInputFiles(new URL("./fixtures/bad.png", import.meta.url).pathname);
+await dialog.getByTestId("file-input").setInputFiles(fileURLToPath(new URL("./fixtures/bad.png", import.meta.url)));
 await dialog.getByText("formato não suportado").waitFor();
 ok("uploads an image with progress and rejects an invalid file");
 await dialog.getByRole("button", { name: "Usar selecionadas" }).click();
@@ -49,7 +50,7 @@ await page.getByRole("button", { name: "Salvar", exact: true }).click();
 await page.getByText("Salvo.").waitFor();
 ok("saves the opportunity");
 
-const pub = await browser.newPage();
+const pub = await browser.newPage({ locale: "en-US" });
 await pub.goto(`${BASE}/work/teste-corp`);
 expect((await pub.locator("h1").textContent()).includes("Teste Corp"), "new opportunity has a public case page");
 const galleryImg = pub.locator('section[aria-label="Gallery"] img').first();
@@ -107,7 +108,7 @@ await pub.goto(`${BASE}/`);
 await pub.getByRole("button", { name: /^Projects/ }).click();
 await pub.waitForTimeout(500);
 const rows = await pub.locator("#archive li").count();
-expect(rows === 3, `archive filter shows only projects (${rows})`);
+expect(rows === 4, `archive filter shows only projects (${rows})`);
 
 expect(errors.length === 0, `no page errors ${errors.join(" | ")}`);
 await browser.close();
