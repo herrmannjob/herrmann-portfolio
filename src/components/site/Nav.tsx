@@ -9,8 +9,9 @@ import { StudioTrigger } from "./studio/StudioTrigger";
 
 const LINKS = [
   { href: "/#work", key: "work" },
+  { href: "/#apps", key: "apps" },
+  { href: "/#journey", key: "journey" },
   { href: "/#archive", key: "archive" },
-  { href: "/#stack", key: "stack" },
   { href: "/#about", key: "about" },
   { href: "/#recommendations", key: "recommendations" },
   { href: "/#contact", key: "contact" },

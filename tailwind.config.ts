@@ -25,12 +25,14 @@ export default {
       keyframes: {
         marquee: { from: { transform: "translateX(0)" }, to: { transform: "translateX(-50%)" } },
         blink: { "0%,49%": { opacity: "1" }, "50%,100%": { opacity: "0" } },
+        fadeIn: { from: { opacity: "0", transform: "translateY(8px)" }, to: { opacity: "1", transform: "none" } },
         scan: { from: { transform: "translateY(-100%)" }, to: { transform: "translateY(100%)" } },
       },
       animation: {
         marquee: "marquee 40s linear infinite",
         blink: "blink 1.1s steps(1) infinite",
         scan: "scan 6s linear infinite",
+        fadeIn: "fadeIn .5s ease-out",
       },
     },
   },
