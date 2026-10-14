@@ -555,7 +555,7 @@
       "scene": 4,
       "text": "Hands-on Flutter (Dart) development for iOS and Android.",
       "start": 182.104,
-      "end": 186.0
+      "end": 186
      },
      {
       "scene": 5,
@@ -3508,13 +3508,13 @@
      "start": 28.8,
      "voiceStart": 29.1,
      "voiceEnd": 34.185,
-     "end": 36.0
+     "end": 36
     },
     {
      "id": "range",
      "bar": 15,
      "endBar": 21,
-     "start": 36.0,
+     "start": 36,
      "voiceStart": 36.3,
      "voiceEnd": 47.855,
      "end": 50.4
@@ -3717,13 +3717,13 @@
      "start": 28.8,
      "voiceStart": 29.1,
      "voiceEnd": 33.436,
-     "end": 36.0
+     "end": 36
     },
     {
      "id": "range",
      "bar": 15,
      "endBar": 21,
-     "start": 36.0,
+     "start": 36,
      "voiceStart": 36.3,
      "voiceEnd": 47.722,
      "end": 50.4
@@ -3762,7 +3762,7 @@
      "start": 74.4,
      "voiceStart": 74.7,
      "voiceEnd": 78.45,
-     "end": 84.0
+     "end": 84
     }
    ],
    "sentences": [
@@ -3899,13 +3899,13 @@
      "start": 2.4,
      "voiceStart": 2.7,
      "voiceEnd": 9.118,
-     "end": 12.0
+     "end": 12
     },
     {
      "id": "origin",
      "bar": 5,
      "endBar": 9,
-     "start": 12.0,
+     "start": 12,
      "voiceStart": 12.3,
      "voiceEnd": 20.677,
      "end": 21.6
@@ -3944,13 +3944,13 @@
      "start": 52.8,
      "voiceStart": 53.1,
      "voiceEnd": 58.164,
-     "end": 60.0
+     "end": 60
     },
     {
      "id": "value",
      "bar": 25,
      "endBar": 28,
-     "start": 60.0,
+     "start": 60,
      "voiceStart": 60.3,
      "voiceEnd": 66.155,
      "end": 69.6
