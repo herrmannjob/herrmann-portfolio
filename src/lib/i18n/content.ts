@@ -49,6 +49,7 @@ export function localizeSettings(s: Settings, locale: Locale): Settings {
     skills: s.skills.map((g, i) => ({ ...g, group: pick(t.skillGroups?.[i], g.group) })),
     education: pick(t.education, s.education),
     languages: pick(t.languages, s.languages),
+    journey: pick(t.journey, s.journey),
     seo: t.seo ? { title: pick(t.seo.title, s.seo.title), description: pick(t.seo.description, s.seo.description) } : s.seo,
   };
 }

@@ -79,6 +79,15 @@ export const WorkI18nSchema = z
   .partial();
 export type WorkI18n = z.infer<typeof WorkI18nSchema>;
 
+/** A published store app: icon + phone screenshots (media ids) + store links */
+export const AppSchema = z.object({
+  name: z.string().min(1).max(60),
+  iconId: z.string().default(""),
+  shots: z.array(z.string()).max(10).default([]),
+  links: z.array(LinkSchema).max(4).default([]),
+});
+export type App = z.infer<typeof AppSchema>;
+
 export const WorkSchema = z.object({
   id: z.string().min(1),
   slug: z
@@ -116,7 +125,8 @@ export const WorkSchema = z.object({
   published: z.boolean().default(true),
   order: z.number().int().default(0),
   updatedAt: z.string().default(""),
-  /** Optional pt/es overrides; absent → kept as-is on save */
+  /** Store apps delivered in this work, shown in the home "Apps" showcase */
+  apps: z.array(AppSchema).max(6).default([]),
   /** Optional video: YouTube / Vimeo link or a direct .mp4/.webm file */
   video: z.string().url().or(z.literal("")).default(""),
   /** Optional pt/es/zh overrides; absent → kept as-is on save */
@@ -129,6 +139,14 @@ export type Work = z.infer<typeof WorkSchema>;
 /* ------------------------------------------------------------------ */
 /* Settings                                                           */
 /* ------------------------------------------------------------------ */
+
+export const MilestoneSchema = z.object({
+  /** "2014", "2020–2023"… */
+  year: z.string().min(1).max(12),
+  title: z.string().min(1).max(80),
+  text: z.string().max(320).default(""),
+});
+export type Milestone = z.infer<typeof MilestoneSchema>;
 
 export const SettingsI18nSchema = z
   .object({
@@ -147,6 +165,8 @@ export const SettingsI18nSchema = z
       .max(12),
     languages: z.array(z.object({ name: z.string().max(30), level: z.string().max(30) })).max(6),
     seo: z.object({ title: z.string().max(90), description: z.string().max(200) }),
+    /** Same order as settings.journey */
+    journey: z.array(MilestoneSchema).max(16),
   })
   .partial();
 export type SettingsI18n = z.infer<typeof SettingsI18nSchema>;
@@ -222,6 +242,8 @@ export const SettingsSchema = z.object({
     description: z.string().max(200),
   }),
   /** Optional pt/es overrides; absent → kept as-is on save */
+  /** Career timeline, oldest first */
+  journey: z.array(MilestoneSchema).max(16).default([]),
   /** LinkedIn recommendations, shown verbatim in their original language */
   recommendations: z.array(RecommendationSchema).max(20).default([]),
   /** Optional pt/es/zh overrides; absent → kept as-is on save */
