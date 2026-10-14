@@ -1,0 +1,470 @@
+{
+ "acsp-logo": {
+  "src": "/work/relevo-lab/acsp-logo.webp",
+  "width": 200,
+  "height": 97,
+  "credit": "https://www.acsp.com.br/"
+ },
+ "broadcast-cover": {
+  "src": "/work/uds-broadcast/cover.webp",
+  "width": 1280,
+  "height": 972,
+  "credit": "https://www.broadcast.com.br/broadcast-otc/"
+ },
+ "broadcast-g1": {
+  "src": "/work/uds-broadcast/otc-banner.webp",
+  "width": 1220,
+  "height": 270,
+  "credit": "https://www.broadcast.com.br/broadcast-otc/"
+ },
+ "ciandt-cover": {
+  "src": "/work/ciandt/cover.webp",
+  "width": 1440,
+  "height": 810,
+  "credit": "https://ciandt.com/"
+ },
+ "ciandt-g1": {
+  "src": "/work/ciandt/pattern.webp",
+  "width": 1600,
+  "height": 574,
+  "credit": "https://ciandt.com/"
+ },
+ "ciandt-logo": {
+  "src": "/work/ciandt/logo.webp",
+  "width": 640,
+  "height": 206,
+  "credit": "https://ciandt.com/"
+ },
+ "ddc-cover": {
+  "src": "/work/dollar-donation-club/cover.webp",
+  "width": 2000,
+  "height": 1122,
+  "credit": "https://dollardonationclub.com/"
+ },
+ "ddc-logo": {
+  "src": "/work/dollar-donation-club/logo.webp",
+  "width": 456,
+  "height": 456,
+  "credit": "https://dollardonationclub.com/"
+ },
+ "deal-cover": {
+  "src": "/work/deal/cover.webp",
+  "width": 1920,
+  "height": 1080,
+  "credit": "https://deal.com.br/"
+ },
+ "deal-g1": {
+  "src": "/work/deal/intelligence.webp",
+  "width": 1600,
+  "height": 900,
+  "credit": "https://deal.com.br/"
+ },
+ "deal-g2": {
+  "src": "/work/deal/site.webp",
+  "width": 1200,
+  "height": 630,
+  "credit": "https://deal.com.br/"
+ },
+ "deal-logo": {
+  "src": "/work/deal/logo.webp",
+  "width": 640,
+  "height": 289,
+  "credit": "https://deal.com.br/"
+ },
+ "ec-logo": {
+  "src": "/work/pacto-solucoes/engenharia-do-corpo-logo.webp",
+  "width": 314,
+  "height": 116,
+  "credit": "https://engenhariadocorpo.com.br/"
+ },
+ "ecpro-icon": {
+  "src": "/work/pacto-solucoes/ec-pro-icon.webp",
+  "width": 512,
+  "height": 512,
+  "credit": "https://apps.apple.com/br/app/ec-pro/id1663011737"
+ },
+ "ecpro-s1": {
+  "src": "/work/pacto-solucoes/ec-pro-1.webp",
+  "width": 460,
+  "height": 1000,
+  "credit": "https://apps.apple.com/br/app/ec-pro/id1663011737"
+ },
+ "ecpro-s2": {
+  "src": "/work/pacto-solucoes/ec-pro-2.webp",
+  "width": 460,
+  "height": 1000,
+  "credit": "https://apps.apple.com/br/app/ec-pro/id1663011737"
+ },
+ "ecpro-s3": {
+  "src": "/work/pacto-solucoes/ec-pro-3.webp",
+  "width": 460,
+  "height": 1000,
+  "credit": "https://apps.apple.com/br/app/ec-pro/id1663011737"
+ },
+ "ecpro-s4": {
+  "src": "/work/pacto-solucoes/ec-pro-4.webp",
+  "width": 460,
+  "height": 1000,
+  "credit": "https://apps.apple.com/br/app/ec-pro/id1663011737"
+ },
+ "ecs-logo": {
+  "src": "/work/pharmalink-ecs/ecs-logo.webp",
+  "width": 120,
+  "height": 56,
+  "credit": "https://ecs.com.br/"
+ },
+ "facepass-cover": {
+  "src": "/work/facepass/cover.webp",
+  "width": 1479,
+  "height": 1024,
+  "credit": "https://facepassbrasil.com.br/"
+ },
+ "facepass-icon": {
+  "src": "/work/facepass/icon.webp",
+  "width": 512,
+  "height": 512,
+  "credit": "https://apps.apple.com/br/app/facepass-pessoal/id1618494195"
+ },
+ "facepass-logo": {
+  "src": "/work/facepass/logo.webp",
+  "width": 579,
+  "height": 139,
+  "credit": "https://facepassbrasil.com.br/"
+ },
+ "gh-angular-signals": {
+  "src": "/work/angular-signals/cover.webp",
+  "width": 1200,
+  "height": 600,
+  "credit": "https://github.com/herrmannjob/angular-signals"
+ },
+ "gh-multichat": {
+  "src": "/work/multichat-overlay/cover.webp",
+  "width": 1200,
+  "height": 600,
+  "credit": "https://github.com/herrmannjob/multichat-overlay"
+ },
+ "gh-qoda": {
+  "src": "/work/qoda-web/cover.webp",
+  "width": 1200,
+  "height": 600,
+  "credit": "https://github.com/herrmannjob/QODA-Web-Deploy"
+ },
+ "herrmann-it-cover": {
+  "src": "/work/herrmann-it-consultoria/cover.webp",
+  "width": 2400,
+  "height": 1029,
+  "credit": "generated"
+ },
+ "inform-logo": {
+  "src": "/work/inform-ekantika/logo.webp",
+  "width": 544,
+  "height": 83,
+  "credit": "https://www.inform-software.com/br"
+ },
+ "lebes-icon": {
+  "src": "/work/lojas-lebes/icon.webp",
+  "width": 512,
+  "height": 512,
+  "credit": "https://apps.apple.com/br/app/lojas-lebes/id1464057615"
+ },
+ "lebes-logo": {
+  "src": "/work/lojas-lebes/logo.webp",
+  "width": 356,
+  "height": 158,
+  "credit": "https://www.lebes.com.br/"
+ },
+ "lebes-s1": {
+  "src": "/work/lojas-lebes/screen-1.webp",
+  "width": 462,
+  "height": 1000,
+  "credit": "https://apps.apple.com/br/app/lojas-lebes/id1464057615"
+ },
+ "lebes-s2": {
+  "src": "/work/lojas-lebes/screen-2.webp",
+  "width": 462,
+  "height": 1000,
+  "credit": "https://apps.apple.com/br/app/lojas-lebes/id1464057615"
+ },
+ "lebes-s3": {
+  "src": "/work/lojas-lebes/screen-3.webp",
+  "width": 462,
+  "height": 1000,
+  "credit": "https://apps.apple.com/br/app/lojas-lebes/id1464057615"
+ },
+ "lebes-s4": {
+  "src": "/work/lojas-lebes/screen-4.webp",
+  "width": 462,
+  "height": 1000,
+  "credit": "https://apps.apple.com/br/app/lojas-lebes/id1464057615"
+ },
+ "lebes-s5": {
+  "src": "/work/lojas-lebes/screen-5.webp",
+  "width": 462,
+  "height": 1000,
+  "credit": "https://apps.apple.com/br/app/lojas-lebes/id1464057615"
+ },
+ "lebes-s6": {
+  "src": "/work/lojas-lebes/screen-6.webp",
+  "width": 462,
+  "height": 1000,
+  "credit": "https://apps.apple.com/br/app/lojas-lebes/id1464057615"
+ },
+ "madero-icon": {
+  "src": "/work/grupo-madero/icon.webp",
+  "width": 512,
+  "height": 512,
+  "credit": "https://apps.apple.com/br/app/grupo-madero-app/id1579688707"
+ },
+ "madero-logo": {
+  "src": "/work/grupo-madero/logo.webp",
+  "width": 385,
+  "height": 59,
+  "credit": "https://www.restaurantemadero.com.br/"
+ },
+ "madero-s1": {
+  "src": "/work/grupo-madero/screen-1.webp",
+  "width": 462,
+  "height": 1000,
+  "credit": "https://apps.apple.com/br/app/grupo-madero-app/id1579688707"
+ },
+ "madero-s2": {
+  "src": "/work/grupo-madero/screen-2.webp",
+  "width": 462,
+  "height": 1000,
+  "credit": "https://apps.apple.com/br/app/grupo-madero-app/id1579688707"
+ },
+ "madero-s3": {
+  "src": "/work/grupo-madero/screen-3.webp",
+  "width": 462,
+  "height": 1000,
+  "credit": "https://apps.apple.com/br/app/grupo-madero-app/id1579688707"
+ },
+ "madero-s4": {
+  "src": "/work/grupo-madero/screen-4.webp",
+  "width": 462,
+  "height": 1000,
+  "credit": "https://apps.apple.com/br/app/grupo-madero-app/id1579688707"
+ },
+ "madero-s5": {
+  "src": "/work/grupo-madero/screen-5.webp",
+  "width": 462,
+  "height": 1000,
+  "credit": "https://apps.apple.com/br/app/grupo-madero-app/id1579688707"
+ },
+ "maxxi-logo": {
+  "src": "/work/maxxidata/logo.webp",
+  "width": 640,
+  "height": 202,
+  "credit": "https://www.maxxi.io/"
+ },
+ "milvus-cover": {
+  "src": "/work/milvus/cover.webp",
+  "width": 1535,
+  "height": 997,
+  "credit": "https://milvus.com.br/"
+ },
+ "milvus-g1": {
+  "src": "/work/milvus/devices.webp",
+  "width": 1114,
+  "height": 886,
+  "credit": "https://milvus.com.br/"
+ },
+ "milvus-g2": {
+  "src": "/work/milvus/dashboard.webp",
+  "width": 1600,
+  "height": 1000,
+  "credit": "https://milvus.com.br/"
+ },
+ "milvus-g3": {
+  "src": "/work/milvus/chatbot.webp",
+  "width": 1600,
+  "height": 1291,
+  "credit": "https://milvus.com.br/"
+ },
+ "milvus-logo": {
+  "src": "/work/milvus/logo.webp",
+  "width": 332,
+  "height": 100,
+  "credit": "https://milvus.com.br/"
+ },
+ "pacto-cover": {
+  "src": "/work/pacto-solucoes/cover.webp",
+  "width": 1200,
+  "height": 630,
+  "credit": "https://sistemapacto.com.br/"
+ },
+ "pacto-g1": {
+  "src": "/work/pacto-solucoes/dashboard.webp",
+  "width": 1000,
+  "height": 562,
+  "credit": "https://sistemapacto.com.br/"
+ },
+ "pacto-logo": {
+  "src": "/work/pacto-solucoes/logo.webp",
+  "width": 640,
+  "height": 100,
+  "credit": "https://sistemapacto.com.br/"
+ },
+ "pernambucanas-logo": {
+  "src": "/work/pernambucanas/logo.webp",
+  "width": 640,
+  "height": 195,
+  "credit": "https://commons.wikimedia.org/wiki/File:Pernambucanas_logo.svg"
+ },
+ "pharmalink-cover": {
+  "src": "/work/pharmalink-ecs/cover.webp",
+  "width": 2400,
+  "height": 1029,
+  "credit": "generated"
+ },
+ "pharmalink-g2": {
+  "src": "/work/pharmalink-ecs/product-mix.webp",
+  "width": 912,
+  "height": 387,
+  "credit": "https://www.interplayers.com.br/pharmalink/"
+ },
+ "pharmalink-icon": {
+  "src": "/work/pharmalink-ecs/app-icon.webp",
+  "width": 512,
+  "height": 512,
+  "credit": "https://apps.apple.com/br/app/pharmalink/id1463839946"
+ },
+ "pharmalink-logo": {
+  "src": "/work/pharmalink-ecs/logo.webp",
+  "width": 601,
+  "height": 111,
+  "credit": "https://www.interplayers.com.br/pharmalink/"
+ },
+ "picpay-logo": {
+  "src": "/work/picpay/logo.webp",
+  "width": 640,
+  "height": 209,
+  "credit": "https://commons.wikimedia.org/wiki/File:Logotipo_do_PicPay.svg"
+ },
+ "picpay-s1": {
+  "src": "/work/picpay/screen-1.webp",
+  "width": 460,
+  "height": 1000,
+  "credit": "https://apps.apple.com/br/app/picpay-conta-cart%C3%A3o-e-pix/id561524792"
+ },
+ "picpay-s2": {
+  "src": "/work/picpay/screen-2.webp",
+  "width": 460,
+  "height": 1000,
+  "credit": "https://apps.apple.com/br/app/picpay-conta-cart%C3%A3o-e-pix/id561524792"
+ },
+ "picpay-s3": {
+  "src": "/work/picpay/screen-3.webp",
+  "width": 460,
+  "height": 1000,
+  "credit": "https://apps.apple.com/br/app/picpay-conta-cart%C3%A3o-e-pix/id561524792"
+ },
+ "taqtaq-cover": {
+  "src": "/work/taqtaq/cover.webp",
+  "width": 1200,
+  "height": 627,
+  "credit": "https://taqtaq.com.br/"
+ },
+ "taqtaq-icon": {
+  "src": "/work/taqtaq/icon.webp",
+  "width": 512,
+  "height": 512,
+  "credit": "https://apps.apple.com/br/app/taqtaq/id6478974936"
+ },
+ "taqtaq-phones": {
+  "src": "/work/taqtaq/phones.webp",
+  "width": 719,
+  "height": 900,
+  "credit": "https://taqtaq.com.br/"
+ },
+ "taqtaq-s1": {
+  "src": "/work/taqtaq/screen-1.webp",
+  "width": 563,
+  "height": 1000,
+  "credit": "https://apps.apple.com/br/app/taqtaq/id6478974936"
+ },
+ "taqtaq-s2": {
+  "src": "/work/taqtaq/screen-2.webp",
+  "width": 563,
+  "height": 1000,
+  "credit": "https://apps.apple.com/br/app/taqtaq/id6478974936"
+ },
+ "taqtaq-s3": {
+  "src": "/work/taqtaq/screen-3.webp",
+  "width": 563,
+  "height": 1000,
+  "credit": "https://apps.apple.com/br/app/taqtaq/id6478974936"
+ },
+ "taqtaq-s4": {
+  "src": "/work/taqtaq/screen-4.webp",
+  "width": 563,
+  "height": 1000,
+  "credit": "https://apps.apple.com/br/app/taqtaq/id6478974936"
+ },
+ "taqtaq-s5": {
+  "src": "/work/taqtaq/screen-5.webp",
+  "width": 563,
+  "height": 1000,
+  "credit": "https://apps.apple.com/br/app/taqtaq/id6478974936"
+ },
+ "taqtaq-s6": {
+  "src": "/work/taqtaq/screen-6.webp",
+  "width": 563,
+  "height": 1000,
+  "credit": "https://apps.apple.com/br/app/taqtaq/id6478974936"
+ },
+ "uds-logo": {
+  "src": "/work/uds-broadcast/logo.webp",
+  "width": 640,
+  "height": 272,
+  "credit": "https://uds.com.br/"
+ },
+ "uplexis-cover": {
+  "src": "/work/uplexis/cover.webp",
+  "width": 1526,
+  "height": 1080,
+  "credit": "https://uplexis.com.br/produtos/uplink/"
+ },
+ "uplexis-g1": {
+  "src": "/work/uplexis/uplink-graph.webp",
+  "width": 1074,
+  "height": 726,
+  "credit": "https://uplexis.com.br/produtos/uplink/"
+ },
+ "uplexis-g2": {
+  "src": "/work/uplexis/upminer-upscore.webp",
+  "width": 993,
+  "height": 1037,
+  "credit": "https://uplexis.com.br/"
+ },
+ "uplexis-g3": {
+  "src": "/work/uplexis/upminer-dossier.webp",
+  "width": 1025,
+  "height": 1003,
+  "credit": "https://uplexis.com.br/"
+ },
+ "uplexis-logo": {
+  "src": "/work/uplexis/logo.webp",
+  "width": 640,
+  "height": 131,
+  "credit": "https://uplexis.com.br/"
+ },
+ "usina-logo": {
+  "src": "/work/pacto-solucoes/usina-do-corpo-logo.webp",
+  "width": 490,
+  "height": 175,
+  "credit": "https://usinadocorpoacademia.com.br/"
+ },
+ "zup-cover": {
+  "src": "/work/zup-innovation/cover.webp",
+  "width": 1920,
+  "height": 1080,
+  "credit": "https://zup.com.br/"
+ },
+ "zup-logo": {
+  "src": "/work/zup-innovation/logo.webp",
+  "width": 640,
+  "height": 212,
+  "credit": "https://zup.com.br/"
+ }
+}

@@ -9,6 +9,8 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "media:localize": "node scripts/localize-media.mjs",
+    "media:fetch": "node scripts/media/fetch-media.mjs",
+    "media:covers": "node scripts/media/compose-covers.mjs",
     "studio:script": "tsx scripts/studio/build-script.ts",
     "studio:audio": "python scripts/studio/tts.py",
     "studio:render": "tsx scripts/studio/render.ts",
@@ -46,6 +48,7 @@
     "eslint-config-next": "^15.5.27",
     "postcss": "^8.5.29",
     "remotion": "4.0.534",
+    "sharp": "0.35.5",
     "tailwindcss": "^3.4.19",
     "tsx": "4.23.15",
     "typescript": "^5.9.3"
