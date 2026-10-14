@@ -4,6 +4,7 @@ import type { ResolvedWork } from "@/lib/queries";
 import { durationLabel, formatPeriod, slugify, yearSpan } from "@/lib/format";
 import { Img } from "@/components/media/Img";
 import { Logo } from "@/components/media/Logo";
+import { PhoneFan } from "@/components/media/PhoneFan";
 import { Reveal } from "./Reveal";
 import type { Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
@@ -181,6 +182,7 @@ function Split({ w, n, l, reverse }: { w: ResolvedWork; n: string; l: Locale; re
 function Terminal({ w, n, l }: { w: ResolvedWork; n: string; l: Locale }) {
   const varName = slugify(w.company).replace(/-([a-z0-9])/g, (_, c: string) => c.toUpperCase()).replace(/^\d/, "_$&") || "work";
   const imgs = [w.cover, ...w.images].filter(Boolean).slice(0, 3);
+  const phones = w.storeApps[0]?.shots ?? [];
   return (
     <article className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
       <div className="overflow-hidden rounded-lg border border-mist/10 bg-panel">
@@ -230,6 +232,16 @@ function Terminal({ w, n, l }: { w: ResolvedWork; n: string; l: Locale }) {
           <CaseLink w={w} l={l} className="mt-6 text-leaf" />
         </div>
       </div>
+      {phones.length >= 2 ? (
+        <Link
+          href={`/work/${w.slug}`}
+          aria-label={`${w.company} — ${getDictionary(l).selected.openCase}`}
+          className="block overflow-hidden rounded-lg border border-mist/10"
+          style={{ background: `radial-gradient(90% 120% at 50% 100%, ${w.accent}66 0%, #0B1611 65%)` }}
+        >
+          <PhoneFan shots={phones} className="h-full min-h-[440px]" />
+        </Link>
+      ) : (
       <div className="grid grid-cols-2 gap-4">
         {imgs.map((img, i) => (
           <Img
@@ -242,6 +254,7 @@ function Terminal({ w, n, l }: { w: ResolvedWork; n: string; l: Locale }) {
         ))}
         {imgs.length === 0 && <Img fallbackLabel={w.company} accent={w.accent} className="col-span-2 aspect-[4/5] rounded-lg" />}
       </div>
+      )}
     </article>
   );
 }

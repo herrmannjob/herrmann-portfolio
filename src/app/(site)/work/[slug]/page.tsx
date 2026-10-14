@@ -12,6 +12,8 @@ import { Gallery } from "@/components/media/Gallery";
 import { VideoEmbed } from "@/components/media/VideoEmbed";
 import { MaskLine, Reveal } from "@/components/site/Reveal";
 import { iconFor } from "@/components/site/Stack";
+import { PhoneFan } from "@/components/media/PhoneFan";
+import type { Media } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
 
@@ -30,23 +32,14 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   };
 }
 
-/** Phone screenshots side by side on the brand color — used when an app has no wide cover. */
-function PhoneStrip({ images, accent }: { images: Array<{ id: string; src: string; alt: string }>; accent: string }) {
+/** Phone screenshots fanned on the brand color — used when an app has no wide cover. */
+function PhoneStage({ images, accent }: { images: Media[]; accent: string }) {
   return (
     <div
-      className="relative flex items-end justify-center gap-3 overflow-hidden rounded-lg border border-mist/10 px-4 pt-10 sm:gap-6 sm:pt-14"
-      style={{ background: `radial-gradient(120% 120% at 50% 0%, ${accent}66 0%, #0B1611 70%)` }}
+      className="overflow-hidden rounded-lg border border-mist/10"
+      style={{ background: `radial-gradient(90% 120% at 50% 100%, ${accent}66 0%, #0B1611 65%)` }}
     >
-      {images.map((m, i) => (
-        <img
-          key={m.id}
-          src={m.src}
-          alt={m.alt}
-          referrerPolicy="no-referrer"
-          loading={i < 2 ? "eager" : "lazy"}
-          className={`w-[30%] max-w-[220px] rounded-t-2xl border border-b-0 border-mist/20 shadow-2xl sm:w-[22%] ${i % 2 ? "translate-y-6" : ""} ${i > 2 ? "hidden sm:block" : ""}`}
-        />
-      ))}
+      <PhoneFan shots={images} eager className="h-[440px] sm:h-[600px]" />
     </div>
   );
 }
@@ -60,7 +53,9 @@ export default async function WorkPage({ params }: Params) {
   if (!data) notFound();
   const { work: w, prev, next } = data;
   const paragraphs = w.description.split(/\n{2,}/).filter(Boolean);
-  const phones = w.images.filter((m) => m.width && m.height && m.height > m.width * 1.3).slice(0, 4);
+  // Store apps open on their own screens; other works fall back to portrait gallery shots
+  const appShots = w.storeApps[0]?.shots ?? [];
+  const phones = appShots.length >= 2 ? appShots : w.images.filter((m) => m.width && m.height && m.height > m.width * 1.3).slice(0, 4);
   const facts = [
     { k: t.type, v: dict.kind[w.kind] },
     { k: t.period, v: formatPeriod(w, locale) },
@@ -94,8 +89,8 @@ export default async function WorkPage({ params }: Params) {
           {w.title && <p className="mt-4 font-mono text-sm text-leaf sm:text-base">{w.title}</p>}
         </div>
         <div className="container-x mt-12">
-          {!w.cover && phones.length >= 2 ? (
-            <PhoneStrip images={phones} accent={w.accent} />
+          {(!w.cover || appShots.length >= 2) && phones.length >= 2 ? (
+            <PhoneStage images={phones} accent={w.accent} />
           ) : (
             <Img
               media={w.cover}

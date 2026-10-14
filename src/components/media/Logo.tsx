@@ -15,7 +15,7 @@ export function Logo({ media, name, className = "", tone = "light" }: { media?: 
     return <span className={`font-display text-xl font-extrabold uppercase tracking-tight ${className}`}>{name}</span>;
   }
   // Opaque square app icons would turn into a solid block when made monochrome — keep their colors.
-  const appIcon = Boolean(media.width && media.width === media.height && /\.jpe?g(\?|$)/i.test(media.src));
+  const appIcon = Boolean(media.width && media.width === media.height);
   if (appIcon) tone = "color";
   const filter =
     tone === "light" ? "grayscale(1) brightness(0) invert(1)" : tone === "dark" ? "grayscale(1) brightness(0)" : undefined;
