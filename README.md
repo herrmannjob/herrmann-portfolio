@@ -26,7 +26,7 @@ node -e "console.log(require('crypto').randomBytes(48).toString('hex'))"
 
 Na primeira execução o site cria `storage/content.json` com o conteúdo inicial (CV + imagens pesquisadas).
 
-Scripts: `npm run dev` · `npm run build` · `npm start` · `npm run lint` · `npm run typecheck` · `npm run media:localize`.
+Scripts: `npm run dev` · `npm run build` · `npm start` · `npm run lint` · `npm run typecheck` · `npm run media:fetch` · `npm run media:covers` · `npm run media:localize`.
 
 ## 2. Variáveis de ambiente
 
@@ -49,16 +49,27 @@ Scripts: `npm run dev` · `npm run build` · `npm start` · `npm run lint` · `n
 
 Uploads aceitos: PNG, JPG, WEBP, GIF, AVIF e SVG até 15 MB — validados pelo conteúdo do arquivo (magic bytes), não pela extensão.
 
-## 4. Imagens pesquisadas (remotas)
+## 4. Imagens, logos e vídeos dos projetos
 
-O conteúdo inicial já vem com logos, capas e galerias reais tirados dos sites públicos de cada empresa (Zup, Deal, TaqTaq, CI&T, Pharmalink/InterPlayers, PicPay, upLexis, Pernambucanas, Milvus, Pacto) e cards do GitHub para os repositórios. Elas entram como **remotas** (link para o site de origem) e mostram a fonte no admin.
+O conteúdo inicial usa material **real e público** de cada empresa e produto: logos oficiais, telas das lojas de apps (App Store), mockups dos sites e vídeos oficiais do YouTube — pesquisados e conferidos um a um (sem fotos de banco de imagens com pessoas, que dariam a entender que são o Herrmann ou a equipe dele).
 
-Links externos podem mudar ou sair do ar. Para guardar cópias locais:
+Tudo fica **dentro do repositório**, em `public/work/<slug>/`, como WebP otimizado — nada é carregado de sites de terceiros, então um cliente redesenhar o site não quebra este.
 
-- no admin: **Imagens → Baixar todas as remotas** (ou "Baixar para o servidor" em cada uma); ou
-- no terminal, com o servidor parado: `npm run media:localize`.
+```bash
+npm run media:fetch            # baixa o que falta de scripts/media/sources.json → public/work/
+npm run media:fetch -- --force # baixa tudo de novo
+npm run media:covers           # gera as capas próprias (Pharmalink e Herrmann IT)
+```
 
-Se um site bloquear o download, a imagem continua como link — e, se o link quebrar, o site mostra uma capa gerada com as iniciais e a cor de destaque, nunca uma imagem quebrada.
+- `scripts/media/sources.json` — de onde veio cada imagem (URL e página de crédito). Para trocar uma imagem, edite a URL e rode `media:fetch -- --force`.
+- `src/lib/media-manifest.json` — gerado: caminho, dimensões e crédito de cada arquivo; o seed lê daqui.
+- SVGs de terceiros são **rasterizados** para WebP de propósito: um SVG servido do próprio domínio poderia conter script.
+- Logos com fundo opaco (ex.: Pernambucanas) passam por `"mono": "luma"`, para continuarem legíveis no filtro monocromático do site.
+- Onde a empresa não tem imagem de produto sem pessoas (Pharmalink) ou o trabalho é a própria consultoria, `media:covers` desenha uma capa abstrata com o logo real — sem inventar telas.
+- **Vídeos oficiais** (`video` em cada trabalho) aparecem como capa com botão de play; o player do YouTube só carrega quando a pessoa clica.
+- **Apps nas lojas** (`apps` em cada trabalho: nome, ícone, telas e links das lojas) alimentam a seção *Apps* da home, o topo do case e o comercial em vídeo.
+
+Imagens que você adicionar pelo admin continuam funcionando como antes (upload, link remoto ou `npm run media:localize`).
 
 Logos e marcas pertencem às respectivas empresas; estão aqui para identificar onde você trabalhou. Troque qualquer uma pelo painel se preferir material próprio (prints de telas que você construiu, por exemplo — respeitando NDAs).
 
@@ -96,12 +107,13 @@ src/
 │   ├── media/[...path]/     serve os uploads
 │   ├── sitemap.ts · robots.ts · not-found.tsx
 ├── components/
-│   ├── site/                Hero, LogoMarquee, SelectedWork, Archive, Stack, About, Contact, Nav
-│   ├── media/               Img (com fallback), BrandCover, Logo, Gallery (lightbox)
+│   ├── site/                Hero, LogoMarquee, SelectedWork, AppShowcase, Archive, Stack, Journey, About, Contact, Nav
+│   ├── media/               Img (com fallback), BrandCover, Logo, Gallery (lightbox), PhoneFan, VideoEmbed
 │   └── admin/               WorksBoard, WorkEditor, MediaPicker, MediaLibrary, Uploader, SettingsEditor
 ├── lib/                     types (Zod), store, seed, queries, session, media-server
 └── middleware.ts            protege /admin e /api/admin
-scripts/localize-media.mjs   baixa imagens remotas para storage/uploads
+scripts/media/                baixa e otimiza a mídia dos projetos (public/work) e gera capas
+scripts/localize-media.mjs   baixa imagens remotas adicionadas pelo admin para storage/uploads
 tests/e2e.mjs                teste ponta a ponta do admin + site
 ```
 
@@ -109,12 +121,14 @@ tests/e2e.mjs                teste ponta a ponta do admin + site
 
 1. **Hero** — "Herrmann" gigante com cursor piscando e o nome completo logo abaixo, botões para ouvir o resumo e ver a apresentação, cargos digitados no estilo terminal, relógio de Novo Hamburgo, retrato numa janela de editor e barra de status ("⎇ main · ✓ build passing").
 2. **Faixa de logos** das empresas e clientes.
-3. **Selected work** (`Shipped to prod`) — os destaques alternam quatro layouts: capa 21:9, split com bloco verde, cartão de código (`export const zup = {…}`) e split invertido.
-4. **Archive** (`git log --all`) — todas as experiências, clientes e projetos com filtro por tipo e setor, ordenação e prévia da capa seguindo o cursor.
-5. **Stack** (`package.json`) e idiomas.
-6. **About** — bio, nome completo, números, formação e certificações.
-7. **Recomendações** — as 12 recomendações do LinkedIn no idioma original, com tradução rotulada e botão "ver original".
-8. **Contact** — tela verde cheia com e-mail e links.
+3. **Selected work** (`Shipped to prod`) — os destaques alternam quatro layouts: capa 21:9, split com bloco verde, cartão de código (`export const zup = {…}`, com as telas do app quando o trabalho tem app) e split invertido.
+4. **Apps** (`No seu bolso`) — os apps publicados (Grupo Madero, Engenharia do Corpo, Lojas Lebes, TaqTaq) com as telas reais das lojas em leque, sobre a cor da marca, e links para App Store e Google Play.
+5. **Archive** (`git log --all`) — todas as experiências, clientes e projetos com filtro por tipo e setor, ordenação e prévia da capa seguindo o cursor.
+6. **Stack** (`package.json`) e idiomas.
+7. **Trajetória** (`O caminho`) — linha do tempo de 2013 até hoje, nos 4 idiomas (`src/lib/seed-journey.ts`; editável como `settings.journey`).
+8. **About** — bio, nome completo, números, formação e certificações.
+9. **Recomendações** — as 12 recomendações do LinkedIn no idioma original, com tradução rotulada e botão "ver original".
+10. **Contact** — tela verde cheia com e-mail e links.
 
 ### Idiomas
 
