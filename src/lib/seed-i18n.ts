@@ -64,145 +64,147 @@ function with_(base: Tri<WorkI18n>, extra: Tri<WorkI18n>): Tri<WorkI18n> {
 export const WORKS: Record<string, Tri<WorkI18n>> = {
   "zup-innovation": {
     pt: {
-      title: "Engenheiro Frontend Sênior · Fullstack",
+      title: "Desenvolvedor Fullstack · Especialista Frontend",
       products: ["Super app bancário", "Tesouraria PJ", "Corretora de investimentos"],
       summary:
-        "Especialista frontend em um super app bancário de grande escala usado por milhões — plataformas de tesouraria corporativa (PJ) e corretora de investimentos, com requisitos rígidos de segurança, performance e confiabilidade.",
+        "Especialista frontend em um super app bancário usado por milhões de pessoas — tesouraria PJ e corretora de investimentos, onde cada tela movimenta dinheiro de verdade e segurança, performance e confiabilidade não são negociáveis.",
       description:
-        "Arquitetura Angular enterprise para um dos maiores super apps bancários do Brasil. Construí e mantive plataformas de tesouraria corporativa (PJ) e soluções de corretora de investimentos, trabalhando com um design system proprietário junto de Angular Material, Tailwind CSS e BEM.\n\nOs contratos de API eram negociados e mantidos explícitos com um backend em Kotlin, e cada mudança passava por uma forte cultura de qualidade de código, testes, segurança e manutenibilidade — em colaboração próxima com produto, UX e engenharia nas decisões técnicas estratégicas.",
+        "A Zup é a empresa de tecnologia do grupo Itaú Unibanco — fundada em 2011, adquirida pelo Itaú em 2019 e hoje atendendo mais de 60 grandes clientes com engenharia acelerada por IA.\n\nEntrei em um squad dentro de um dos maiores super apps bancários do Brasil, construindo a plataforma de tesouraria PJ e a experiência da corretora de investimentos. O frontend era Angular enterprise sobre um design system proprietário, combinado com Angular Material, Tailwind CSS e BEM, mantendo cada tela consistente em todo o produto.\n\nMantive os contratos de API com o backend em Kotlin bem definidos, e cada mudança passava por code review, testes automatizados e verificações de segurança. Produto, UX e engenharia decidiam juntos os trade-offs difíceis — e eu levava a visão do frontend para essas decisões.",
       highlights: [
-        "Super app bancário de grande escala usado por milhões de usuários",
-        "Plataformas de tesouraria corporativa (PJ) e corretora de investimentos",
-        "Arquitetura Angular enterprise e design system proprietário",
-        "Performance, acessibilidade e UX em fluxos de missão crítica",
+        "Super app bancário usado por milhões de clientes",
+        "Plataformas de tesouraria PJ e corretora de investimentos",
+        "Angular enterprise sobre design system proprietário, com Angular Material, Tailwind CSS e BEM",
+        "Performance, acessibilidade e UX em fluxos de missão crítica que movimentam dinheiro",
         "Contratos de API bem definidos com backend em Kotlin",
+        "Cultura de qualidade: code review, testes automatizados, segurança e manutenibilidade",
       ],
     },
     es: {
-      title: "Ingeniero Frontend Senior · Fullstack",
+      title: "Desarrollador Fullstack · Especialista Frontend",
       products: ["Super app bancaria", "Tesorería empresarial", "Bróker de inversiones"],
       summary:
-        "Especialista frontend en una super app bancaria a gran escala usada por millones — plataformas de tesorería corporativa y bróker de inversiones, con requisitos estrictos de seguridad, rendimiento y fiabilidad.",
+        "Especialista frontend en una super app bancaria usada por millones de personas — tesorería empresarial y bróker de inversiones, donde cada pantalla mueve dinero real y la seguridad, el rendimiento y la fiabilidad no se negocian.",
       description:
-        "Arquitectura Angular empresarial para una de las mayores super apps bancarias de Brasil. Construí y mantuve plataformas de tesorería corporativa y soluciones de bróker de inversiones, trabajando con un design system propietario junto a Angular Material, Tailwind CSS y BEM.\n\nLos contratos de API se negociaban y mantenían explícitos con un backend en Kotlin, y cada cambio pasaba por una sólida cultura de calidad de código, pruebas, seguridad y mantenibilidad — en estrecha colaboración con producto, UX e ingeniería en las decisiones técnicas estratégicas.",
+        "Zup es la empresa de tecnología del grupo Itaú Unibanco — fundada en 2011, adquirida por Itaú en 2019 y que hoy atiende a más de 60 grandes clientes con ingeniería acelerada por IA.\n\nMe sumé a un squad dentro de una de las mayores super apps bancarias de Brasil, construyendo la plataforma de tesorería empresarial y la experiencia del bróker de inversiones. El frontend era Angular empresarial sobre un design system propietario, junto a Angular Material, Tailwind CSS y BEM, manteniendo cada pantalla coherente en todo el producto.\n\nMantuve bien definidos los contratos de API con el backend en Kotlin, y cada cambio pasaba por code review, pruebas automatizadas y controles de seguridad. Producto, UX e ingeniería decidían juntos los trade-offs difíciles — y yo aportaba la visión del frontend a esas decisiones.",
       highlights: [
-        "Super app bancaria a gran escala usada por millones de usuarios",
-        "Plataformas de tesorería corporativa y bróker de inversiones",
-        "Arquitectura Angular empresarial y design system propietario",
-        "Rendimiento, accesibilidad y UX en flujos de misión crítica",
+        "Super app bancaria usada por millones de clientes",
+        "Plataformas de tesorería empresarial y bróker de inversiones",
+        "Angular empresarial sobre un design system propietario, con Angular Material, Tailwind CSS y BEM",
+        "Rendimiento, accesibilidad y UX en flujos críticos que mueven dinero",
         "Contratos de API bien definidos con un backend en Kotlin",
+        "Cultura de calidad: code review, pruebas automatizadas, seguridad y mantenibilidad",
       ],
     },
     zh: {
-      title: "高级前端工程师 · 全栈",
+      title: "全栈开发工程师 · 前端专家",
       products: ["银行超级应用", "企业资金管理", "投资经纪平台"],
-      summary:
-        "在一款拥有数百万用户的大型银行超级应用中担任前端专家——负责企业资金管理和投资经纪平台，对安全性、性能和可靠性有严格要求。",
+      summary: "在一款数百万人使用的银行超级应用中担任前端专家——负责企业资金管理与投资经纪平台。每个界面都在处理真金白银，安全、性能与可靠性没有任何妥协余地。",
       description:
-        "为巴西最大的银行超级应用之一打造企业级 Angular 架构。我构建并维护了企业资金管理平台和投资经纪解决方案，在专有设计系统基础上结合 Angular Material、Tailwind CSS 和 BEM 进行开发。\n\n与 Kotlin 后端协商并维护清晰明确的 API 契约；每一次变更都遵循严格的代码质量、测试、安全和可维护性文化——并与产品、UX 和工程团队紧密合作，共同做出关键技术决策。",
+        "Zup 是伊塔乌联合银行（Itaú Unibanco）集团旗下的科技公司——成立于 2011 年，2019 年被 Itaú 收购，如今以 AI 加速的工程能力服务 60 多家大型客户。\n\n我加入了巴西最大银行超级应用之一的一个敏捷小组，负责构建企业资金管理平台和投资经纪体验。前端采用基于专有设计系统的企业级 Angular，结合 Angular Material、Tailwind CSS 和 BEM，确保整个产品的界面保持一致。\n\n我与 Kotlin 后端保持清晰明确的 API 契约，每一次变更都经过代码评审、自动化测试和安全检查。产品、UX 与工程团队共同做出艰难的权衡决策——我在其中代表前端视角。",
       highlights: [
-        "数百万用户使用的大型银行超级应用",
+        "数百万客户使用的银行超级应用",
         "企业资金管理与投资经纪平台",
-        "企业级 Angular 架构与专有设计系统",
-        "关键业务流程中的性能、无障碍与用户体验",
+        "基于专有设计系统的企业级 Angular，结合 Angular Material、Tailwind CSS 与 BEM",
+        "涉及资金流转的关键流程中的性能、无障碍与用户体验",
         "与 Kotlin 后端之间定义清晰的 API 契约",
+        "质量文化：代码评审、自动化测试、安全与可维护性",
       ],
     },
   },
   deal: {
     pt: {
       title: "Desenvolvedor Fullstack · Especialista Frontend",
-      products: ["Plataformas de internet banking"],
+      products: ["Plataformas de internet banking", "Micro Frontends"],
       summary:
-        "Plataformas de internet banking para dois clientes do setor financeiro em arquitetura de Micro Frontends — referência técnica em padrões e arquitetura frontend.",
+        "Internet banking para duas instituições financeiras em arquitetura de Micro Frontends — fui a referência frontend que definiu os padrões de código e arquitetura sobre os quais os dois produtos foram construídos.",
       description:
-        "Dois clientes bancários, uma arquitetura: Micro Frontends que isolam domínios e permitem que cada parte do produto evolua de forma independente. Atuei como referência técnica de frontend, definindo padrões de código e arquitetura, construindo interfaces reutilizáveis e acessíveis com Angular e Angular Material e integrando com um backend Python via ORM.\n\nTrabalho contínuo em performance, segurança, cobertura de testes e qualidade técnica.",
+        "A Deal Technologies constrói tecnologia para negócios altamente regulados desde 2004 — B3, bancos e empresas de pagamento entre eles.\n\nTrabalhei nas plataformas web bancárias de dois clientes do setor financeiro. As duas rodavam em Micro Frontends: cada domínio bancário vive em sua própria aplicação, faz deploy no seu próprio ritmo e não quebra os outros. Como referência técnica de frontend, defini os padrões de código e arquitetura e construí interfaces reutilizáveis e acessíveis com Angular e Angular Material.\n\nNo backend, integrei com serviços Python via ORM e elevei continuamente o nível de performance, segurança e cobertura de testes.",
       highlights: [
         "Plataformas de internet banking para dois clientes do setor financeiro",
-        "Arquitetura de Micro Frontends para isolamento de domínios e evolução independente",
+        "Arquitetura de Micro Frontends: domínios isolados e deploys independentes",
         "Referência técnica de frontend — padrões de código e arquitetura",
+        "Componentes reutilizáveis e acessíveis em Angular e Angular Material",
         "Integração com backend Python via ORM",
       ],
     },
     es: {
       title: "Desarrollador Fullstack · Especialista Frontend",
-      products: ["Plataformas de banca web"],
+      products: ["Plataformas de banca web", "Micro Frontends"],
       summary:
-        "Plataformas de banca web para dos clientes del sector financiero sobre una arquitectura de Micro Frontends — referente técnico en estándares y arquitectura frontend.",
+        "Banca web para dos instituciones financieras sobre una arquitectura de Micro Frontends — fui el referente frontend que definió los estándares de código y arquitectura sobre los que se construyeron ambos productos.",
       description:
-        "Dos clientes bancarios, una arquitectura: Micro Frontends que aíslan dominios y permiten que cada parte del producto evolucione de forma independiente. Actué como referente técnico de frontend, definiendo estándares de código y arquitectura, construyendo interfaces reutilizables y accesibles con Angular y Angular Material e integrando con un backend en Python mediante un ORM.\n\nTrabajo continuo en rendimiento, seguridad, cobertura de pruebas y calidad técnica.",
+        "Deal Technologies construye tecnología para negocios altamente regulados desde 2004 — entre ellos B3, bancos y empresas de pagos.\n\nTrabajé en las plataformas de banca web de dos clientes del sector financiero. Ambas funcionaban con Micro Frontends: cada dominio bancario vive en su propia aplicación, se despliega a su propio ritmo y no rompe a los demás. Como referente técnico de frontend, definí los estándares de código y arquitectura y construí interfaces reutilizables y accesibles con Angular y Angular Material.\n\nEn el backend, integré servicios en Python mediante un ORM y elevé de forma continua el nivel de rendimiento, seguridad y cobertura de pruebas.",
       highlights: [
         "Plataformas de banca web para dos clientes del sector financiero",
-        "Arquitectura de Micro Frontends para aislar dominios y evolucionar de forma independiente",
+        "Arquitectura de Micro Frontends: dominios aislados y despliegues independientes",
         "Referente técnico de frontend — estándares de código y arquitectura",
+        "Componentes reutilizables y accesibles en Angular y Angular Material",
         "Integración con backend en Python mediante ORM",
       ],
     },
     zh: {
       title: "全栈开发工程师 · 前端专家",
-      products: ["网上银行平台"],
-      summary: "基于微前端架构，为两家金融行业客户打造网上银行平台——担任前端规范与架构的技术负责人。",
+      products: ["网上银行平台", "微前端"],
+      summary: "基于微前端架构，为两家金融机构打造网上银行——我担任前端技术标杆，制定了两款产品共同遵循的代码与架构规范。",
       description:
-        "两个银行客户，一套架构：微前端将业务领域隔离开来，让产品的每个部分都能独立演进。我担任前端技术负责人，制定代码与架构规范，使用 Angular 和 Angular Material 构建可复用、无障碍的界面，并通过 ORM 与 Python 后端集成。\n\n持续推进性能、安全、测试覆盖率和技术质量的提升。",
-      highlights: [
-        "为两家金融行业客户打造网上银行平台",
-        "微前端架构，实现领域隔离与独立演进",
-        "前端技术负责人——代码与架构规范",
-        "通过 ORM 与 Python 后端集成",
-      ],
+        "Deal Technologies 自 2004 年起为高度受监管的行业打造技术，客户包括巴西证券交易所 B3、银行和支付公司。\n\n我参与了两家金融行业客户的网上银行平台建设。两者都运行在微前端之上：每个银行业务领域都是独立的应用，按自己的节奏部署，互不影响。作为前端技术标杆，我制定了代码与架构规范，并使用 Angular 和 Angular Material 构建可复用、无障碍的界面。\n\n在后端方面，我通过 ORM 与 Python 服务集成，并持续提升性能、安全性和测试覆盖率。",
+      highlights: ["为两家金融行业客户打造网上银行平台", "微前端架构：领域隔离、独立部署", "前端技术标杆——代码与架构规范", "基于 Angular 与 Angular Material 的可复用、无障碍组件", "通过 ORM 与 Python 后端集成"],
     },
   },
   taqtaq: {
     pt: {
-      products: ["App TaqTaq (B2C · B2B · Eventos)"],
+      products: ["App TaqTaq (iOS · Android)", "B2C · B2B · Eventos"],
       summary:
-        "Liderança técnica de um novo app multiplataforma para B2C, B2B e eventos — do conceito à produção, dentro do prazo e do orçamento.",
+        "Tech Lead do novo app multiplataforma da TaqTaq — cartões de visita digitais compartilhados por QR, NFC e proximidade — do conceito à App Store e ao Google Play, dentro do prazo e do orçamento.",
       description:
-        "O TaqTaq é um app global de gestão de contatos e networking. Liderei a construção da nova versão multiplataforma do conceito à produção: arquitetura, planejamento técnico e priorização, além de desenvolvimento mobile hands-on em Flutter.\n\nA introdução de práticas ágeis aumentou em mais de 20% a taxa de conclusão de projetos do time, e a mentoria de desenvolvedores juniores elevou a qualidade do código e a maturidade técnica.",
+        "O TaqTaq transforma o cartão de visita de papel em um contato vivo: cartões digitais ilimitados, compartilhamento por QR code, NFC ou proximidade, notificações de alteração, integração com CRM e dez idiomas — para pessoas (B2C), empresas (B2B) e eventos.\n\nLiderei a construção da nova versão multiplataforma do conceito à produção. Fui responsável pela arquitetura, pelo plano técnico e pelas prioridades, e escrevi boa parte do código Flutter.\n\nDuas coisas mudaram a forma como o time entregava: a adoção de práticas ágeis — que aumentou em mais de 20% a taxa de conclusão de projetos — e a mentoria dos desenvolvedores juniores, que elevou a qualidade do código e a maturidade técnica do time.",
       highlights: [
         "Liderei um novo app multiplataforma do conceito à produção",
         "Responsável pela arquitetura, planejamento técnico e priorização",
-        "Apps mobile responsivos em Flutter (Dart)",
-        "Mentoria de desenvolvedores juniores",
+        "Desenvolvimento hands-on em Flutter (Dart) para iOS e Android",
+        "Práticas ágeis que elevaram a conclusão de projetos em mais de 20%",
+        "Mentoria de desenvolvedores juniores, elevando qualidade e maturidade",
       ],
       metrics: [{ value: "+20%", label: "taxa de conclusão de projetos após adoção de práticas ágeis" }],
     },
     es: {
-      products: ["App TaqTaq (B2C · B2B · Eventos)"],
+      products: ["App TaqTaq (iOS · Android)", "B2C · B2B · Eventos"],
       summary:
-        "Liderazgo técnico de una nueva app multiplataforma para B2C, B2B y eventos — del concepto a producción, en plazo y presupuesto.",
+        "Tech Lead de la nueva app multiplataforma de TaqTaq — tarjetas de presentación digitales compartidas por QR, NFC y proximidad — del concepto a App Store y Google Play, en plazo y presupuesto.",
       description:
-        "TaqTaq es una app global de gestión de contactos y networking. Lideré la construcción de la nueva versión multiplataforma del concepto a producción: arquitectura, planificación técnica y priorización, además de desarrollo móvil práctico en Flutter.\n\nLa introducción de prácticas ágiles aumentó en más de un 20% la tasa de finalización de proyectos del equipo, y la mentoría a desarrolladores junior elevó la calidad del código y la madurez técnica.",
+        "TaqTaq convierte la tarjeta de presentación de papel en un contacto vivo: tarjetas digitales ilimitadas, envío por código QR, NFC o proximidad, avisos de cambios, integración con CRM y diez idiomas — para personas (B2C), empresas (B2B) y eventos.\n\nLideré la construcción de la nueva versión multiplataforma del concepto a producción. Fui responsable de la arquitectura, el plan técnico y las prioridades, y escribí buena parte del código en Flutter.\n\nDos cosas cambiaron la forma en que el equipo entregaba: adoptar prácticas ágiles — que aumentó en más de un 20% la tasa de proyectos concluidos — y la mentoría a los desarrolladores junior, que elevó la calidad del código y la madurez técnica del equipo.",
       highlights: [
         "Lideré una nueva app multiplataforma del concepto a producción",
         "Responsable de la arquitectura, la planificación técnica y la priorización",
-        "Apps móviles responsivas en Flutter (Dart)",
-        "Mentoría a desarrolladores junior",
+        "Desarrollo práctico en Flutter (Dart) para iOS y Android",
+        "Prácticas ágiles que elevaron más de un 20% los proyectos concluidos",
+        "Mentoría a desarrolladores junior, elevando calidad y madurez",
       ],
       metrics: [{ value: "+20%", label: "tasa de finalización de proyectos tras adoptar prácticas ágiles" }],
     },
     zh: {
       title: "技术负责人",
-      products: ["TaqTaq 应用（B2C · B2B · 活动）"],
-      summary: "主导一款面向 B2C、B2B 和活动场景的全新跨平台应用的技术工作——从概念到上线，按时且不超预算。",
+      products: ["TaqTaq 应用（iOS · Android）", "B2C · B2B · 活动"],
+      summary: "担任 TaqTaq 全新跨平台应用的技术负责人——通过二维码、NFC 和近距离分享的数字名片——从概念到登陆 App Store 与 Google Play，按时且不超预算。",
       description:
-        "TaqTaq 是一款全球化的联系人管理与社交人脉应用。我主导了新版跨平台应用从概念到上线的全过程：架构设计、技术规划与优先级排序，并亲自使用 Flutter 进行移动端开发。\n\n引入敏捷实践后，团队的项目完成率提升了 20% 以上；对初级开发者的指导也提高了代码质量和技术成熟度。",
-      highlights: ["主导新的跨平台应用从概念到上线", "负责架构、技术规划与优先级排序", "使用 Flutter（Dart）开发响应式移动应用", "指导初级开发者"],
+        "TaqTaq 让纸质名片变成鲜活的联系人：无限数量的数字名片，可通过二维码、NFC 或近距离分享，支持变更通知、CRM 集成和十种语言——面向个人（B2C）、企业（B2B）和活动场景。\n\n我主导了新版跨平台应用从概念到上线的全过程，负责架构、技术规划与优先级，并亲自编写了大量 Flutter 代码。\n\n有两件事改变了团队的交付方式：引入敏捷实践——使项目完成率提升 20% 以上；以及指导初级开发者——提高了代码质量和团队的技术成熟度。",
+      highlights: ["主导新的跨平台应用从概念到上线", "负责架构、技术规划与优先级排序", "亲自使用 Flutter（Dart）开发 iOS 与 Android 应用", "敏捷实践使项目完成率提升 20% 以上", "指导初级开发者，提升代码质量与成熟度"],
       metrics: [{ value: "+20%", label: "采用敏捷实践后的项目完成率" }],
     },
   },
   ciandt: with_(FS_DEV, {
     pt: {
-      products: ["Aplicações de crédito imobiliário"],
+      products: ["Aplicações de crédito imobiliário", "Projetos cloud"],
       summary:
-        "Projetos internacionais para grandes empresas financeiras e corporativas — aplicações de crédito imobiliário com Angular, C#/.NET e Python, e liderança técnica em projetos cloud.",
+        "Projetos internacionais para grandes clientes financeiros e corporativos — aplicações de crédito imobiliário em Angular, C#/.NET e Python, e liderança técnica em projetos cloud que aumentaram o engajamento em 30% e reduziram o tempo de carregamento em 20%.",
       description:
-        "Projetos internacionais para grandes empresas dos setores financeiro e corporativo, incluindo aplicações de crédito imobiliário construídas com Angular, C#/.NET e Python.\n\nImplementei pipelines de CI/CD, práticas de testes e qualidade, conduzi code reviews e defini boas práticas — além de liderar tecnicamente projetos em cloud.",
+        "A CI&T é uma empresa global de engenharia digital — listada na NYSE, com mais de 8.000 pessoas em mais de 25 países, atendendo algumas das maiores empresas do mundo.\n\nAtuei em projetos internacionais para grandes clientes dos setores financeiro e corporativo, incluindo aplicações de crédito imobiliário construídas com Angular, C#/.NET e Python — fluxos longos e regulados, em que uma etapa confusa custa um contrato.\n\nImplantei pipelines de CI/CD e práticas de testes, conduzi code reviews e documentei as convenções do time. Nos projetos cloud assumi a liderança técnica, e o resultado apareceu nos números: 30% mais engajamento de usuários e 20% menos tempo de carregamento.",
       highlights: [
         "Projetos internacionais para grandes empresas financeiras e corporativas",
         "Aplicações de crédito imobiliário (Angular, C#/.NET, Python)",
         "Pipelines de CI/CD, práticas de testes e qualidade",
         "Liderança técnica em projetos cloud",
+        "Code reviews e boas práticas para todo o time",
       ],
       metrics: [
         { value: "+30%", label: "engajamento de usuários" },
@@ -210,16 +212,17 @@ export const WORKS: Record<string, Tri<WorkI18n>> = {
       ],
     },
     es: {
-      products: ["Aplicaciones de crédito hipotecario"],
+      products: ["Aplicaciones de crédito hipotecario", "Proyectos cloud"],
       summary:
-        "Proyectos internacionales para grandes empresas financieras y corporativas — aplicaciones de crédito hipotecario con Angular, C#/.NET y Python, y liderazgo técnico en proyectos cloud.",
+        "Proyectos internacionales para grandes clientes financieros y corporativos — aplicaciones de crédito hipotecario en Angular, C#/.NET y Python, y liderazgo técnico en proyectos cloud que aumentaron la interacción un 30% y redujeron el tiempo de carga un 20%.",
       description:
-        "Proyectos internacionales para grandes empresas de los sectores financiero y corporativo, incluidas aplicaciones de crédito hipotecario construidas con Angular, C#/.NET y Python.\n\nImplementé pipelines de CI/CD, prácticas de pruebas y calidad, realicé code reviews y definí buenas prácticas — además de liderar técnicamente proyectos en la nube.",
+        "CI&T es una empresa global de ingeniería digital — cotiza en la NYSE y reúne a más de 8.000 personas en más de 25 países, al servicio de algunas de las mayores empresas del mundo.\n\nTrabajé en proyectos internacionales para grandes clientes de los sectores financiero y corporativo, incluidas aplicaciones de crédito hipotecario construidas con Angular, C#/.NET y Python — flujos largos y regulados, donde un paso confuso cuesta un contrato.\n\nImplanté pipelines de CI/CD y prácticas de pruebas, realicé code reviews y documenté las convenciones del equipo. En los proyectos cloud asumí el liderazgo técnico, y el resultado se vio en los números: 30% más interacción de usuarios y 20% menos tiempo de carga.",
       highlights: [
         "Proyectos internacionales para grandes empresas financieras y corporativas",
         "Aplicaciones de crédito hipotecario (Angular, C#/.NET, Python)",
         "Pipelines de CI/CD, prácticas de pruebas y calidad",
         "Liderazgo técnico en proyectos cloud",
+        "Code reviews y buenas prácticas para todo el equipo",
       ],
       metrics: [
         { value: "+30%", label: "interacción de usuarios" },
@@ -227,11 +230,11 @@ export const WORKS: Record<string, Tri<WorkI18n>> = {
       ],
     },
     zh: {
-      products: ["房地产信贷应用"],
-      summary: "为大型金融与企业客户开展国际项目——使用 Angular、C#/.NET 和 Python 构建房地产信贷应用，并在云项目中担任技术负责人。",
+      products: ["房地产信贷应用", "云项目"],
+      summary: "为大型金融与企业客户开展国际项目——使用 Angular、C#/.NET 和 Python 构建房地产信贷应用，并在云项目中担任技术负责人，使用户参与度提升 30%、加载时间缩短 20%。",
       description:
-        "为金融和企业领域的大型公司开展国际项目，包括使用 Angular、C#/.NET 和 Python 构建的房地产信贷应用。\n\n我搭建了 CI/CD 流水线，推行测试与质量实践，主持代码评审并制定最佳实践——同时在云项目中担任技术负责人。",
-      highlights: ["为大型金融与企业客户开展国际项目", "房地产信贷应用（Angular、C#/.NET、Python）", "CI/CD 流水线、测试与质量实践", "云项目技术负责人"],
+        "CI&T 是一家全球数字工程公司——在纽约证券交易所上市，拥有 8,000 多名员工，业务遍及 25 个以上国家，服务全球众多大型企业。\n\n我参与了面向金融与企业领域大型客户的国际项目，包括使用 Angular、C#/.NET 和 Python 构建的房地产信贷应用——流程长且受监管，任何一步让用户困惑都可能失去一份合同。\n\n我搭建了 CI/CD 流水线和测试实践，主持代码评审并整理团队规范。在云项目中我担任技术负责人，成果体现在数字上：用户参与度提升 30%，加载时间缩短 20%。",
+      highlights: ["为大型金融与企业客户开展国际项目", "房地产信贷应用（Angular、C#/.NET、Python）", "CI/CD 流水线、测试与质量实践", "云项目技术负责人", "代码评审与团队最佳实践"],
       metrics: [
         { value: "+30%", label: "用户参与度" },
         { value: "−20%", label: "加载时间" },
@@ -241,51 +244,54 @@ export const WORKS: Record<string, Tri<WorkI18n>> = {
   "pharmalink-ecs": {
     pt: {
       title: "Desenvolvedor Fullstack · Líder Frontend",
-      via: "para InterPlayers",
-      products: ["Pharmalink Online", "Ciclo Financeiro"],
+      via: "na ECS Inovação, para a InterPlayers",
+      products: ["Pharmalink Online", "Ciclo Financeiro", "AngularJS → Angular 14"],
       summary:
-        "Responsável técnico pelo Pharmalink Online — hub e marketplace farmacêutico usado por muitos players do setor. Liderei a migração completa de AngularJS 1.8 → Angular 14.",
+        "Responsável técnico pelo Pharmalink Online, o hub que conecta a indústria farmacêutica brasileira a distribuidores e farmácias. Liderei sua migração completa de AngularJS 1.8 para Angular 14 e reduzi o tempo de carregamento em até 50%.",
       description:
-        "Projetos estratégicos de saúde e farmacêutico em parceria com a InterPlayers, parceira e cliente da ECS. Fui o responsável técnico pela evolução do Pharmalink Online, um hub e marketplace farmacêutico.\n\nO ponto central foi liderar a migração completa do frontend de AngularJS 1.8.2 para Angular 14 — atualização de tecnologia e arquitetura, modernização da base de código e grande redução de dívida técnica — enquanto orientava desenvolvedores menos experientes para encurtar o tempo de entrega.\n\nTambém contribuí diretamente com o motor de cálculo financeiro (Ciclo Financeiro), atuei no backend e em integrações e introduzi estratégias de cache que reduziram o tempo de carregamento em até 50%.",
+        "O Pharmalink, da InterPlayers, é onde a indústria farmacêutica vende para o mercado: um hub que conecta fabricantes, mais de 650 centros de distribuição e mais de 73 mil farmácias em todos os estados — 18 milhões de pedidos e R$ 21 bilhões transacionados só em 2023. A ECS Inovação, parceira da InterPlayers, conduzia a engenharia, e eu era o responsável técnico pela evolução do Pharmalink Online.\n\nO ponto central foi liderar a migração completa do frontend de AngularJS 1.8.2 para Angular 14 — numa plataforma em produção que não podia parar de vender. Isso significou nova arquitetura, base de código modernizada e grande redução de dívida técnica, orientando desenvolvedores menos experientes para que a migração fosse entregue mais rápido.\n\nTambém atuei diretamente no Ciclo Financeiro — o motor de cálculo por trás de regras comerciais críticas —, no backend e nas integrações, e introduzi estratégias de cache que reduziram o tempo de carregamento em até 50%.",
       highlights: [
-        "Responsável técnico pelo Pharmalink Online, hub e marketplace farmacêutico",
-        "Liderei a migração completa de AngularJS 1.8.2 → Angular 14",
+        "Responsável técnico pelo Pharmalink Online, o hub comercial da indústria farmacêutica",
+        "Liderei a migração completa de AngularJS 1.8.2 → Angular 14 com a plataforma em produção",
         "Contribuição direta no motor de cálculo do Ciclo Financeiro",
-        "Integrações de backend e APIs RESTful",
-        "Referência técnica e mentor de frontend",
+        "Backend, APIs RESTful e integrações de sistemas",
+        "Estratégias de cache que reduziram o tempo de carregamento em até 50%",
+        "Referência técnica e mentor de desenvolvedores menos experientes",
       ],
       metrics: [{ value: "−50%", label: "tempo de carregamento com estratégias de cache" }],
     },
     es: {
       title: "Desarrollador Fullstack · Líder Frontend",
-      via: "para InterPlayers",
-      products: ["Pharmalink Online", "Ciclo Financiero"],
+      via: "en ECS Inovação, para InterPlayers",
+      products: ["Pharmalink Online", "Ciclo Financiero", "AngularJS → Angular 14"],
       summary:
-        "Responsable técnico de Pharmalink Online — hub y marketplace farmacéutico usado por muchos actores del sector. Lideré la migración completa de AngularJS 1.8 → Angular 14.",
+        "Responsable técnico de Pharmalink Online, el hub que conecta la industria farmacéutica brasileña con distribuidores y farmacias. Lideré su migración completa de AngularJS 1.8 a Angular 14 y reduje el tiempo de carga hasta un 50%.",
       description:
-        "Proyectos estratégicos de salud y farmacéutica en alianza con InterPlayers, socia y cliente de ECS. Fui el responsable técnico de la evolución de Pharmalink Online, un hub y marketplace farmacéutico.\n\nLa pieza central fue liderar la migración completa del frontend de AngularJS 1.8.2 a Angular 14 — actualización de tecnología y arquitectura, modernización del código y una gran reducción de deuda técnica — mientras guiaba a desarrolladores menos experimentados para acortar los tiempos de entrega.\n\nTambién contribuí directamente al motor de cálculo financiero (Ciclo Financiero), trabajé en el backend y en integraciones e introduje estrategias de caché que redujeron el tiempo de carga hasta un 50%.",
+        "Pharmalink, de InterPlayers, es donde la industria farmacéutica vende al mercado: un hub que conecta fabricantes, más de 650 centros de distribución y más de 73.000 farmacias en todos los estados de Brasil — 18 millones de pedidos y R$ 21 mil millones transaccionados solo en 2023. ECS Inovação, socia de InterPlayers, llevaba la ingeniería, y yo era el responsable técnico de la evolución de Pharmalink Online.\n\nLa pieza central fue liderar la migración completa del frontend de AngularJS 1.8.2 a Angular 14 — en una plataforma en producción que no podía dejar de vender. Eso significó nueva arquitectura, código modernizado y una gran reducción de deuda técnica, guiando a desarrolladores menos experimentados para que la migración se entregara más rápido.\n\nTambién trabajé directamente en el Ciclo Financiero — el motor de cálculo detrás de reglas comerciales críticas —, en el backend y en las integraciones, e introduje estrategias de caché que redujeron el tiempo de carga hasta un 50%.",
       highlights: [
-        "Responsable técnico de Pharmalink Online, hub y marketplace farmacéutico",
-        "Lideré la migración completa de AngularJS 1.8.2 → Angular 14",
+        "Responsable técnico de Pharmalink Online, el hub comercial de la industria farmacéutica",
+        "Lideré la migración completa de AngularJS 1.8.2 → Angular 14 con la plataforma en producción",
         "Contribución directa al motor de cálculo del Ciclo Financiero",
-        "Integraciones de backend y APIs RESTful",
-        "Referente técnico y mentor de frontend",
+        "Backend, APIs RESTful e integraciones de sistemas",
+        "Estrategias de caché que redujeron el tiempo de carga hasta un 50%",
+        "Referente técnico y mentor de desarrolladores menos experimentados",
       ],
       metrics: [{ value: "−50%", label: "tiempo de carga con estrategias de caché" }],
     },
     zh: {
       title: "全栈开发工程师 · 前端负责人",
-      via: "服务于 InterPlayers",
-      products: ["Pharmalink Online", "财务周期引擎"],
-      summary: "Pharmalink Online 的技术负责人——这是一个被众多行业参与者使用的医药枢纽与交易平台。主导了从 AngularJS 1.8 到 Angular 14 的完整迁移。",
+      via: "任职于 ECS Inovação，服务 InterPlayers",
+      products: ["Pharmalink Online", "财务周期引擎", "AngularJS → Angular 14"],
+      summary: "Pharmalink Online 的技术负责人——这一枢纽连接着巴西制药行业与分销商和药店。我主导了它从 AngularJS 1.8 到 Angular 14 的完整迁移，并将加载时间最多缩短 50%。",
       description:
-        "与 ECS 的合作伙伴兼客户 InterPlayers 共同开展医疗与制药领域的战略项目。我负责医药枢纽与交易平台 Pharmalink Online 的技术演进。\n\n核心工作是主导前端从 AngularJS 1.8.2 到 Angular 14 的完整迁移——升级技术与架构、现代化代码库并大幅削减技术债——同时指导经验较少的开发者，缩短交付周期。\n\n我还直接参与了财务计算引擎（财务周期）的开发，负责后端与系统集成，并引入缓存策略，使加载时间最多缩短 50%。",
+        "InterPlayers 旗下的 Pharmalink 是巴西制药行业面向市场销售的核心平台：它连接制药厂商、650 多个配送中心和遍布全国各州的 73,000 多家药店——仅 2023 年就处理了 1,800 万笔订单、交易额达 210 亿雷亚尔。InterPlayers 的合作伙伴 ECS Inovação 负责工程研发，而我是 Pharmalink Online 技术演进的负责人。\n\n核心工作是主导前端从 AngularJS 1.8.2 到 Angular 14 的完整迁移——而且是在一个不能停止交易的线上平台上完成的。这意味着全新的架构、现代化的代码库和大幅削减的技术债，同时我指导经验较少的开发者，加快了迁移交付。\n\n我还直接参与了财务周期——支撑关键商业规则的计算引擎——以及后端与系统集成工作，并引入缓存策略，使加载时间最多缩短 50%。",
       highlights: [
-        "Pharmalink Online（医药枢纽与交易平台）技术负责人",
-        "主导 AngularJS 1.8.2 → Angular 14 的完整迁移",
+        "Pharmalink Online（制药行业商业枢纽）技术负责人",
+        "在平台持续运行的情况下主导 AngularJS 1.8.2 → Angular 14 完整迁移",
         "直接参与财务周期计算引擎开发",
-        "后端集成与 RESTful API",
-        "前端技术带头人与导师",
+        "后端、RESTful API 与系统集成",
+        "缓存策略使加载时间最多缩短 50%",
+        "前端技术标杆，指导经验较少的开发者",
       ],
       metrics: [{ value: "−50%", label: "借助缓存策略缩短的加载时间" }],
     },
@@ -293,257 +299,375 @@ export const WORKS: Record<string, Tri<WorkI18n>> = {
   "herrmann-it-consultoria": {
     pt: {
       title: "Fundador · Engenheiro de Software · Especialista Frontend",
+      products: ["Consultoria", "Engenharia frontend", "Fullstack", "Liderança técnica"],
       summary:
-        "Minha própria consultoria de tecnologia. Engenharia frontend, desenvolvimento fullstack e arquitetura de aplicações para clientes nacionais e internacionais em bancos, saúde e SaaS.",
+        "Minha própria consultoria, desde 2013. Por ela entreguei para PicPay, Grupo Madero, Lojas Lebes, Pacto, upLexis, Pernambucanas, Milvus e outros — como Engenheiro Frontend, Engenheiro Fullstack ou Tech Lead, conforme o projeto precisa.",
       description:
-        "A Herrmann IT Consultoria é como trabalho diretamente com clientes. Conforme o projeto, atuo como Engenheiro Frontend, Engenheiro Fullstack ou Tech Lead, alocado em projetos estratégicos de médio e grande porte — sempre com forte foco em qualidade de código, performance, escalabilidade, segurança e arquitetura frontend.\n\nEntre os clientes e produtos estão PicPay (via Sciensa), upMiner e upLink (upLexis), Pernambucanas (via Cliqx), Lojas Lebes, Grupo Madero, Pacto Soluções (apps Engenharia do Corpo e Usina do Corpo), Milvus, Maxxidata, Facepass, UDS Broadcast e outros — veja o arquivo abaixo.",
+        "A Herrmann IT Consultoria é como trabalho diretamente com clientes, no Brasil e no exterior. Todo projeto começa com a mesma pergunta — do que este produto precisa da engenharia agora? — e eu entro como Engenheiro Frontend, Engenheiro Fullstack ou Tech Lead de acordo com a resposta.\n\nO trabalho é, em sua maioria, em projetos estratégicos de médio e grande porte: sistemas enterprise, fluxos de missão crítica e produtos de consumo com alto tráfego. As constantes são qualidade de código, performance, escalabilidade, segurança e uma arquitetura frontend que o próprio time do cliente consiga continuar evoluindo depois que eu saio.\n\nClientes selecionados: PicPay (via Sciensa), os apps do Grupo Madero e da Lojas Lebes, Pacto Soluções (Engenharia do Corpo e Usina do Corpo), upLexis (upMiner e upLink), Pernambucanas (via Cliqx), Milvus, Maxxidata, Facepass, UDS (Broadcast OTC) e Inform / Ekantika — todos estão no arquivo abaixo.",
       highlights: [
         "Consultor (PJ) em projetos estratégicos de médio e grande porte",
         "Engenheiro Frontend, Engenheiro Fullstack ou Tech Lead conforme a necessidade de cada cliente",
+        "Apps de consumo publicados na App Store e no Google Play",
         "Produtos enterprise, de missão crítica e alto tráfego",
-        "Estratégias de cache que reduziram o tempo de carregamento em até 50%",
+        "Clientes em bancos, fintech, varejo, restaurantes, fitness, compliance e SaaS",
       ],
     },
     es: {
       title: "Fundador · Ingeniero de Software · Especialista Frontend",
+      products: ["Consultoría", "Ingeniería frontend", "Fullstack", "Liderazgo técnico"],
       summary:
-        "Mi propia consultora tecnológica. Ingeniería frontend, desarrollo fullstack y arquitectura de aplicaciones para clientes nacionales e internacionales en banca, salud y SaaS.",
+        "Mi propia consultora, desde 2013. A través de ella he entregado para PicPay, Grupo Madero, Lojas Lebes, Pacto, upLexis, Pernambucanas, Milvus y más — como Ingeniero Frontend, Ingeniero Fullstack o Tech Lead, según lo que pida el proyecto.",
       description:
-        "Herrmann IT Consultoria es la forma en que trabajo directamente con clientes. Según el proyecto, actúo como Ingeniero Frontend, Ingeniero Fullstack o Tech Lead, asignado a proyectos estratégicos medianos y grandes — siempre con un fuerte foco en calidad de código, rendimiento, escalabilidad, seguridad y arquitectura frontend.\n\nEntre los clientes y productos están PicPay (vía Sciensa), upMiner y upLink (upLexis), Pernambucanas (vía Cliqx), Lojas Lebes, Grupo Madero, Pacto Soluções (apps de Engenharia do Corpo y Usina do Corpo), Milvus, Maxxidata, Facepass, UDS Broadcast y más — ver el archivo más abajo.",
+        "Herrmann IT Consultoria es la forma en que trabajo directamente con clientes, en Brasil y en el exterior. Cada proyecto empieza con la misma pregunta — ¿qué necesita este producto de la ingeniería ahora? — y entro como Ingeniero Frontend, Ingeniero Fullstack o Tech Lead según la respuesta.\n\nEl trabajo es, en su mayoría, en proyectos estratégicos medianos y grandes: sistemas empresariales, flujos de misión crítica y productos de consumo con mucho tráfico. Las constantes son calidad de código, rendimiento, escalabilidad, seguridad y una arquitectura frontend que el propio equipo del cliente pueda seguir evolucionando cuando me voy.\n\nClientes seleccionados: PicPay (vía Sciensa), las apps de Grupo Madero y Lojas Lebes, Pacto Soluções (Engenharia do Corpo y Usina do Corpo), upLexis (upMiner y upLink), Pernambucanas (vía Cliqx), Milvus, Maxxidata, Facepass, UDS (Broadcast OTC) e Inform / Ekantika — todos están en el archivo más abajo.",
       highlights: [
         "Consultor independiente en proyectos estratégicos medianos y grandes",
         "Ingeniero Frontend, Ingeniero Fullstack o Tech Lead según lo que necesite cada cliente",
+        "Apps de consumo publicadas en App Store y Google Play",
         "Productos empresariales, de misión crítica y alto tráfico",
-        "Estrategias de caché que redujeron los tiempos de carga hasta un 50%",
+        "Clientes en banca, fintech, retail, restaurantes, fitness, cumplimiento y SaaS",
       ],
     },
     zh: {
       title: "创始人 · 软件工程师 · 前端专家",
-      summary: "我自己的技术咨询公司。为银行、医疗和 SaaS 领域的国内外客户提供前端工程、全栈开发与应用架构服务。",
+      products: ["咨询", "前端工程", "全栈", "技术领导"],
+      summary: "我自 2013 年创办的咨询公司。通过它，我为 PicPay、Grupo Madero、Lojas Lebes、Pacto、upLexis、Pernambucanas、Milvus 等客户交付项目——根据项目需要担任前端工程师、全栈工程师或技术负责人。",
       description:
-        "Herrmann IT Consultoria 是我直接与客户合作的方式。根据项目需要，我担任前端工程师、全栈工程师或技术负责人，参与中大型战略项目——始终高度关注代码质量、性能、可扩展性、安全性和前端架构。\n\n客户与产品包括 PicPay（经由 Sciensa）、upMiner 和 upLink（upLexis）、Pernambucanas（经由 Cliqx）、Lojas Lebes、Grupo Madero、Pacto Soluções（Engenharia do Corpo 和 Usina do Corpo 应用）、Milvus、Maxxidata、Facepass、UDS Broadcast 等——详见下方履历。",
+        "Herrmann IT Consultoria 是我直接服务巴西及海外客户的方式。每个项目都从同一个问题开始——这个产品此刻最需要工程上的什么？——然后我以前端工程师、全栈工程师或技术负责人的身份投入其中。\n\n工作主要集中在中大型战略项目：企业级系统、关键业务流程和高流量的消费级产品。始终不变的是代码质量、性能、可扩展性、安全性，以及一套在我离开后客户团队仍能持续演进的前端架构。\n\n部分客户：PicPay（经由 Sciensa）、Grupo Madero 与 Lojas Lebes 的应用、Pacto Soluções（Engenharia do Corpo 和 Usina do Corpo）、upLexis（upMiner 与 upLink）、Pernambucanas（经由 Cliqx）、Milvus、Maxxidata、Facepass、UDS（Broadcast OTC）以及 Inform / Ekantika——详见下方履历。",
       highlights: [
         "以独立顾问身份参与中大型战略项目",
         "根据客户需要担任前端工程师、全栈工程师或技术负责人",
+        "已在 App Store 与 Google Play 上线的消费级应用",
         "企业级、关键业务与高流量产品",
-        "缓存策略使加载时间最多缩短 50%",
+        "客户覆盖银行、金融科技、零售、餐饮、健身、合规与 SaaS",
       ],
     },
   },
 
   /* ---------------- Clients ---------------- */
-  picpay: with_(FE_DEV, {
-    pt: { summary: "Frontend em um produto financeiro de alta escala." },
-    es: { via: "vía Sciensa", summary: "Frontend en un producto financiero de gran escala." },
-    zh: { via: "经由 Sciensa", summary: "为一款大规模金融产品开发前端。" },
-  }),
-  uplexis: {
-    pt: { summary: "Liderança técnica, definição de arquitetura e orientação do time em plataformas de compliance e due diligence." },
-    es: { summary: "Liderazgo técnico, definición de arquitectura y guía del equipo en plataformas de cumplimiento y due diligence." },
-    zh: { title: "技术负责人", summary: "在合规与尽职调查平台上担任技术负责人，负责架构设计并指导团队。" },
-  },
-  pernambucanas: with_(FS_DEV, {
-    pt: { summary: "Soluções corporativas para uma das maiores varejistas do Brasil." },
-    es: { via: "vía Cliqx", summary: "Soluciones corporativas para uno de los mayores minoristas de Brasil." },
-    zh: { via: "经由 Cliqx", summary: "为巴西最大的零售商之一开发企业级解决方案。" },
-  }),
-  milvus: with_(FE_DEV, {
-    pt: {
-      products: ["Portal do Cliente", "Portal do Gestor", "Widget de Chat", "Cliente Windows"],
-      summary: "Portais e widget de chat para uma plataforma de help desk e gestão de serviços.",
-    },
-    es: {
-      products: ["Portal del Cliente", "Portal del Gestor", "Widget de Chat", "Cliente Windows"],
-      summary: "Portales y widget de chat para una plataforma de help desk y gestión de servicios.",
-    },
-    zh: {
-      products: ["客户门户", "管理者门户", "聊天组件", "Windows 客户端"],
-      summary: "为一个服务台与服务管理平台开发门户网站和聊天组件。",
-    },
-  }),
-  maxxidata: with_(FS_DEV, {
-    pt: { summary: "Micro Frontends em Angular com serviços NestJS e Node.js." },
-    es: { summary: "Micro Frontends en Angular con servicios NestJS y Node.js." },
-    zh: { summary: "基于 Angular 的微前端，配合 NestJS 和 Node.js 服务。" },
-  }),
-  "uds-broadcast": with_(FS_DEV, {
-    pt: { summary: "Plataformas financeiras para mercado de balcão (OTC) e corretagem." },
-    es: { summary: "Plataformas financieras para mercado extrabursátil (OTC) y corretaje." },
-    zh: { summary: "面向场外交易（OTC）与经纪业务的金融平台。" },
-  }),
-  "inform-ekantika": with_(FE_DEV, {
-    pt: { summary: "Arquitetura frontend moderna e gerenciamento de estado." },
-    es: { summary: "Arquitectura frontend moderna y gestión de estado." },
-    zh: { summary: "现代前端架构与状态管理。" },
-  }),
-  scale: with_(FS_DEV, {
-    pt: { summary: "Desenvolvimento fullstack e integração de sistemas." },
-    es: { summary: "Desarrollo fullstack e integración de sistemas." },
-    zh: { summary: "全栈开发与系统集成。" },
-  }),
-  facepass: with_(FE_DEV, {
-    pt: { products: ["Portal do Produtor", "Ingressos", "Componentes"], summary: "Portal de ingressos e biblioteca de componentes." },
-    es: { products: ["Portal del Productor", "Entradas", "Componentes"], summary: "Portal de venta de entradas y biblioteca de componentes." },
-    zh: { products: ["主办方门户", "票务", "组件库"], summary: "票务门户与组件库。" },
-  }),
   "pacto-solucoes": {
     pt: {
       title: "Engenheiro Frontend",
       products: ["App Engenharia do Corpo (EC PRO)", "App Usina do Corpo", "Hotsites das academias", "Hotsite de vendas da Pacto", "ZW"],
       summary:
-        "Frontend do ecossistema de gestão fitness da Pacto — incluindo os apps de alunos de duas das maiores redes de academias do Sul do Brasil, Engenharia do Corpo e Usina do Corpo, e seus hotsites.",
+        "Frontend da plataforma fitness da Pacto — os apps de alunos de duas das maiores redes de academias do Sul do Brasil, Engenharia do Corpo e Usina do Corpo, seus hotsites, o hotsite de vendas da Pacto e o sistema de gestão ZW.",
       description:
-        "A Pacto Soluções desenvolve a plataforma de gestão usada por academias e negócios fitness em todo o Brasil. Trabalhei nos principais apps de alunos entregues às redes — o app da Engenharia do Corpo (EC PRO) e o app da Usina do Corpo —, onde os alunos acompanham seus treinos com cargas e repetições, agendam aulas, fazem check-in e gerenciam seus contratos.\n\nTambém construí os hotsites das redes — planos, unidades e matrícula online —, além do hotsite de vendas da própria Pacto, e contribuí com o frontend do ZW, o sistema de gestão da Pacto.",
+        "A Pacto Soluções desenvolve a plataforma de gestão por trás de academias e negócios fitness em todo o Brasil — vendas, contratos, treinos e os apps que os alunos levam no bolso.\n\nTrabalhei nos apps personalizados que a Pacto entrega às redes: o app da Engenharia do Corpo (EC PRO) e o app da Usina do Corpo. Neles, os alunos seguem os treinos prescritos pelos professores, com cargas e repetições, acompanham suas avaliações físicas, agendam aulas, fazem check-in e gerenciam seus contratos. O EC PRO tem nota 4,8 na App Store, dada por mais de mil alunos.\n\nTambém construí os hotsites das redes — planos, unidades e matrícula online — e o hotsite de vendas da própria Pacto, e contribuí com o frontend do ZW, o sistema de gestão web da Pacto.",
       highlights: [
-        "Apps de alunos da Engenharia do Corpo (EC PRO) e da Usina do Corpo — treinos, agendamento de aulas, check-in e contratos",
+        "Apps de alunos da Engenharia do Corpo (EC PRO) e da Usina do Corpo",
+        "Treinos com cargas e repetições, avaliações, agendamento de aulas, check-in e contratos",
         "Hotsites das redes de academias: planos, unidades e matrícula online",
         "Hotsite de vendas da Pacto",
-        "Frontend do ZW, o sistema de gestão da Pacto",
+        "Frontend do ZW, o sistema de gestão web da Pacto",
       ],
     },
     es: {
       title: "Ingeniero Frontend",
       products: ["App Engenharia do Corpo (EC PRO)", "App Usina do Corpo", "Hotsites de los gimnasios", "Hotsite de ventas de Pacto", "ZW"],
       summary:
-        "Frontend del ecosistema de gestión fitness de Pacto — incluidas las apps para socios de dos de las mayores cadenas de gimnasios del sur de Brasil, Engenharia do Corpo y Usina do Corpo, y sus hotsites.",
+        "Frontend de la plataforma fitness de Pacto — las apps para socios de dos de las mayores cadenas de gimnasios del sur de Brasil, Engenharia do Corpo y Usina do Corpo, sus hotsites, el hotsite de ventas de Pacto y el sistema de gestión ZW.",
       description:
-        "Pacto Soluções desarrolla la plataforma de gestión que usan gimnasios y negocios fitness en todo Brasil. Trabajé en las principales apps para socios entregadas a las cadenas — la app de Engenharia do Corpo (EC PRO) y la app de Usina do Corpo —, donde los socios siguen sus entrenamientos con cargas y repeticiones, reservan clases, hacen check-in y gestionan sus contratos.\n\nTambién construí los hotsites de las cadenas — planes, sedes e inscripción online —, además del hotsite de ventas de la propia Pacto, y contribuí al frontend de ZW, el sistema de gestión de Pacto.",
+        "Pacto Soluções desarrolla la plataforma de gestión detrás de gimnasios y negocios fitness en todo Brasil — ventas, contratos, entrenamientos y las apps que los socios llevan en el bolsillo.\n\nTrabajé en las apps personalizadas que Pacto entrega a las cadenas: la app de Engenharia do Corpo (EC PRO) y la app de Usina do Corpo. En ellas, los socios siguen los entrenamientos que prescriben sus instructores, con cargas y repeticiones, consultan sus evaluaciones físicas, reservan clases, hacen check-in y gestionan sus contratos. EC PRO tiene una nota de 4,8 en App Store, otorgada por más de mil socios.\n\nTambién construí los hotsites de las cadenas — planes, sedes e inscripción online — y el hotsite de ventas de la propia Pacto, y contribuí al frontend de ZW, el sistema de gestión web de Pacto.",
       highlights: [
-        "Apps para socios de Engenharia do Corpo (EC PRO) y Usina do Corpo — entrenamientos, reserva de clases, check-in y contratos",
+        "Apps para socios de Engenharia do Corpo (EC PRO) y Usina do Corpo",
+        "Entrenamientos con cargas y repeticiones, evaluaciones, reserva de clases, check-in y contratos",
         "Hotsites de las cadenas de gimnasios: planes, sedes e inscripción online",
         "Hotsite de ventas de Pacto",
-        "Frontend de ZW, el sistema de gestión de Pacto",
+        "Frontend de ZW, el sistema de gestión web de Pacto",
       ],
     },
     zh: {
       title: "前端工程师",
       products: ["Engenharia do Corpo 应用（EC PRO）", "Usina do Corpo 应用", "健身房官网落地页", "Pacto 销售落地页", "ZW"],
-      summary:
-        "负责 Pacto 健身管理生态的前端——包括巴西南部两大连锁健身房 Engenharia do Corpo 和 Usina do Corpo 的会员应用及其官网落地页。",
+      summary: "负责 Pacto 健身平台的前端——巴西南部两大连锁健身房 Engenharia do Corpo 和 Usina do Corpo 的会员应用、它们的官网落地页、Pacto 自己的销售落地页以及 ZW 管理系统。",
       description:
-        "Pacto Soluções 打造了巴西各地健身房和健身企业使用的管理平台。我参与了交付给连锁品牌的主要会员应用——Engenharia do Corpo 应用（EC PRO）和 Usina do Corpo 应用——会员可以在其中查看训练计划（重量和次数）、预约课程、签到并管理合同。\n\n我还为这些连锁品牌搭建了官网落地页（会员方案、门店和在线报名），以及 Pacto 自己的销售落地页，并参与了 Pacto 管理系统 ZW 的前端开发。",
-      highlights: [
-        "Engenharia do Corpo（EC PRO）与 Usina do Corpo 会员应用——训练、课程预约、签到与合同",
-        "连锁健身房官网落地页：会员方案、门店与在线报名",
-        "Pacto 销售落地页",
-        "Pacto 管理系统 ZW 的前端",
-      ],
+        "Pacto Soluções 为巴西各地的健身房和健身企业打造管理平台——涵盖销售、合同、训练计划，以及会员随身携带的应用。\n\n我参与了 Pacto 为连锁品牌定制的会员应用：Engenharia do Corpo 应用（EC PRO）和 Usina do Corpo 应用。会员可以按照教练制定的训练计划（包括重量和次数）进行训练，查看体测结果，预约课程、签到并管理合同。EC PRO 在 App Store 上获得了一千多名会员的 4.8 分评价。\n\n我还为这些连锁品牌搭建了官网落地页（会员方案、门店和在线报名），以及 Pacto 自己的销售落地页，并参与了 Pacto 的 Web 管理系统 ZW 的前端开发。",
+      highlights: ["Engenharia do Corpo（EC PRO）与 Usina do Corpo 会员应用", "含重量与次数的训练计划、体测、课程预约、签到与合同", "连锁健身房官网落地页：会员方案、门店与在线报名", "Pacto 销售落地页", "Pacto 的 Web 管理系统 ZW 的前端"],
     },
   },
   "lojas-lebes": with_(APP_DEV, {
     pt: {
-      products: ["App Lojas Lebes (iOS · Android)"],
+      products: ["App Lojas Lebes (iOS · Android)", "Crediário digital"],
       summary:
-        "Trabalhei na criação do app da Lojas Lebes — crediário, parcelas e empréstimo pessoal na palma da mão, para uma tradicional rede varejista do Rio Grande do Sul.",
+        "Trabalhei na criação do app da Lojas Lebes — o crediário, as parcelas e o empréstimo pessoal da tradicional varejista gaúcha de 70 anos, no bolso do cliente.",
       description:
-        "A Lojas Lebes é uma tradicional rede de lojas de departamento do Rio Grande do Sul. Trabalhei na criação do app Lebes, que coloca o crédito da loja nas mãos dos clientes: pagar as parcelas do crediário, consultar limites e saldo, abrir o crediário e solicitar empréstimo pessoal — tudo em um fluxo claro e simples.",
+        "A Lojas Lebes é uma tradicional rede de lojas de departamento do Rio Grande do Sul, que completa 70 anos — e seus clientes há muito tempo compram no crédito da própria loja, o crediário.\n\nTrabalhei na criação do app Lebes, que leva esse crédito do balcão para o celular: abrir o crediário, consultar o limite e cada parcela, gerar o boleto ou pagar pelo app e solicitar empréstimo pessoal. Em volta disso: compra online com retirada na loja, descontos exclusivos do app e localizador de lojas.",
       highlights: [
-        "Participei da construção do novo app Lebes",
-        "Crediário no app: pagamento de parcelas, limites e saldo",
+        "Participei da construção do app Lebes",
+        "Crediário digital: abertura de conta, limite e pagamento de parcelas",
         "Empréstimo pessoal solicitado direto pelo celular",
+        "Compra online com retirada na loja e descontos exclusivos do app",
         "Publicado na App Store e no Google Play",
       ],
     },
     es: {
-      products: ["App Lojas Lebes (iOS · Android)"],
+      products: ["App Lojas Lebes (iOS · Android)", "Crédito digital"],
       summary:
-        "Trabajé en la creación de la app de Lojas Lebes — crédito de la tienda, cuotas y préstamos personales en el bolsillo, para una tradicional cadena minorista de Rio Grande do Sul.",
+        "Trabajé en la creación de la app de Lojas Lebes — el crédito de la tienda, las cuotas y los préstamos personales de la tradicional cadena gaúcha de 70 años, en el bolsillo del cliente.",
       description:
-        "Lojas Lebes es una tradicional cadena de grandes almacenes de Rio Grande do Sul. Trabajé en la creación de la app Lebes, que pone el crédito de la tienda en manos de sus clientes: pagar las cuotas, consultar límites y saldo, abrir una cuenta de crédito y solicitar un préstamo personal — todo en un flujo claro y sencillo.",
+        "Lojas Lebes es una tradicional cadena de grandes almacenes de Rio Grande do Sul que cumple 70 años — y sus clientes llevan mucho tiempo comprando con el crédito de la propia tienda, el crediário.\n\nTrabajé en la creación de la app Lebes, que lleva ese crédito del mostrador al móvil: abrir la cuenta de crédito, consultar el límite y cada cuota, generar el boleto o pagar en la app y solicitar un préstamo personal. Alrededor de eso: compra online con retiro en tienda, descuentos exclusivos de la app y localizador de tiendas.",
       highlights: [
-        "Participé en la construcción de la nueva app Lebes",
-        "Crédito en la app: pago de cuotas, límites y saldo",
+        "Participé en la construcción de la app Lebes",
+        "Crédito digital: apertura de cuenta, límite y pago de cuotas",
         "Préstamos personales solicitados directamente desde el móvil",
+        "Compra online con retiro en tienda y descuentos exclusivos de la app",
         "Publicada en App Store y Google Play",
       ],
     },
     zh: {
-      products: ["Lojas Lebes 应用（iOS · Android）"],
-      summary: "参与打造 Lojas Lebes 应用——为南里奥格兰德州的一家传统零售连锁企业，把门店分期信用、还款和个人贷款装进顾客的口袋。",
+      products: ["Lojas Lebes 应用（iOS · Android）", "数字分期信用"],
+      summary: "参与打造 Lojas Lebes 应用——把这家拥有 70 年历史的南里奥格兰德州传统零售商的分期信用、还款与个人贷款装进顾客的口袋。",
       description:
-        "Lojas Lebes 是南里奥格兰德州一家传统的百货连锁企业。我参与了 Lebes 应用的开发，让顾客可以直接掌握门店信用：支付分期账单、查询额度与余额、开通分期账户以及申请个人贷款——整个流程清晰而简单。",
-      highlights: ["参与构建全新的 Lebes 应用", "应用内分期信用：还款、额度与余额查询", "直接在手机上申请个人贷款", "已在 App Store 和 Google Play 上架"],
+        "Lojas Lebes 是南里奥格兰德州一家传统百货连锁企业，今年迎来 70 周年——长期以来，顾客习惯使用门店自有的分期信用（crediário）购物。\n\n我参与了 Lebes 应用的开发，把这份信用从柜台搬到手机上：开通分期账户、查看额度与每一期账单、生成付款单或直接在应用内还款，以及申请个人贷款。此外还有线上下单门店自提、应用专属折扣和门店查询。",
+      highlights: ["参与构建 Lebes 应用", "数字分期信用：开户、额度查询与分期还款", "直接在手机上申请个人贷款", "线上下单门店自提与应用专属折扣", "已在 App Store 和 Google Play 上架"],
     },
   }),
   "grupo-madero": with_(APP_DEV, {
     pt: {
       products: ["App Grupo Madero (iOS · Android)"],
       summary:
-        "Trabalhei na criação do app do Grupo Madero — uma única plataforma de pedidos para as marcas do grupo: Madero, Jeronimo, Legno e Dundee Chicken & Burgers.",
+        "Trabalhei na criação do app do Grupo Madero — um app para Madero, Jeronimo, Legno e Dundee Chicken & Burgers, com nota 4,8 na App Store dada por mais de 23 mil clientes.",
       description:
-        "O Grupo Madero é um dos grupos de restaurantes mais conhecidos do Brasil. Trabalhei na criação do seu app: uma plataforma única que reúne as quatro marcas do grupo — Madero, Jeronimo, Legno e Dundee Chicken & Burgers — para fazer pedidos nos restaurantes com preços e vantagens exclusivas do app.",
+        "O Grupo Madero é um dos grupos de restaurantes mais conhecidos do Brasil. Seu app, lançado em 2022 como marketplace próprio do grupo, reúne as quatro marcas — Madero, Jeronimo, Legno e Dundee Chicken & Burgers — em uma única experiência.\n\nTrabalhei na sua criação: navegar por todos os cardápios, pedir e pagar pelo app (cartão, PIX ou vale-refeição), acompanhar o pedido e retirar no balcão, acumular cashback e encontrar o restaurante mais próximo. Hoje ele tem nota 4,8 na App Store, dada por mais de 23 mil pessoas.",
       highlights: [
         "Participei da construção do app do Grupo Madero",
         "Um app para quatro marcas: Madero, Jeronimo, Legno e Dundee",
-        "Pedidos nos restaurantes com vantagens exclusivas do app",
-        "Publicado na App Store e no Google Play",
+        "Peça e pague pelo app e retire no balcão",
+        "Cashback e mapa de restaurantes",
+        "Nota 4,8★ por mais de 23 mil usuários na App Store",
       ],
     },
     es: {
       products: ["App Grupo Madero (iOS · Android)"],
       summary:
-        "Trabajé en la creación de la app de Grupo Madero — una única plataforma de pedidos para las marcas del grupo: Madero, Jeronimo, Legno y Dundee Chicken & Burgers.",
+        "Trabajé en la creación de la app de Grupo Madero — una app para Madero, Jeronimo, Legno y Dundee Chicken & Burgers, con nota 4,8 en App Store otorgada por más de 23.000 clientes.",
       description:
-        "Grupo Madero es uno de los grupos de restaurantes más conocidos de Brasil. Trabajé en la creación de su app: una plataforma única que reúne las cuatro marcas del grupo — Madero, Jeronimo, Legno y Dundee Chicken & Burgers — para hacer pedidos en los restaurantes con precios y ventajas exclusivas de la app.",
+        "Grupo Madero es uno de los grupos de restaurantes más conocidos de Brasil. Su app, lanzada en 2022 como marketplace propio del grupo, reúne sus cuatro marcas — Madero, Jeronimo, Legno y Dundee Chicken & Burgers — en una sola experiencia.\n\nTrabajé en su creación: recorrer todos los menús, pedir y pagar en la app (tarjeta, PIX o vale de comida), seguir el pedido y retirarlo en el mostrador, acumular cashback y encontrar el restaurante más cercano. Hoy tiene una nota de 4,8 en App Store, otorgada por más de 23.000 personas.",
       highlights: [
         "Participé en la construcción de la app de Grupo Madero",
         "Una app para cuatro marcas: Madero, Jeronimo, Legno y Dundee",
-        "Pedidos en los restaurantes con ventajas exclusivas de la app",
-        "Publicada en App Store y Google Play",
+        "Pide y paga en la app y retira en el mostrador",
+        "Cashback y mapa de restaurantes",
+        "Nota 4,8★ de más de 23.000 usuarios en App Store",
       ],
     },
     zh: {
       products: ["Grupo Madero 应用（iOS · Android）"],
-      summary: "参与打造 Grupo Madero 应用——一个统一的点餐平台，涵盖集团旗下品牌：Madero、Jeronimo、Legno 和 Dundee Chicken & Burgers。",
+      summary: "参与打造 Grupo Madero 应用——一个应用涵盖 Madero、Jeronimo、Legno 和 Dundee Chicken & Burgers，在 App Store 上获得 23,000 多名用户的 4.8 分评价。",
       description:
-        "Grupo Madero 是巴西最知名的餐饮集团之一。我参与了其应用的开发：一个汇集集团四大品牌——Madero、Jeronimo、Legno 和 Dundee Chicken & Burgers——的统一平台，用户可以在应用中向各家餐厅下单，并享受应用专属价格与优惠。",
-      highlights: ["参与构建 Grupo Madero 应用", "一个应用覆盖四个品牌：Madero、Jeronimo、Legno 和 Dundee", "向餐厅下单并享受应用专属优惠", "已在 App Store 和 Google Play 上架"],
+        "Grupo Madero 是巴西最知名的餐饮集团之一。其应用于 2022 年作为集团自有的线上平台推出，将旗下四大品牌——Madero、Jeronimo、Legno 和 Dundee Chicken & Burgers——整合进同一个体验中。\n\n我参与了它的开发：浏览所有菜单、在应用内下单并支付（银行卡、PIX 或餐券）、跟踪订单并到柜台取餐、累积返现，以及查找最近的餐厅。如今它在 App Store 上获得了 23,000 多人的 4.8 分评价。",
+      highlights: ["参与构建 Grupo Madero 应用", "一个应用覆盖四个品牌：Madero、Jeronimo、Legno 和 Dundee", "应用内下单支付、柜台取餐", "返现积分与餐厅地图", "App Store 评分 4.8★，超过 23,000 名用户评价"],
     },
   }),
+  picpay: with_(FE_DEV, {
+    pt: {
+      via: "via Sciensa",
+      summary: "Frontend no PicPay, um dos maiores bancos digitais do Brasil — Pix, cartão, investimentos, cofrinhos e empréstimos em um só app.",
+      description:
+        "O PicPay começou como carteira de pagamentos e virou um banco digital completo: conta, Pix, cartão de crédito, investimentos, cofrinhos e empréstimos em um só app, para pessoa física e jurídica.\n\nPela Sciensa, atuei no frontend do PicPay com Angular, React e Redux — um produto financeiro de alta escala, em que performance e correção são sentidas por uma base enorme de usuários ao mesmo tempo.",
+      highlights: ["Frontend em um produto financeiro de alta escala", "Angular, React e Redux", "Entregue pela Sciensa"],
+    },
+    es: {
+      via: "vía Sciensa",
+      summary: "Frontend en PicPay, uno de los mayores bancos digitales de Brasil — Pix, tarjetas, inversiones, ahorros y préstamos en una sola app.",
+      description:
+        "PicPay empezó como billetera de pagos y se convirtió en un banco digital completo: cuenta, Pix, tarjeta de crédito, inversiones, ahorros y préstamos en una sola app, para personas y empresas.\n\nA través de Sciensa, trabajé en el frontend de PicPay con Angular, React y Redux — un producto financiero de gran escala, donde el rendimiento y la exactitud los percibe a la vez una enorme base de usuarios.",
+      highlights: ["Frontend en un producto financiero de gran escala", "Angular, React y Redux", "Entregado a través de Sciensa"],
+    },
+    zh: {
+      via: "经由 Sciensa",
+      summary: "参与 PicPay 的前端开发——巴西最大的数字银行之一，在一个应用中提供 Pix、信用卡、投资、储蓄和贷款。",
+      description:
+        "PicPay 从支付钱包起步，发展成为一家功能完整的数字银行：账户、Pix、信用卡、投资、储蓄和贷款集于一个应用，同时服务个人与企业用户。\n\n我经由 Sciensa 参与了 PicPay 的前端开发，使用 Angular、React 和 Redux——这是一款大规模金融产品，性能与准确性会同时影响庞大的用户群。",
+      highlights: ["大规模金融产品的前端开发", "Angular、React 与 Redux", "经由 Sciensa 交付"],
+    },
+  }),
+  uplexis: {
+    pt: {
+      summary:
+        "Tech Lead no upMiner e no upLink — plataformas de compliance que fazem background check de pessoas e empresas e desenham, em grafo, as ligações ocultas entre elas.",
+      description:
+        "A upLexis desenvolve software de compliance e risco usado em due diligence, background check e prevenção a fraudes.\n\nO upMiner reúne informações públicas sobre pessoas e empresas em um único dossiê com nota de risco (upScore). O upLink desenha as relações entre pessoas e empresas como um grafo interativo — sócios, parceiros, conflitos de interesse —, expandindo o quadro societário de uma empresa com um único comando.\n\nComo Tech Lead, defini a arquitetura frontend em Vue.js, orientei o time e mantive essas telas cheias de dados rápidas e legíveis.",
+      highlights: [
+        "Liderança técnica do upMiner e do upLink",
+        "Definição de arquitetura para interfaces Vue.js com muitos dados",
+        "Grafos de relacionamento, dossiês e nota de risco (upScore)",
+        "Orientação do time e padrões de código",
+      ],
+    },
+    es: {
+      summary:
+        "Tech Lead de upMiner y upLink — plataformas de cumplimiento que verifican antecedentes de personas y empresas y dibujan, como un grafo, los vínculos ocultos entre ellas.",
+      description:
+        "upLexis desarrolla software de cumplimiento y riesgo usado en due diligence, verificación de antecedentes y prevención de fraude.\n\nupMiner reúne información pública sobre personas y empresas en un único dossier con una puntuación de riesgo (upScore). upLink dibuja las relaciones entre personas y empresas como un grafo interactivo — socios, aliados, conflictos de interés —, expandiendo la estructura societaria de una empresa con un solo comando.\n\nComo Tech Lead, definí la arquitectura frontend en Vue.js, guié al equipo y mantuve rápidas y legibles esas pantallas cargadas de datos.",
+      highlights: [
+        "Liderazgo técnico de upMiner y upLink",
+        "Definición de arquitectura para interfaces Vue.js con muchos datos",
+        "Grafos de relaciones, dossiers y puntuación de riesgo (upScore)",
+        "Guía del equipo y estándares de código",
+      ],
+    },
+    zh: {
+      title: "技术负责人",
+      summary: "担任 upMiner 与 upLink 的技术负责人——这两款合规平台可对个人和企业进行背景调查，并以关系图的形式揭示它们之间隐藏的关联。",
+      description:
+        "upLexis 开发用于尽职调查、背景调查和反欺诈的合规与风控软件。\n\nupMiner 将个人和企业的公开信息汇总为一份带有风险评分（upScore）的档案。upLink 以交互式关系图呈现个人与企业之间的联系——股东、合作方、利益冲突——只需一个命令即可展开一家公司的股权结构。\n\n作为技术负责人，我设计了基于 Vue.js 的前端架构，指导团队，并让这些数据密集的界面保持快速、清晰。",
+      highlights: ["upMiner 与 upLink 技术负责人", "为数据密集型 Vue.js 界面设计架构", "关系图、档案与风险评分（upScore）", "团队指导与代码规范"],
+    },
+  },
+  milvus: with_(FE_DEV, {
+    pt: {
+      products: ["Portal do Cliente", "Portal do Gestor", "Widget de Chat", "Cliente Windows"],
+      summary:
+        "O lado que o cliente vê da Milvus, plataforma de help desk: o Portal do Cliente, o Portal do Gestor, o widget de chat e o cliente Windows usado para abrir chamados.",
+      description:
+        "A Milvus é uma plataforma de help desk e gestão de serviços que centraliza o atendimento — da TI ao RH — em um só lugar omnichannel.\n\nConstruí as superfícies que clientes e gestores realmente tocam: o Portal do Cliente, onde os usuários abrem e acompanham chamados, o Portal do Gestor, o widget de chat incorporável e o cliente Windows. Tudo com AngularJS e Angular, Tailwind CSS e Bootstrap 5.",
+      highlights: ["Portal do Cliente e Portal do Gestor", "Widget de chat incorporável", "Cliente Windows para abertura de chamados", "AngularJS, Angular, Tailwind CSS e Bootstrap 5"],
+    },
+    es: {
+      products: ["Portal del Cliente", "Portal del Gestor", "Widget de Chat", "Cliente Windows"],
+      summary:
+        "La cara visible de Milvus, plataforma de help desk: el Portal del Cliente, el Portal del Gestor, el widget de chat y el cliente de Windows con el que se abren tickets.",
+      description:
+        "Milvus es una plataforma de help desk y gestión de servicios que centraliza la atención — de TI a RR. HH. — en un solo lugar omnicanal.\n\nConstruí las superficies que clientes y gestores realmente usan: el Portal del Cliente, donde los usuarios abren y siguen sus tickets, el Portal del Gestor, el widget de chat integrable y el cliente de Windows. Todo con AngularJS y Angular, Tailwind CSS y Bootstrap 5.",
+      highlights: ["Portal del Cliente y Portal del Gestor", "Widget de chat integrable", "Cliente de Windows para abrir tickets", "AngularJS, Angular, Tailwind CSS y Bootstrap 5"],
+    },
+    zh: {
+      products: ["客户门户", "管理者门户", "聊天组件", "Windows 客户端"],
+      summary: "负责服务台平台 Milvus 面向用户的部分：客户门户、管理者门户、聊天组件，以及用于提交工单的 Windows 客户端。",
+      description:
+        "Milvus 是一个服务台与服务管理平台，将从 IT 到人力资源的各类服务集中到一个全渠道平台中。\n\n我构建了客户和管理者真正接触的界面：用户提交并跟踪工单的客户门户、管理者门户、可嵌入的聊天组件以及 Windows 客户端。技术栈包括 AngularJS 与 Angular、Tailwind CSS 和 Bootstrap 5。",
+      highlights: ["客户门户与管理者门户", "可嵌入的聊天组件", "用于提交工单的 Windows 客户端", "AngularJS、Angular、Tailwind CSS 与 Bootstrap 5"],
+    },
+  }),
+  "uds-broadcast": with_(FS_DEV, {
+    pt: {
+      summary: "Fullstack no Broadcast OTC e no Broadcast Broker — negociação eletrônica de câmbio, derivativos, renda fixa e fundos, com Vue.js e Node.js.",
+      description:
+        "O Broadcast, da Agência Estado, é uma das plataformas de referência em informação e negociação do mercado financeiro brasileiro. O Broadcast OTC leva a negociação de balcão — câmbio, derivativos, renda fixa, fundos e commodities — e suas rotinas operacionais para uma única tela, integrada ao middle e back office do cliente.\n\nPela UDS, atuei como fullstack no Broadcast OTC e no Broadcast Broker com Vue.js, Tailwind CSS e Node.js: interfaces de negociação densas e em tempo real, em que cada milissegundo e cada casa decimal importam.",
+      highlights: ["Broadcast OTC e Broadcast Broker", "Interfaces de negociação em tempo real", "Vue.js, Tailwind CSS e Node.js"],
+    },
+    es: {
+      summary: "Fullstack en Broadcast OTC y Broadcast Broker — negociación electrónica de divisas, derivados, renta fija y fondos, con Vue.js y Node.js.",
+      description:
+        "Broadcast, de Agência Estado, es una de las plataformas de referencia en información y negociación del mercado financiero brasileño. Broadcast OTC lleva la negociación extrabursátil — divisas, derivados, renta fija, fondos y commodities — y sus rutinas operativas a una sola pantalla, integrada con el middle y back office del cliente.\n\nA través de UDS, trabajé como fullstack en Broadcast OTC y Broadcast Broker con Vue.js, Tailwind CSS y Node.js: interfaces de negociación densas y en tiempo real, donde cada milisegundo y cada decimal importan.",
+      highlights: ["Broadcast OTC y Broadcast Broker", "Interfaces de negociación en tiempo real", "Vue.js, Tailwind CSS y Node.js"],
+    },
+    zh: {
+      summary: "全栈参与 Broadcast OTC 与 Broadcast Broker——涵盖外汇、衍生品、固定收益和基金的电子交易平台，基于 Vue.js 与 Node.js。",
+      description:
+        "Agência Estado 旗下的 Broadcast 是巴西金融市场具有代表性的信息与交易平台之一。Broadcast OTC 将场外交易——外汇、衍生品、固定收益、基金和大宗商品——及其运营流程整合到同一个界面中，并与客户的中后台系统集成。\n\n我经由 UDS 以全栈身份参与 Broadcast OTC 与 Broadcast Broker 的开发，使用 Vue.js、Tailwind CSS 和 Node.js：这些是信息密集的实时交易界面，每一毫秒、每一位小数都至关重要。",
+      highlights: ["Broadcast OTC 与 Broadcast Broker", "实时交易界面", "Vue.js、Tailwind CSS 与 Node.js"],
+    },
+  }),
+  facepass: with_(FE_DEV, {
+    pt: {
+      products: ["Portal do Produtor", "Ingressos", "Componentes"],
+      summary: "Frontend da Facepass, a plataforma de reconhecimento facial para eventos: o Portal do Produtor, a venda de ingressos e uma biblioteca de componentes em Vue e Nuxt.",
+      description:
+        "A Facepass troca ingressos e filas pelo seu rosto: entrada, compras e pagamentos dentro de eventos são autorizados por reconhecimento facial, e a mesma plataforma de identidade atende condomínios e videomonitoramento.\n\nConstruí o frontend para os produtores de eventos — o Portal do Produtor e a venda de ingressos — e a biblioteca de componentes compartilhada por trás deles, com Vue.js, Nuxt e Pinia.",
+      highlights: ["Portal do Produtor para organizadores de eventos", "Fluxos de venda de ingressos", "Biblioteca de componentes compartilhada", "Vue.js, Nuxt e Pinia"],
+    },
+    es: {
+      products: ["Portal del Productor", "Entradas", "Componentes"],
+      summary: "Frontend de Facepass, la plataforma de reconocimiento facial para eventos: el Portal del Productor, la venta de entradas y una biblioteca de componentes en Vue y Nuxt.",
+      description:
+        "Facepass cambia entradas y filas por tu rostro: el acceso, las compras y los pagos dentro de los eventos se autorizan con reconocimiento facial, y la misma plataforma de identidad sirve a condominios y videovigilancia.\n\nConstruí el frontend para los productores de eventos — el Portal del Productor y la venta de entradas — y la biblioteca de componentes compartida detrás de ellos, con Vue.js, Nuxt y Pinia.",
+      highlights: ["Portal del Productor para organizadores de eventos", "Flujos de venta de entradas", "Biblioteca de componentes compartida", "Vue.js, Nuxt y Pinia"],
+    },
+    zh: {
+      products: ["主办方门户", "票务", "组件库"],
+      summary: "为活动人脸识别平台 Facepass 开发前端：主办方门户、票务系统，以及基于 Vue 与 Nuxt 的共享组件库。",
+      description:
+        "Facepass 用人脸取代门票和排队：活动中的入场、购物和支付都通过人脸识别授权，同一套身份平台还服务于住宅小区和视频监控。\n\n我为活动主办方构建了前端——主办方门户和票务系统——以及支撑它们的共享组件库，使用 Vue.js、Nuxt 和 Pinia。",
+      highlights: ["面向活动主办方的门户", "票务流程", "共享组件库", "Vue.js、Nuxt 与 Pinia"],
+    },
+  }),
+  pernambucanas: with_(FS_DEV, {
+    pt: { via: "via Cliqx", summary: "Soluções corporativas em C#, .NET e Angular para a Pernambucanas, uma das mais antigas e maiores redes de varejo do Brasil." },
+    es: { via: "vía Cliqx", summary: "Soluciones corporativas en C#, .NET y Angular para Pernambucanas, una de las cadenas minoristas más antiguas y grandes de Brasil." },
+    zh: { via: "经由 Cliqx", summary: "使用 C#、.NET 和 Angular 为巴西历史最悠久、规模最大的零售连锁之一 Pernambucanas 开发企业级解决方案。" },
+  }),
+  maxxidata: with_(FS_DEV, {
+    pt: { summary: "Synapse e Masterdata para a Maxxi, consultoria de dados e IA — Micro Frontends em Angular com serviços NestJS e Node.js." },
+    es: { summary: "Synapse y Masterdata para Maxxi, consultora de datos e IA — Micro Frontends en Angular con servicios NestJS y Node.js." },
+    zh: { summary: "为数据与 AI 咨询公司 Maxxi 开发 Synapse 与 Masterdata——基于 Angular 的微前端，配合 NestJS 与 Node.js 服务。" },
+  }),
+  "inform-ekantika": with_(FE_DEV, {
+    pt: { summary: "Portal Manager e Tempo — arquitetura frontend moderna em React, com Tailwind CSS e gerenciamento de estado com Zustand." },
+    es: { summary: "Portal Manager y Tempo — arquitectura frontend moderna en React, con Tailwind CSS y gestión de estado con Zustand." },
+    zh: { summary: "Portal Manager 与 Tempo——基于 React 的现代前端架构，结合 Tailwind CSS 与 Zustand 状态管理。" },
+  }),
+  scale: with_(FS_DEV, {
+    pt: { summary: "Desenvolvimento fullstack e integração de sistemas em Bulba, Flamingo e CVF." },
+    es: { summary: "Desarrollo fullstack e integración de sistemas en Bulba, Flamingo y CVF." },
+    zh: { summary: "参与 Bulba、Flamingo 与 CVF 的全栈开发与系统集成。" },
+  }),
   pevepas: with_(FE_DEV, {
-    pt: { summary: "Frontend para uma comunidade de jogos de role-play." },
-    es: { summary: "Frontend para una comunidad de videojuegos de rol." },
-    zh: { summary: "为一个角色扮演游戏社区开发前端。" },
+    pt: { summary: "Frontend para uma comunidade de role-play de GTA." },
+    es: { summary: "Frontend para una comunidad de rol de GTA." },
+    zh: { summary: "为一个 GTA 角色扮演游戏社区开发前端。" },
   }),
   "relevo-lab": with_(FE_DEV, {
-    pt: { summary: "Plataforma web para a Associação Comercial de São Paulo." },
-    es: { summary: "Plataforma web para la Asociación Comercial de São Paulo." },
-    zh: { products: ["圣保罗商业协会"], summary: "为圣保罗商业协会开发 Web 平台。" },
+    pt: { summary: "Plataforma web para a Associação Comercial de São Paulo (ACSP)." },
+    es: { products: ["Asociación Comercial de São Paulo"], summary: "Plataforma web para la Asociación Comercial de São Paulo (ACSP)." },
+    zh: { products: ["圣保罗商业协会"], summary: "为圣保罗商业协会（ACSP）开发 Web 平台。" },
   }),
   softwrap: with_(FE_DEV, {
-    pt: { summary: "Aplicação web de saúde." },
-    es: { summary: "Aplicación web de salud." },
-    zh: { summary: "医疗健康 Web 应用。" },
+    pt: { summary: "DM Health, aplicação web de saúde construída com ASP.NET." },
+    es: { summary: "DM Health, aplicación web de salud construida con ASP.NET." },
+    zh: { summary: "DM Health——基于 ASP.NET 构建的医疗健康 Web 应用。" },
   }),
   "triade-social": with_(FE_DEV, {
-    pt: { summary: "Frontend de um produto de chat." },
-    es: { summary: "Frontend de un producto de chat." },
-    zh: { summary: "一款聊天产品的前端。" },
+    pt: { summary: "Frontend do +Chat, um produto de chat." },
+    es: { summary: "Frontend de +Chat, un producto de chat." },
+    zh: { summary: "聊天产品 +Chat 的前端开发。" },
   }),
   "dollar-donation-club": with_(FE_DEV, {
-    pt: { products: ["Site institucional"], summary: "Site institucional." },
-    es: { products: ["Sitio web institucional"], summary: "Sitio web institucional." },
-    zh: { products: ["机构官网"], summary: "机构官网。" },
+    pt: { products: ["Site institucional"], summary: "Site do Dollar Donation Club — US$ 1 por mês, somado ao de milhares de membros, para instituições de caridade verificadas." },
+    es: { products: ["Sitio web institucional"], summary: "Sitio de Dollar Donation Club — US$ 1 al mes, sumado al de miles de miembros, para organizaciones benéficas verificadas." },
+    zh: { products: ["机构官网"], summary: "Dollar Donation Club 官网——每月 1 美元，与成千上万会员一起汇聚，捐给经过审核的慈善机构。" },
   }),
 
   /* ---------------- Projects ---------------- */
   "projeto-dev": {
     pt: {
       title: "Projeto social · Fundador",
-      summary: "Um projeto social que criei em 2020 para apoiar pessoas que estão entrando na área de tecnologia.",
+      summary: "Um projeto social que criei em 2020 para ajudar pessoas a entrar na tecnologia — orientação, mentoria e um caminho até o primeiro emprego.",
       description:
-        "O Projeto Dev apoia quem quer entrar em TI — orientação, mentoria e um caminho até a primeira vaga. Fundei o projeto em 2020 e o mantenho ativo em paralelo ao trabalho com clientes.",
+        "O Projeto Dev apoia quem quer entrar em TI — orientação de carreira, mentoria, revisão de código e um caminho realista até a primeira vaga. Fundei o projeto em 2020 e o mantenho ativo em paralelo ao trabalho com clientes.",
     },
     es: {
       title: "Proyecto social · Fundador",
-      summary: "Un proyecto social que creé en 2020 para apoyar a personas que están entrando en el sector tecnológico.",
+      summary: "Un proyecto social que creé en 2020 para ayudar a personas a entrar en tecnología — orientación, mentoría y un camino hacia el primer empleo.",
       description:
-        "Projeto Dev apoya a quienes quieren entrar en TI — orientación, mentoría y un camino hacia el primer empleo. Lo fundé en 2020 y lo mantengo activo junto al trabajo con clientes.",
+        "Projeto Dev apoya a quienes quieren entrar en TI — orientación profesional, mentoría, revisión de código y un camino realista hacia el primer empleo. Lo fundé en 2020 y lo mantengo activo junto al trabajo con clientes.",
     },
     zh: {
       title: "公益项目 · 创始人",
-      summary: "我在 2020 年创立的公益项目，帮助想进入科技行业的人。",
-      description: "Projeto Dev 帮助想进入 IT 行业的人——提供指导、辅导以及找到第一份工作的路径。我在 2020 年创立了它，并在客户工作之余持续运营。",
+      summary: "我在 2020 年创立的公益项目，帮助人们进入科技行业——提供方向指导、导师辅导以及通往第一份工作的路径。",
+      description: "Projeto Dev 帮助想进入 IT 行业的人——提供职业指导、导师辅导、代码评审，以及通往第一份工作的现实路径。我在 2020 年创立了它，并在客户工作之余持续运营。",
+    },
+  },
+  "multichat-overlay": {
+    pt: {
+      title: "Open source · Um chat para todas as lives",
+      summary:
+        "Um overlay para OBS que junta os chats da Twitch, YouTube, Kick e TikTok em um único feed personalizável — adaptadores em Node.js, WebSocket e filtros de moderação.",
+      description:
+        "Eu faço lives na Twitch, e transmitir em várias plataformas significa quatro chats em quatro janelas. O multichat-overlay junta tudo: adaptadores plug-and-play para Twitch, YouTube (com detecção automática da live), Kick e TikTok enviam as mensagens por WebSocket para um único overlay, adicionado ao OBS como browser source.\n\nRoda localmente, sem banco de dados, é personalizável por variáveis CSS e já vem com lista de palavras bloqueadas, limite de tamanho das mensagens, renderização segura de emotes, tags por plataforma e endpoint de health check.",
+    },
+    es: {
+      title: "Código abierto · Un chat para todos los streams",
+      summary:
+        "Un overlay para OBS que une los chats de Twitch, YouTube, Kick y TikTok en un único feed personalizable — adaptadores en Node.js, WebSocket y filtros de moderación.",
+      description:
+        "Hago streams en Twitch, y transmitir en varias plataformas significa cuatro chats en cuatro ventanas. multichat-overlay los une: adaptadores plug-and-play para Twitch, YouTube (con detección automática del directo), Kick y TikTok envían los mensajes por WebSocket a un único overlay que se añade a OBS como browser source.\n\nFunciona en local, sin base de datos, se personaliza con variables CSS e incluye lista de palabras bloqueadas, límite de longitud de mensajes, renderizado seguro de emotes, etiquetas por plataforma y un endpoint de health check.",
+    },
+    zh: {
+      title: "开源 · 一个聊天窗口汇聚所有直播",
+      summary: "一个 OBS 叠加层，将 Twitch、YouTube、Kick 和 TikTok 的聊天汇聚成一个可自定义的信息流——基于 Node.js 适配器、WebSocket 与内容过滤。",
+      description:
+        "我在 Twitch 上直播，而多平台同步直播意味着要同时盯着四个窗口里的四个聊天室。multichat-overlay 把它们合而为一：即插即用的 Twitch、YouTube（自动检测直播）、Kick 和 TikTok 适配器通过 WebSocket 将消息推送到同一个叠加层，以浏览器源的形式添加到 OBS 中。\n\n它在本地运行，无需数据库，可通过 CSS 变量定制主题，并内置敏感词屏蔽、消息长度限制、安全的表情渲染、平台标签和健康检查接口。",
     },
   },
   "angular-signals": {
@@ -565,15 +689,15 @@ export const WORKS: Record<string, Tri<WorkI18n>> = {
   "qoda-web": {
     pt: {
       title: "Open source · Desenhe um dígito, veja a previsão",
-      summary: "Uma demo web em que você desenha qualquer número em uma caixa e vê o resultado.",
+      summary: "Uma demo web em que você desenha qualquer dígito em uma caixa e um modelo de machine learning faz a previsão.",
     },
     es: {
       title: "Código abierto · Dibuja un dígito, mira la predicción",
-      summary: "Una demo web en la que dibujas cualquier número en un recuadro y ves el resultado.",
+      summary: "Una demo web en la que dibujas cualquier dígito en un recuadro y un modelo de machine learning lo predice.",
     },
     zh: {
       title: "开源 · 手写数字，查看识别结果",
-      summary: "一个网页演示：在方框中写下任意数字，即可看到识别结果。",
+      summary: "一个网页演示：在方框中写下任意数字，机器学习模型会给出识别结果。",
     },
   },
 };
