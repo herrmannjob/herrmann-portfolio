@@ -10,29 +10,29 @@
  "tracks": {
   "en": {
    "short": {
-    "hash": "1bypq5y",
+    "hash": "iygkcu",
     "src": "/studio/en/short.mp3",
-    "duration": 62.57,
+    "duration": 65.743,
     "scenes": [
      {
       "kind": "intro",
       "start": 0.35,
-      "end": 11.241
+      "end": 11.447
      },
      {
       "kind": "work",
-      "start": 11.241,
-      "end": 32.982
+      "start": 11.447,
+      "end": 33.862
      },
      {
       "kind": "work",
-      "start": 32.982,
-      "end": 50.077
+      "start": 33.862,
+      "end": 53.201
      },
      {
       "kind": "outro",
-      "start": 50.077,
-      "end": 61.97
+      "start": 53.201,
+      "end": 65.143
      }
     ],
     "sentences": [
@@ -46,107 +46,107 @@
       "scene": 0,
       "text": "Lead AI Engineer · Fullstack & Frontend Specialist, based in Novo Hamburgo, RS — Brazil.",
       "start": 3.823,
-      "end": 10.491
+      "end": 10.697
      },
      {
       "scene": 1,
-      "text": "Zup Innovation, as Senior Frontend Engineer · Fullstack (May 2025 — Nov 2025).",
-      "start": 11.241,
-      "end": 18.418
+      "text": "Zup Innovation, as Fullstack Developer · Frontend Specialist (May 2025 — Nov 2025).",
+      "start": 11.447,
+      "end": 18.694
      },
      {
       "scene": 1,
-      "text": "Frontend specialist on a large-scale banking super app used by millions — corporate treasury (PJ) and investment-broker platforms with strict security, performance and reliability requirements.",
-      "start": 18.738,
-      "end": 32.232
+      "text": "Frontend specialist on a banking super app used by millions of people — corporate treasury and an investment broker, where every screen moves real money and security, performance and reliability are not negotiable.",
+      "start": 19.014,
+      "end": 33.112
      },
      {
       "scene": 2,
       "text": "Deal, as Fullstack Developer · Frontend Specialist (Aug 2024 — Dec 2024).",
-      "start": 32.982,
-      "end": 39.512
+      "start": 33.862,
+      "end": 40.392
      },
      {
       "scene": 2,
-      "text": "Web banking platforms for two financial-sector clients on a Micro Frontend architecture — technical reference for frontend standards and architecture.",
-      "start": 39.832,
-      "end": 49.327
+      "text": "Internet banking for two financial institutions on a Micro Frontend architecture — I was the frontend reference that set the code and architecture standards both products were built on.",
+      "start": 40.712,
+      "end": 52.451
      },
      {
       "scene": 3,
       "text": "Open to Lead AI Engineer and Tech Lead opportunities — remote, Brazil & international.",
-      "start": 50.077,
-      "end": 56.358
+      "start": 53.201,
+      "end": 59.531
      },
      {
       "scene": 3,
       "text": "Write to me at herrmannjob@gmail.",
-      "start": 56.678,
-      "end": 58.855
+      "start": 59.851,
+      "end": 62.029
      },
      {
       "scene": 3,
       "text": "com.",
-      "start": 59.175,
-      "end": 59.772
+      "start": 62.349,
+      "end": 62.945
      },
      {
       "scene": 3,
       "text": "Thanks for watching.",
-      "start": 60.092,
-      "end": 61.22
+      "start": 63.265,
+      "end": 64.393
      }
     ]
    },
    "medium": {
-    "hash": "1div78z",
+    "hash": "ea08t2",
     "src": "/studio/en/medium.mp3",
-    "duration": 154.895,
+    "duration": 166.938,
     "scenes": [
      {
       "kind": "intro",
       "start": 0.35,
-      "end": 11.241
+      "end": 11.447
      },
      {
       "kind": "text",
-      "start": 11.241,
-      "end": 23.978
+      "start": 11.447,
+      "end": 24.183
      },
      {
       "kind": "work",
-      "start": 23.978,
-      "end": 45.718
+      "start": 24.183,
+      "end": 46.598
      },
      {
       "kind": "work",
-      "start": 45.718,
-      "end": 62.814
+      "start": 46.598,
+      "end": 65.938
      },
      {
       "kind": "work",
-      "start": 62.814,
-      "end": 82.477
+      "start": 65.938,
+      "end": 89.206
      },
      {
       "kind": "work",
-      "start": 82.477,
-      "end": 104.341
+      "start": 89.206,
+      "end": 116.334
      },
      {
       "kind": "stats",
-      "start": 104.341,
-      "end": 121.059
+      "start": 116.334,
+      "end": 133.052
      },
      {
       "kind": "quote",
-      "start": 121.059,
-      "end": 142.402
+      "start": 133.052,
+      "end": 154.395
      },
      {
       "kind": "outro",
-      "start": 142.402,
-      "end": 154.295
+      "start": 154.395,
+      "end": 166.338
      }
     ],
     "sentences": [
@@ -160,238 +160,238 @@
       "scene": 0,
       "text": "Lead AI Engineer · Fullstack & Frontend Specialist, based in Novo Hamburgo, RS — Brazil.",
       "start": 3.823,
-      "end": 10.491
+      "end": 10.697
      },
      {
       "scene": 1,
       "text": "I build mission-critical platforms for banking, healthcare and tech — enterprise frontend architecture, scalable backends and, since 2020, AI and LLM-powered products.",
-      "start": 11.241,
-      "end": 23.228
+      "start": 11.447,
+      "end": 23.433
      },
      {
       "scene": 2,
-      "text": "Zup Innovation, as Senior Frontend Engineer · Fullstack (May 2025 — Nov 2025).",
-      "start": 23.978,
-      "end": 31.155
+      "text": "Zup Innovation, as Fullstack Developer · Frontend Specialist (May 2025 — Nov 2025).",
+      "start": 24.183,
+      "end": 31.43
      },
      {
       "scene": 2,
-      "text": "Frontend specialist on a large-scale banking super app used by millions — corporate treasury (PJ) and investment-broker platforms with strict security, performance and reliability requirements.",
-      "start": 31.475,
-      "end": 44.968
+      "text": "Frontend specialist on a banking super app used by millions of people — corporate treasury and an investment broker, where every screen moves real money and security, performance and reliability are not negotiable.",
+      "start": 31.75,
+      "end": 45.848
      },
      {
       "scene": 3,
       "text": "Deal, as Fullstack Developer · Frontend Specialist (Aug 2024 — Dec 2024).",
-      "start": 45.718,
-      "end": 52.248
+      "start": 46.598,
+      "end": 53.128
      },
      {
       "scene": 3,
-      "text": "Web banking platforms for two financial-sector clients on a Micro Frontend architecture — technical reference for frontend standards and architecture.",
-      "start": 52.568,
-      "end": 62.064
+      "text": "Internet banking for two financial institutions on a Micro Frontend architecture — I was the frontend reference that set the code and architecture standards both products were built on.",
+      "start": 53.448,
+      "end": 65.188
      },
      {
       "scene": 4,
       "text": "TaqTaq, as Tech Lead (Jul 2024 — Oct 2024).",
-      "start": 62.814,
-      "end": 67.218
+      "start": 65.938,
+      "end": 70.342
      },
      {
       "scene": 4,
-      "text": "Technical leadership of a new cross-platform app for B2C, B2B and events — from concept to production, on time and on budget.",
-      "start": 67.538,
-      "end": 76.4
+      "text": "Tech Lead of TaqTaq's new cross-platform app — digital business cards shared by QR, NFC and proximity — from concept to the App Store and Google Play, on time and on budget.",
+      "start": 70.662,
+      "end": 83.13
      },
      {
       "scene": 4,
       "text": "Result: +20% — project completion rate after agile adoption.",
-      "start": 76.72,
-      "end": 81.727
+      "start": 83.45,
+      "end": 88.456
      },
      {
       "scene": 5,
       "text": "CI&T, as Fullstack Developer (Dec 2023 — Aug 2024).",
-      "start": 82.477,
-      "end": 88.06
+      "start": 89.206,
+      "end": 94.79
      },
      {
       "scene": 5,
-      "text": "International projects for large financial and corporate companies — real-estate credit applications with Angular, C#/.",
-      "start": 88.38,
-      "end": 96.183
+      "text": "International projects for large financial and corporate clients — real-estate credit applications in Angular, C#/.",
+      "start": 95.11,
+      "end": 102.763
      },
      {
       "scene": 5,
-      "text": "NET and Python, and technical leadership on cloud projects.",
-      "start": 96.503,
-      "end": 100.408
+      "text": "NET and Python, and technical leadership on cloud projects that raised engagement by 30% and cut load time by 20%.",
+      "start": 103.083,
+      "end": 112.401
      },
      {
       "scene": 5,
       "text": "Result: +30% — user engagement.",
-      "start": 100.728,
-      "end": 103.591
+      "start": 112.721,
+      "end": 115.584
      },
      {
       "scene": 6,
       "text": "12+: years shipping software (since 2014).",
-      "start": 104.341,
-      "end": 108.26
+      "start": 116.334,
+      "end": 120.254
      },
      {
       "scene": 6,
       "text": "1M+: users on the banking super app I worked on.",
-      "start": 108.58,
-      "end": 112.567
+      "start": 120.574,
+      "end": 124.56
      },
      {
       "scene": 6,
       "text": "−50%: load time via caching (Pharmalink).",
-      "start": 112.887,
-      "end": 116.788
+      "start": 124.88,
+      "end": 128.781
      },
      {
       "scene": 6,
       "text": "20+: companies and products delivered.",
-      "start": 117.108,
-      "end": 120.309
+      "start": 129.101,
+      "end": 132.302
      },
      {
       "scene": 7,
       "text": "“Gabriel is a hard-working, committed and very talented professional!",
-      "start": 121.059,
-      "end": 125.459
+      "start": 133.052,
+      "end": 137.452
      },
      {
       "scene": 7,
       "text": "Always open to dialogue, he takes criticism well and always strives to deliver the best possible quality.",
-      "start": 125.779,
-      "end": 132.887
+      "start": 137.772,
+      "end": 144.88
      },
      {
       "scene": 7,
       "text": "Having him on your team means having someone hard-working, sincere and with a great sense of humor!”",
-      "start": 133.207,
-      "end": 139.463
+      "start": 145.2,
+      "end": 151.456
      },
      {
       "scene": 7,
       "text": "— Lucas Assumpção de Oliveira.",
-      "start": 139.783,
-      "end": 141.652
+      "start": 151.776,
+      "end": 153.645
      },
      {
       "scene": 8,
       "text": "Open to Lead AI Engineer and Tech Lead opportunities — remote, Brazil & international.",
-      "start": 142.402,
-      "end": 148.682
+      "start": 154.395,
+      "end": 160.725
      },
      {
       "scene": 8,
       "text": "Write to me at herrmannjob@gmail.",
-      "start": 149.002,
-      "end": 151.18
+      "start": 161.045,
+      "end": 163.223
      },
      {
       "scene": 8,
       "text": "com.",
-      "start": 151.5,
-      "end": 152.096
+      "start": 163.543,
+      "end": 164.139
      },
      {
       "scene": 8,
       "text": "Thanks for watching.",
-      "start": 152.416,
-      "end": 153.545
+      "start": 164.459,
+      "end": 165.588
      }
     ]
    },
    "full": {
-    "hash": "e3m63p",
+    "hash": "1q4zrfe",
     "src": "/studio/en/full.mp3",
-    "duration": 450.134,
+    "duration": 477.908,
     "scenes": [
      {
       "kind": "intro",
       "start": 0.35,
-      "end": 11.241
+      "end": 11.447
      },
      {
       "kind": "text",
-      "start": 11.241,
-      "end": 80.605
+      "start": 11.447,
+      "end": 80.436
      },
      {
       "kind": "work",
-      "start": 80.605,
-      "end": 115.872
+      "start": 80.436,
+      "end": 118.227
      },
      {
       "kind": "work",
-      "start": 115.872,
-      "end": 146.661
+      "start": 118.227,
+      "end": 151.418
      },
      {
       "kind": "work",
-      "start": 146.661,
-      "end": 176.911
+      "start": 151.418,
+      "end": 186.75
      },
      {
       "kind": "work",
-      "start": 176.911,
-      "end": 212.096
+      "start": 186.75,
+      "end": 227.199
      },
      {
       "kind": "work",
-      "start": 212.096,
-      "end": 251.665
+      "start": 227.199,
+      "end": 272.416
      },
      {
       "kind": "work",
-      "start": 251.665,
-      "end": 285.247
+      "start": 272.416,
+      "end": 310.471
      },
      {
       "kind": "work",
-      "start": 285.247,
-      "end": 317.273
+      "start": 310.471,
+      "end": 344.913
      },
      {
       "kind": "text",
-      "start": 317.273,
-      "end": 335.204
+      "start": 344.913,
+      "end": 362.798
      },
      {
       "kind": "stats",
-      "start": 335.204,
-      "end": 351.922
+      "start": 362.798,
+      "end": 379.515
      },
      {
       "kind": "stack",
-      "start": 351.922,
-      "end": 378.454
+      "start": 379.515,
+      "end": 406.178
      },
      {
       "kind": "quote",
-      "start": 378.454,
-      "end": 399.797
+      "start": 406.178,
+      "end": 427.522
      },
      {
       "kind": "quote",
-      "start": 399.797,
-      "end": 415.995
+      "start": 427.522,
+      "end": 443.72
      },
      {
       "kind": "quote",
-      "start": 415.995,
-      "end": 437.641
+      "start": 443.72,
+      "end": 465.366
      },
      {
       "kind": "outro",
-      "start": 437.641,
-      "end": 449.534
+      "start": 465.366,
+      "end": 477.308
      }
     ],
     "sentences": [
@@ -405,528 +405,528 @@
       "scene": 0,
       "text": "Lead AI Engineer · Fullstack & Frontend Specialist, based in Novo Hamburgo, RS — Brazil.",
       "start": 3.823,
-      "end": 10.491
+      "end": 10.697
      },
      {
       "scene": 1,
       "text": "I go by Herrmann — Gabriel Herrmann Grecchi on paper.",
-      "start": 11.241,
-      "end": 14.473
+      "start": 11.447,
+      "end": 14.678
      },
      {
       "scene": 1,
       "text": "Fullstack developer since 2014, mobile since 2017, Web3 and AI since 2020.",
-      "start": 14.793,
-      "end": 22.167
+      "start": 14.998,
+      "end": 22.223
      },
      {
       "scene": 1,
       "text": "Most of my work has been on mission-critical platforms in banking and finance, healthcare and pharma, and SaaS — products with millions of users, strict security and no room for downtime — plus consumer apps for retail, restaurants and gyms.",
-      "start": 22.487,
-      "end": 38.444
+      "start": 22.543,
+      "end": 38.5
      },
      {
       "scene": 1,
       "text": "My specialty is frontend engineering at enterprise scale: Angular architecture, Micro Frontends, design systems, performance and accessibility.",
-      "start": 38.764,
-      "end": 49.324
+      "start": 38.82,
+      "end": 49.379
      },
      {
       "scene": 1,
       "text": "I am just as comfortable on the backend with Python, C#/.",
-      "start": 49.644,
-      "end": 53.324
+      "start": 49.699,
+      "end": 53.38
      },
      {
       "scene": 1,
       "text": "NET, Node.",
-      "start": 53.644,
-      "end": 54.512
+      "start": 53.7,
+      "end": 54.568
      },
      {
       "scene": 1,
       "text": "js and Kotlin integrations, and I lead teams as a Tech Lead when the project needs it.",
-      "start": 54.832,
-      "end": 60.519
+      "start": 54.888,
+      "end": 60.575
      },
      {
       "scene": 1,
       "text": "Today I focus on AI engineering — LLMs, RAG, agentic patterns, evals and fine-tuning — through my own consultancy, Herrmann IT Consultoria.",
-      "start": 60.839,
-      "end": 72.364
+      "start": 60.895,
+      "end": 72.194
      },
      {
       "scene": 1,
       "text": "In 2020 I founded Projeto Dev, a social project that helps people get their first job in tech.",
-      "start": 72.684,
-      "end": 79.855
+      "start": 72.514,
+      "end": 79.686
      },
      {
       "scene": 2,
-      "text": "Zup Innovation, as Senior Frontend Engineer · Fullstack (May 2025 — Nov 2025).",
-      "start": 80.605,
-      "end": 87.782
+      "text": "Zup Innovation, as Fullstack Developer · Frontend Specialist (May 2025 — Nov 2025).",
+      "start": 80.436,
+      "end": 87.683
      },
      {
       "scene": 2,
-      "text": "Frontend specialist on a large-scale banking super app used by millions — corporate treasury (PJ) and investment-broker platforms with strict security, performance and reliability requirements.",
-      "start": 88.102,
-      "end": 101.595
+      "text": "Frontend specialist on a banking super app used by millions of people — corporate treasury and an investment broker, where every screen moves real money and security, performance and reliability are not negotiable.",
+      "start": 88.003,
+      "end": 102.101
      },
      {
       "scene": 2,
-      "text": "Large-scale banking super app used by millions of users.",
-      "start": 101.915,
-      "end": 105.988
+      "text": "Banking super app used by millions of customers.",
+      "start": 102.421,
+      "end": 105.745
      },
      {
       "scene": 2,
       "text": "Corporate treasury (PJ) and investment-broker platforms.",
-      "start": 106.308,
-      "end": 110.021
+      "start": 106.065,
+      "end": 109.777
      },
      {
       "scene": 2,
-      "text": "Enterprise-grade Angular architecture and a proprietary design system.",
-      "start": 110.341,
-      "end": 115.122
+      "text": "Enterprise Angular on a proprietary design system with Angular Material, Tailwind CSS and BEM.",
+      "start": 110.097,
+      "end": 117.477
      },
      {
       "scene": 3,
       "text": "Deal, as Fullstack Developer · Frontend Specialist (Aug 2024 — Dec 2024).",
-      "start": 115.872,
-      "end": 122.402
+      "start": 118.227,
+      "end": 124.757
      },
      {
       "scene": 3,
-      "text": "Web banking platforms for two financial-sector clients on a Micro Frontend architecture — technical reference for frontend standards and architecture.",
-      "start": 122.722,
-      "end": 132.218
+      "text": "Internet banking for two financial institutions on a Micro Frontend architecture — I was the frontend reference that set the code and architecture standards both products were built on.",
+      "start": 125.077,
+      "end": 136.816
      },
      {
       "scene": 3,
-      "text": "Web banking platforms for two financial-sector clients.",
-      "start": 132.538,
-      "end": 136.106
+      "text": "Internet banking platforms for two financial-sector clients.",
+      "start": 137.136,
+      "end": 140.983
      },
      {
       "scene": 3,
-      "text": "Micro Frontend architecture for domain isolation and independent evolution.",
-      "start": 136.426,
-      "end": 141.618
+      "text": "Micro Frontend architecture: isolated domains, independent deploys.",
+      "start": 141.303,
+      "end": 146.375
      },
      {
       "scene": 3,
       "text": "Frontend technical reference — code and architecture standards.",
-      "start": 141.938,
-      "end": 145.911
+      "start": 146.695,
+      "end": 150.668
      },
      {
       "scene": 4,
       "text": "TaqTaq, as Tech Lead (Jul 2024 — Oct 2024).",
-      "start": 146.661,
-      "end": 151.065
+      "start": 151.418,
+      "end": 155.822
      },
      {
       "scene": 4,
-      "text": "Technical leadership of a new cross-platform app for B2C, B2B and events — from concept to production, on time and on budget.",
-      "start": 151.385,
-      "end": 160.247
+      "text": "Tech Lead of TaqTaq's new cross-platform app — digital business cards shared by QR, NFC and proximity — from concept to the App Store and Google Play, on time and on budget.",
+      "start": 156.142,
+      "end": 168.61
      },
      {
       "scene": 4,
       "text": "Result: +20% — project completion rate after agile adoption.",
-      "start": 160.567,
-      "end": 165.573
+      "start": 168.93,
+      "end": 173.937
      },
      {
       "scene": 4,
       "text": "Led a new multi-platform app from concept to production.",
-      "start": 165.893,
-      "end": 169.352
+      "start": 174.257,
+      "end": 177.715
      },
      {
       "scene": 4,
       "text": "Owned architecture, technical planning and prioritization.",
-      "start": 169.672,
-      "end": 173.421
+      "start": 178.035,
+      "end": 181.784
      },
      {
       "scene": 4,
-      "text": "Responsive mobile apps in Flutter (Dart).",
-      "start": 173.741,
-      "end": 176.161
+      "text": "Hands-on Flutter (Dart) development for iOS and Android.",
+      "start": 182.104,
+      "end": 186.0
      },
      {
       "scene": 5,
       "text": "CI&T, as Fullstack Developer (Dec 2023 — Aug 2024).",
-      "start": 176.911,
-      "end": 182.494
+      "start": 186.75,
+      "end": 192.334
      },
      {
       "scene": 5,
-      "text": "International projects for large financial and corporate companies — real-estate credit applications with Angular, C#/.",
-      "start": 182.814,
-      "end": 190.617
+      "text": "International projects for large financial and corporate clients — real-estate credit applications in Angular, C#/.",
+      "start": 192.654,
+      "end": 200.306
      },
      {
       "scene": 5,
-      "text": "NET and Python, and technical leadership on cloud projects.",
-      "start": 190.937,
-      "end": 194.842
+      "text": "NET and Python, and technical leadership on cloud projects that raised engagement by 30% and cut load time by 20%.",
+      "start": 200.626,
+      "end": 209.945
      },
      {
       "scene": 5,
       "text": "Result: +30% — user engagement.",
-      "start": 195.162,
-      "end": 198.025
+      "start": 210.265,
+      "end": 213.128
      },
      {
       "scene": 5,
       "text": "International projects for large financial and corporate companies.",
-      "start": 198.345,
-      "end": 202.266
+      "start": 213.448,
+      "end": 217.369
      },
      {
       "scene": 5,
       "text": "Real-estate credit applications (Angular, C#/.",
-      "start": 202.586,
-      "end": 205.866
+      "start": 217.689,
+      "end": 220.969
      },
      {
       "scene": 5,
       "text": "NET, Python).",
-      "start": 206.186,
-      "end": 207.239
+      "start": 221.289,
+      "end": 222.342
      },
      {
       "scene": 5,
       "text": "CI/CD pipelines, testing and quality practices.",
-      "start": 207.559,
-      "end": 211.346
+      "start": 222.662,
+      "end": 226.449
      },
      {
       "scene": 6,
-      "text": "ECS Inovação, as Fullstack Developer · Frontend Lead (Jun 2020 — Oct 2023).",
-      "start": 212.096,
-      "end": 218.785
+      "text": "Pharmalink, as Fullstack Developer · Frontend Lead (Jun 2020 — Oct 2023).",
+      "start": 227.199,
+      "end": 233.298
      },
      {
       "scene": 6,
-      "text": "Technical owner of Pharmalink Online — a pharmaceutical hub and marketplace used by many players in the sector.",
-      "start": 219.105,
-      "end": 226.499
+      "text": "Technical owner of Pharmalink Online, the hub that connects Brazil's pharmaceutical industry to distributors and pharmacies.",
+      "start": 233.618,
+      "end": 241.987
      },
      {
       "scene": 6,
-      "text": "Led the full AngularJS 1.",
-      "start": 226.819,
-      "end": 228.789
+      "text": "I led its full migration from AngularJS 1.",
+      "start": 242.307,
+      "end": 245.235
      },
      {
       "scene": 6,
-      "text": "8 → Angular 14 migration.",
-      "start": 229.109,
-      "end": 231.306
+      "text": "8 to Angular 14 and cut load times by up to 50%.",
+      "start": 245.555,
+      "end": 250.249
      },
      {
       "scene": 6,
       "text": "Result: −50% — load time with caching strategies.",
-      "start": 231.626,
-      "end": 235.841
+      "start": 250.569,
+      "end": 254.785
      },
      {
       "scene": 6,
-      "text": "Technical owner of Pharmalink Online, a pharma hub & marketplace.",
-      "start": 236.161,
-      "end": 240.657
+      "text": "Technical owner of Pharmalink Online, the pharma industry's commercial hub.",
+      "start": 255.105,
+      "end": 260.034
      },
      {
       "scene": 6,
       "text": "Led the full AngularJS 1.",
-      "start": 240.977,
-      "end": 242.947
+      "start": 260.354,
+      "end": 262.324
      },
      {
       "scene": 6,
       "text": "8.",
-      "start": 243.267,
-      "end": 243.826
+      "start": 262.644,
+      "end": 263.203
      },
      {
       "scene": 6,
-      "text": "2 → Angular 14 migration.",
-      "start": 244.146,
-      "end": 246.459
+      "text": "2 → Angular 14 migration on a live platform.",
+      "start": 263.523,
+      "end": 267.211
      },
      {
       "scene": 6,
       "text": "Direct contribution to the Financial Cycle calculation engine.",
-      "start": 246.779,
-      "end": 250.915
+      "start": 267.531,
+      "end": 271.666
      },
      {
       "scene": 7,
       "text": "Herrmann IT Consultoria, as Founder · Software Engineer · Frontend Specialist (Dec 2013 — Present).",
-      "start": 251.665,
-      "end": 259.051
+      "start": 272.416,
+      "end": 279.802
      },
      {
       "scene": 7,
-      "text": "My own technology consultancy.",
-      "start": 259.371,
-      "end": 261.522
+      "text": "My own consultancy, since 2013.",
+      "start": 280.122,
+      "end": 282.891
      },
      {
       "scene": 7,
-      "text": "Frontend engineering, fullstack development and application architecture for national and international clients in banking, healthcare and SaaS.",
-      "start": 261.842,
-      "end": 271.553
+      "text": "Through it I have shipped for PicPay, Grupo Madero, Lojas Lebes, Pacto, upLexis, Pernambucanas, Milvus and more — as Frontend Engineer, Fullstack Engineer or Tech Lead, whatever the project needs.",
+      "start": 283.211,
+      "end": 296.847
      },
      {
       "scene": 7,
       "text": "Consultant (PJ) on medium and large strategic projects.",
-      "start": 271.873,
-      "end": 276.006
+      "start": 297.167,
+      "end": 301.3
      },
      {
       "scene": 7,
       "text": "Frontend Engineer, Fullstack Engineer or Tech Lead as each client needs.",
-      "start": 276.326,
-      "end": 280.96
+      "start": 301.62,
+      "end": 306.254
      },
      {
       "scene": 7,
-      "text": "Enterprise, mission-critical and high-traffic products.",
-      "start": 281.28,
-      "end": 284.497
+      "text": "Consumer apps live on the App Store and Google Play.",
+      "start": 306.574,
+      "end": 309.721
      },
      {
       "scene": 8,
       "text": "Pacto Soluções, as Frontend Engineer.",
-      "start": 285.247,
-      "end": 287.974
+      "start": 310.471,
+      "end": 313.198
      },
      {
       "scene": 8,
-      "text": "Frontend for Pacto's fitness-management ecosystem — including the member apps of two of the largest gym chains in southern Brazil, Engenharia do Corpo and Usina do Corpo, and their hotsites.",
-      "start": 288.294,
-      "end": 301.731
+      "text": "Frontend for Pacto's fitness platform — the member apps of two of southern Brazil's biggest gym chains, Engenharia do Corpo and Usina do Corpo, their hotsites, Pacto's own sales hotsite and the ZW management system.",
+      "start": 313.518,
+      "end": 329.115
      },
      {
       "scene": 8,
-      "text": "Member apps for Engenharia do Corpo (EC PRO) and Usina do Corpo — workouts, class booking, check-in and contracts.",
-      "start": 302.051,
-      "end": 310.139
+      "text": "Member apps for Engenharia do Corpo (EC PRO) and Usina do Corpo.",
+      "start": 329.435,
+      "end": 334.164
+     },
+     {
+      "scene": 8,
+      "text": "Workouts with loads and reps, assessments, class booking, check-in and contracts.",
+      "start": 334.484,
+      "end": 339.504
      },
      {
       "scene": 8,
       "text": "Hotsites for the gym chains: plans, units and online sign-up.",
-      "start": 310.459,
-      "end": 314.798
-     },
-     {
-      "scene": 8,
-      "text": "Pacto's sales hotsite.",
-      "start": 315.118,
-      "end": 316.523
+      "start": 339.824,
+      "end": 344.163
      },
      {
       "scene": 9,
-      "text": "I've also delivered for PicPay, upLexis, Pernambucanas, Milvus, Maxxidata, UDS, Inform / Ekantika, Scale, Facepass, Lojas Lebes, Grupo Madero, Pevepas, Relevo Lab, SoftWrap, Tríade Social and Dollar Donation Club.",
-      "start": 317.273,
-      "end": 334.454
+      "text": "I've also delivered for Lojas Lebes, Grupo Madero, PicPay, upLexis, Milvus, UDS, Facepass, Pernambucanas, Maxxidata, Inform / Ekantika, Scale, Pevepas, Relevo Lab, SoftWrap, Tríade Social and Dollar Donation Club.",
+      "start": 344.913,
+      "end": 362.048
      },
      {
       "scene": 10,
       "text": "12+: years shipping software (since 2014).",
-      "start": 335.204,
-      "end": 339.124
+      "start": 362.798,
+      "end": 366.717
      },
      {
       "scene": 10,
       "text": "1M+: users on the banking super app I worked on.",
-      "start": 339.444,
-      "end": 343.43
+      "start": 367.037,
+      "end": 371.023
      },
      {
       "scene": 10,
       "text": "−50%: load time via caching (Pharmalink).",
-      "start": 343.75,
-      "end": 347.651
+      "start": 371.343,
+      "end": 375.245
      },
      {
       "scene": 10,
       "text": "20+: companies and products delivered.",
-      "start": 347.971,
-      "end": 351.172
+      "start": 375.565,
+      "end": 378.765
      },
      {
       "scene": 11,
       "text": "AI & LLM: LLMs, RAG, Agentic patterns, Evals, Fine-tuning.",
-      "start": 351.922,
-      "end": 357.399
+      "start": 379.515,
+      "end": 385.123
      },
      {
       "scene": 11,
       "text": "Frontend: Angular, React, Vue.",
-      "start": 357.719,
-      "end": 359.8
+      "start": 385.443,
+      "end": 387.524
      },
      {
       "scene": 11,
       "text": "js, Next.",
-      "start": 360.12,
-      "end": 361.18
+      "start": 387.844,
+      "end": 388.905
      },
      {
       "scene": 11,
       "text": "js, Nuxt.",
-      "start": 361.5,
-      "end": 362.573
+      "start": 389.225,
+      "end": 390.297
      },
      {
       "scene": 11,
       "text": "Backend: Python, FastAPI, Django, C# / .",
-      "start": 362.893,
-      "end": 365.903
+      "start": 390.617,
+      "end": 393.627
      },
      {
       "scene": 11,
       "text": "NET, Node.",
-      "start": 366.223,
-      "end": 367.091
+      "start": 393.947,
+      "end": 394.815
      },
      {
       "scene": 11,
       "text": "js.",
-      "start": 367.411,
-      "end": 368.185
+      "start": 395.135,
+      "end": 395.91
      },
      {
       "scene": 11,
       "text": "Mobile: Flutter, Dart, Kotlin, React Native, Ionic.",
-      "start": 368.505,
-      "end": 371.94
+      "start": 396.23,
+      "end": 399.665
      },
      {
       "scene": 11,
       "text": "Data & Infra: PostgreSQL, SQL Server, MongoDB, Redis, Docker.",
-      "start": 372.26,
-      "end": 377.704
+      "start": 399.985,
+      "end": 405.428
      },
      {
       "scene": 12,
       "text": "“Gabriel is a hard-working, committed and very talented professional!",
-      "start": 378.454,
-      "end": 382.854
+      "start": 406.178,
+      "end": 410.578
      },
      {
       "scene": 12,
       "text": "Always open to dialogue, he takes criticism well and always strives to deliver the best possible quality.",
-      "start": 383.174,
-      "end": 390.282
+      "start": 410.898,
+      "end": 418.006
      },
      {
       "scene": 12,
       "text": "Having him on your team means having someone hard-working, sincere and with a great sense of humor!”",
-      "start": 390.602,
-      "end": 396.858
+      "start": 418.326,
+      "end": 424.582
      },
      {
       "scene": 12,
       "text": "— Lucas Assumpção de Oliveira.",
-      "start": 397.178,
-      "end": 399.047
+      "start": 424.902,
+      "end": 426.772
      },
      {
       "scene": 13,
       "text": "“Gabriel is a very capable and committed professional, always studying and willing to learn — proposing improvements, new practices and technologies, and thinking about the whole picture to make the products better.”",
-      "start": 399.797,
-      "end": 413.285
+      "start": 427.522,
+      "end": 441.01
      },
      {
       "scene": 13,
       "text": "— Aaron Pierre Glienke Nunez.",
-      "start": 413.605,
-      "end": 415.245
+      "start": 441.33,
+      "end": 442.97
      },
      {
       "scene": 14,
       "text": "“Gabriel is a great programmer and coworker!",
-      "start": 415.995,
-      "end": 418.644
+      "start": 443.72,
+      "end": 446.368
      },
      {
       "scene": 14,
       "text": "Always willing to learn and to teach, and he cares about the deliveries and the quality of the whole system.",
-      "start": 418.964,
-      "end": 425.106
+      "start": 446.688,
+      "end": 452.83
      },
      {
       "scene": 14,
       "text": "His technical knowledge of many front-end JS frameworks and how easily he communicates and helps others make working with him really fun and rewarding!”",
-      "start": 425.426,
-      "end": 434.903
+      "start": 453.15,
+      "end": 462.628
      },
      {
       "scene": 14,
       "text": "— Gabriel Romero de Souza.",
-      "start": 435.223,
-      "end": 436.891
+      "start": 462.948,
+      "end": 464.616
      },
      {
       "scene": 15,
       "text": "Open to Lead AI Engineer and Tech Lead opportunities — remote, Brazil & international.",
-      "start": 437.641,
-      "end": 443.922
+      "start": 465.366,
+      "end": 471.695
      },
      {
       "scene": 15,
       "text": "Write to me at herrmannjob@gmail.",
-      "start": 444.242,
-      "end": 446.419
+      "start": 472.015,
+      "end": 474.193
      },
      {
       "scene": 15,
       "text": "com.",
-      "start": 446.739,
-      "end": 447.336
+      "start": 474.513,
+      "end": 475.109
      },
      {
       "scene": 15,
       "text": "Thanks for watching.",
-      "start": 447.656,
-      "end": 448.784
+      "start": 475.429,
+      "end": 476.558
      }
     ]
    }
   },
   "pt": {
    "short": {
-    "hash": "1hpny2y",
+    "hash": "e23u77",
     "src": "/studio/pt/short.mp3",
-    "duration": 58.129,
+    "duration": 62.119,
     "scenes": [
      {
       "kind": "intro",
       "start": 0.35,
-      "end": 9.351
+      "end": 9.376
      },
      {
       "kind": "work",
-      "start": 9.351,
-      "end": 29.897
+      "start": 9.376,
+      "end": 31.03
      },
      {
       "kind": "work",
-      "start": 29.897,
-      "end": 46.701
+      "start": 31.03,
+      "end": 50.668
      },
      {
       "kind": "outro",
-      "start": 46.701,
-      "end": 57.529
+      "start": 50.668,
+      "end": 61.519
      }
     ],
     "sentences": [
@@ -940,107 +940,107 @@
       "scene": 0,
       "text": "Lead AI Engineer · Especialista Fullstack e Frontend, em Novo Hamburgo, RS — Brasil.",
       "start": 3.926,
-      "end": 8.601
+      "end": 8.626
      },
      {
       "scene": 1,
-      "text": "Zup Innovation, como Engenheiro Frontend Sênior · Fullstack (Mai 2025 — Nov 2025).",
-      "start": 9.351,
-      "end": 15.657
+      "text": "Zup Innovation, como Desenvolvedor Fullstack · Especialista Frontend (Mai 2025 — Nov 2025).",
+      "start": 9.376,
+      "end": 16.35
      },
      {
       "scene": 1,
-      "text": "Especialista frontend em um super app bancário de grande escala usado por milhões — plataformas de tesouraria corporativa (PJ) e corretora de investimentos, com requisitos rígidos de segurança, performance e confiabilidade.",
-      "start": 15.977,
-      "end": 29.147
+      "text": "Especialista frontend em um super app bancário usado por milhões de pessoas — tesouraria PJ e corretora de investimentos, onde cada tela movimenta dinheiro de verdade e segurança, performance e confiabilidade não são negociáveis.",
+      "start": 16.67,
+      "end": 30.28
      },
      {
       "scene": 2,
       "text": "Deal, como Desenvolvedor Fullstack · Especialista Frontend (Ago 2024 — Dez 2024).",
-      "start": 29.897,
-      "end": 36.496
+      "start": 31.03,
+      "end": 37.629
      },
      {
       "scene": 2,
-      "text": "Plataformas de internet banking para dois clientes do setor financeiro em arquitetura de Micro Frontends — referência técnica em padrões e arquitetura frontend.",
-      "start": 36.816,
-      "end": 45.951
+      "text": "Internet banking para duas instituições financeiras em arquitetura de Micro Frontends — fui a referência frontend que definiu os padrões de código e arquitetura sobre os quais os dois produtos foram construídos.",
+      "start": 37.949,
+      "end": 49.918
      },
      {
       "scene": 3,
       "text": "Aberto a oportunidades como Lead AI Engineer e Tech Lead — remoto, Brasil e exterior.",
-      "start": 46.701,
-      "end": 51.523
+      "start": 50.668,
+      "end": 55.513
      },
      {
       "scene": 3,
       "text": "Escreva para herrmannjob@gmail.",
-      "start": 51.843,
-      "end": 54.138
+      "start": 55.833,
+      "end": 58.128
      },
      {
       "scene": 3,
       "text": "com.",
-      "start": 54.458,
-      "end": 54.929
+      "start": 58.448,
+      "end": 58.919
      },
      {
       "scene": 3,
       "text": "Obrigado por assistir.",
-      "start": 55.249,
-      "end": 56.779
+      "start": 59.239,
+      "end": 60.769
      }
     ]
    },
    "medium": {
-    "hash": "8ofaw5",
+    "hash": "1i562hi",
     "src": "/studio/pt/medium.mp3",
-    "duration": 146.56,
+    "duration": 159.69,
     "scenes": [
      {
       "kind": "intro",
       "start": 0.35,
-      "end": 9.351
+      "end": 9.376
      },
      {
       "kind": "text",
-      "start": 9.351,
-      "end": 21.114
+      "start": 9.376,
+      "end": 21.139
      },
      {
       "kind": "work",
-      "start": 21.114,
-      "end": 41.66
+      "start": 21.139,
+      "end": 42.793
      },
      {
       "kind": "work",
-      "start": 41.66,
-      "end": 58.464
+      "start": 42.793,
+      "end": 62.431
      },
      {
       "kind": "work",
-      "start": 58.464,
-      "end": 78.203
+      "start": 62.431,
+      "end": 85.741
      },
      {
       "kind": "work",
-      "start": 78.203,
-      "end": 99.926
+      "start": 85.741,
+      "end": 113.032
      },
      {
       "kind": "stats",
-      "start": 99.926,
-      "end": 116.041
+      "start": 113.032,
+      "end": 129.147
      },
      {
       "kind": "quote",
-      "start": 116.041,
-      "end": 135.132
+      "start": 129.147,
+      "end": 148.239
      },
      {
       "kind": "outro",
-      "start": 135.132,
-      "end": 145.96
+      "start": 148.239,
+      "end": 159.09
      }
     ],
     "sentences": [
@@ -1054,238 +1054,238 @@
       "scene": 0,
       "text": "Lead AI Engineer · Especialista Fullstack e Frontend, em Novo Hamburgo, RS — Brasil.",
       "start": 3.926,
-      "end": 8.601
+      "end": 8.626
      },
      {
       "scene": 1,
       "text": "Construo plataformas de missão crítica para bancos, saúde e tecnologia — arquitetura frontend enterprise, backends escaláveis e, desde 2020, produtos com IA e LLMs.",
-      "start": 9.351,
-      "end": 20.364
+      "start": 9.376,
+      "end": 20.389
      },
      {
       "scene": 2,
-      "text": "Zup Innovation, como Engenheiro Frontend Sênior · Fullstack (Mai 2025 — Nov 2025).",
-      "start": 21.114,
-      "end": 27.419
+      "text": "Zup Innovation, como Desenvolvedor Fullstack · Especialista Frontend (Mai 2025 — Nov 2025).",
+      "start": 21.139,
+      "end": 28.113
      },
      {
       "scene": 2,
-      "text": "Especialista frontend em um super app bancário de grande escala usado por milhões — plataformas de tesouraria corporativa (PJ) e corretora de investimentos, com requisitos rígidos de segurança, performance e confiabilidade.",
-      "start": 27.739,
-      "end": 40.91
+      "text": "Especialista frontend em um super app bancário usado por milhões de pessoas — tesouraria PJ e corretora de investimentos, onde cada tela movimenta dinheiro de verdade e segurança, performance e confiabilidade não são negociáveis.",
+      "start": 28.433,
+      "end": 42.043
      },
      {
       "scene": 3,
       "text": "Deal, como Desenvolvedor Fullstack · Especialista Frontend (Ago 2024 — Dez 2024).",
-      "start": 41.66,
-      "end": 48.259
+      "start": 42.793,
+      "end": 49.392
      },
      {
       "scene": 3,
-      "text": "Plataformas de internet banking para dois clientes do setor financeiro em arquitetura de Micro Frontends — referência técnica em padrões e arquitetura frontend.",
-      "start": 48.579,
-      "end": 57.714
+      "text": "Internet banking para duas instituições financeiras em arquitetura de Micro Frontends — fui a referência frontend que definiu os padrões de código e arquitetura sobre os quais os dois produtos foram construídos.",
+      "start": 49.712,
+      "end": 61.681
      },
      {
       "scene": 4,
       "text": "TaqTaq, como Tech Lead (Jul 2024 — Out 2024).",
-      "start": 58.464,
-      "end": 63.083
+      "start": 62.431,
+      "end": 67.049
      },
      {
       "scene": 4,
-      "text": "Liderança técnica de um novo app multiplataforma para B2C, B2B e eventos — do conceito à produção, dentro do prazo e do orçamento.",
-      "start": 63.403,
-      "end": 71.408
+      "text": "Tech Lead do novo app multiplataforma da TaqTaq — cartões de visita digitais compartilhados por QR, NFC e proximidade — do conceito à App Store e ao Google Play, dentro do prazo e do orçamento.",
+      "start": 67.369,
+      "end": 78.946
      },
      {
       "scene": 4,
       "text": "Resultado: +20% — taxa de conclusão de projetos após adoção de práticas ágeis.",
-      "start": 71.728,
-      "end": 77.453
+      "start": 79.266,
+      "end": 84.991
      },
      {
       "scene": 5,
       "text": "CI&T, como Desenvolvedor Fullstack (Dez 2023 — Ago 2024).",
-      "start": 78.203,
-      "end": 83.727
+      "start": 85.741,
+      "end": 91.266
      },
      {
       "scene": 5,
-      "text": "Projetos internacionais para grandes empresas financeiras e corporativas — aplicações de crédito imobiliário com Angular, C#/.",
-      "start": 84.047,
-      "end": 91.67
+      "text": "Projetos internacionais para grandes clientes financeiros e corporativos — aplicações de crédito imobiliário em Angular, C#/.",
+      "start": 91.586,
+      "end": 99.008
      },
      {
       "scene": 5,
-      "text": "NET e Python, e liderança técnica em projetos cloud.",
-      "start": 91.99,
-      "end": 95.399
+      "text": "NET e Python, e liderança técnica em projetos cloud que aumentaram o engajamento em 30% e reduziram o tempo de carregamento em 20%.",
+      "start": 99.328,
+      "end": 108.505
      },
      {
       "scene": 5,
       "text": "Resultado: +30% — engajamento de usuários.",
-      "start": 95.719,
-      "end": 99.176
+      "start": 108.825,
+      "end": 112.282
      },
      {
       "scene": 6,
       "text": "12+: anos entregando software (desde 2014).",
-      "start": 99.926,
-      "end": 103.7
+      "start": 113.032,
+      "end": 116.806
      },
      {
       "scene": 6,
       "text": "1M+: usuários no super app bancário em que trabalhei.",
-      "start": 104.02,
-      "end": 107.614
+      "start": 117.126,
+      "end": 120.72
      },
      {
       "scene": 6,
       "text": "−50%: no tempo de carregamento com cache (Pharmalink).",
-      "start": 107.934,
-      "end": 112.165
+      "start": 121.04,
+      "end": 125.271
      },
      {
       "scene": 6,
       "text": "20+: empresas e produtos entregues.",
-      "start": 112.485,
-      "end": 115.291
+      "start": 125.591,
+      "end": 128.397
      },
      {
       "scene": 7,
       "text": "“Gabriel é um profissional esforçado, comprometido e com muito talento!",
-      "start": 116.041,
-      "end": 120.09
+      "start": 129.147,
+      "end": 133.196
      },
      {
       "scene": 7,
       "text": "Sempre disposto a dialogar, aceita críticas com receptividade e sempre se esforça para entregar a melhor qualidade possível.",
-      "start": 120.41,
-      "end": 127.784
+      "start": 133.516,
+      "end": 140.891
      },
      {
       "scene": 7,
       "text": "Tê-lo em sua equipe é ter alguém trabalhador, sincero e com muito bom humor!”",
-      "start": 128.104,
-      "end": 132.168
+      "start": 141.211,
+      "end": 145.274
      },
      {
       "scene": 7,
       "text": "— Lucas Assumpção de Oliveira.",
-      "start": 132.488,
-      "end": 134.382
+      "start": 145.594,
+      "end": 147.489
      },
      {
       "scene": 8,
       "text": "Aberto a oportunidades como Lead AI Engineer e Tech Lead — remoto, Brasil e exterior.",
-      "start": 135.132,
-      "end": 139.954
+      "start": 148.239,
+      "end": 153.084
      },
      {
       "scene": 8,
       "text": "Escreva para herrmannjob@gmail.",
-      "start": 140.274,
-      "end": 142.569
+      "start": 153.404,
+      "end": 155.699
      },
      {
       "scene": 8,
       "text": "com.",
-      "start": 142.889,
-      "end": 143.36
+      "start": 156.019,
+      "end": 156.49
      },
      {
       "scene": 8,
       "text": "Obrigado por assistir.",
-      "start": 143.68,
-      "end": 145.21
+      "start": 156.81,
+      "end": 158.34
      }
     ]
    },
    "full": {
-    "hash": "15up2a8",
+    "hash": "mz4c0i",
     "src": "/studio/pt/full.mp3",
-    "duration": 424.079,
+    "duration": 449.981,
     "scenes": [
      {
       "kind": "intro",
       "start": 0.35,
-      "end": 9.351
+      "end": 9.376
      },
      {
       "kind": "text",
-      "start": 9.351,
-      "end": 72.432
+      "start": 9.376,
+      "end": 72.457
      },
      {
       "kind": "work",
-      "start": 72.432,
-      "end": 106.032
+      "start": 72.457,
+      "end": 107.956
      },
      {
       "kind": "work",
-      "start": 106.032,
-      "end": 136.592
+      "start": 107.956,
+      "end": 141.007
      },
      {
       "kind": "work",
-      "start": 136.592,
-      "end": 167.322
+      "start": 141.007,
+      "end": 176.351
      },
      {
       "kind": "work",
-      "start": 167.322,
-      "end": 202.373
+      "start": 176.351,
+      "end": 216.97
      },
      {
       "kind": "work",
-      "start": 202.373,
-      "end": 242.326
+      "start": 216.97,
+      "end": 262.858
      },
      {
       "kind": "work",
-      "start": 242.326,
-      "end": 274.442
+      "start": 262.858,
+      "end": 298.018
      },
      {
       "kind": "work",
-      "start": 274.442,
-      "end": 302.154
+      "start": 298.018,
+      "end": 328.132
      },
      {
       "kind": "text",
-      "start": 302.154,
-      "end": 315.773
+      "start": 328.132,
+      "end": 341.651
      },
      {
       "kind": "stats",
-      "start": 315.773,
-      "end": 331.889
+      "start": 341.651,
+      "end": 357.767
      },
      {
       "kind": "stack",
-      "start": 331.889,
-      "end": 356.323
+      "start": 357.767,
+      "end": 382.201
      },
      {
       "kind": "quote",
-      "start": 356.323,
-      "end": 375.414
+      "start": 382.201,
+      "end": 401.292
      },
      {
       "kind": "quote",
-      "start": 375.414,
-      "end": 390.2
+      "start": 401.292,
+      "end": 416.078
      },
      {
       "kind": "quote",
-      "start": 390.2,
-      "end": 412.651
+      "start": 416.078,
+      "end": 438.53
      },
      {
       "kind": "outro",
-      "start": 412.651,
-      "end": 423.479
+      "start": 438.53,
+      "end": 449.381
      }
     ],
     "sentences": [
@@ -1299,534 +1299,534 @@
       "scene": 0,
       "text": "Lead AI Engineer · Especialista Fullstack e Frontend, em Novo Hamburgo, RS — Brasil.",
       "start": 3.926,
-      "end": 8.601
+      "end": 8.626
      },
      {
       "scene": 1,
       "text": "Pode me chamar de Herrmann — no papel, Gabriel Herrmann Grecchi.",
-      "start": 9.351,
-      "end": 12.605
+      "start": 9.376,
+      "end": 12.63
      },
      {
       "scene": 1,
       "text": "Desenvolvedor fullstack desde 2014, mobile desde 2017, Web3 e IA desde 2020.",
-      "start": 12.925,
-      "end": 20.01
+      "start": 12.95,
+      "end": 20.035
      },
      {
       "scene": 1,
       "text": "A maior parte do meu trabalho foi em plataformas de missão crítica em bancos e finanças, saúde e farmacêutico, e SaaS — produtos com milhões de usuários, segurança rigorosa e nenhuma margem para indisponibilidade — além de apps de consumo para varejo, restaurantes e academias.",
-      "start": 20.33,
-      "end": 35.765
+      "start": 20.355,
+      "end": 35.79
      },
      {
       "scene": 1,
       "text": "Minha especialidade é engenharia frontend em escala enterprise: arquitetura Angular, Micro Frontends, design systems, performance e acessibilidade.",
-      "start": 36.085,
-      "end": 44.656
+      "start": 36.11,
+      "end": 44.681
      },
      {
       "scene": 1,
       "text": "Sou igualmente confortável no backend com Python, C#/.",
-      "start": 44.976,
-      "end": 48.389
+      "start": 45.001,
+      "end": 48.414
      },
      {
       "scene": 1,
       "text": "NET, Node.",
-      "start": 48.709,
-      "end": 49.701
+      "start": 48.734,
+      "end": 49.726
      },
      {
       "scene": 1,
       "text": "js e integrações em Kotlin, e lidero times como Tech Lead quando o projeto pede.",
-      "start": 50.021,
-      "end": 55.184
+      "start": 50.046,
+      "end": 55.209
      },
      {
       "scene": 1,
       "text": "Hoje meu foco é engenharia de IA — LLMs, RAG, padrões agênticos, evals e fine-tuning — pela minha própria consultoria, a Herrmann IT Consultoria.",
-      "start": 55.504,
-      "end": 64.004
+      "start": 55.529,
+      "end": 64.029
      },
      {
       "scene": 1,
       "text": "Em 2020 fundei o Projeto Dev, um projeto social que ajuda pessoas a conseguirem o primeiro emprego em tecnologia.",
-      "start": 64.324,
-      "end": 71.682
+      "start": 64.349,
+      "end": 71.707
      },
      {
       "scene": 2,
-      "text": "Zup Innovation, como Engenheiro Frontend Sênior · Fullstack (Mai 2025 — Nov 2025).",
-      "start": 72.432,
-      "end": 78.737
+      "text": "Zup Innovation, como Desenvolvedor Fullstack · Especialista Frontend (Mai 2025 — Nov 2025).",
+      "start": 72.457,
+      "end": 79.431
      },
      {
       "scene": 2,
-      "text": "Especialista frontend em um super app bancário de grande escala usado por milhões — plataformas de tesouraria corporativa (PJ) e corretora de investimentos, com requisitos rígidos de segurança, performance e confiabilidade.",
-      "start": 79.057,
-      "end": 92.228
+      "text": "Especialista frontend em um super app bancário usado por milhões de pessoas — tesouraria PJ e corretora de investimentos, onde cada tela movimenta dinheiro de verdade e segurança, performance e confiabilidade não são negociáveis.",
+      "start": 79.751,
+      "end": 93.361
      },
      {
       "scene": 2,
-      "text": "Super app bancário de grande escala usado por milhões de usuários.",
-      "start": 92.548,
-      "end": 96.503
+      "text": "Super app bancário usado por milhões de clientes.",
+      "start": 93.681,
+      "end": 96.737
      },
      {
       "scene": 2,
-      "text": "Plataformas de tesouraria corporativa (PJ) e corretora de investimentos.",
-      "start": 96.823,
-      "end": 101.453
+      "text": "Plataformas de tesouraria PJ e corretora de investimentos.",
+      "start": 97.057,
+      "end": 101.011
      },
      {
       "scene": 2,
-      "text": "Arquitetura Angular enterprise e design system proprietário.",
-      "start": 101.773,
-      "end": 105.282
+      "text": "Angular enterprise sobre design system proprietário, com Angular Material, Tailwind CSS e BEM.",
+      "start": 101.331,
+      "end": 107.206
      },
      {
       "scene": 3,
       "text": "Deal, como Desenvolvedor Fullstack · Especialista Frontend (Ago 2024 — Dez 2024).",
-      "start": 106.032,
-      "end": 112.631
+      "start": 107.956,
+      "end": 114.555
      },
      {
       "scene": 3,
-      "text": "Plataformas de internet banking para dois clientes do setor financeiro em arquitetura de Micro Frontends — referência técnica em padrões e arquitetura frontend.",
-      "start": 112.951,
-      "end": 122.086
+      "text": "Internet banking para duas instituições financeiras em arquitetura de Micro Frontends — fui a referência frontend que definiu os padrões de código e arquitetura sobre os quais os dois produtos foram construídos.",
+      "start": 114.875,
+      "end": 126.844
      },
      {
       "scene": 3,
       "text": "Plataformas de internet banking para dois clientes do setor financeiro.",
-      "start": 122.406,
-      "end": 126.485
+      "start": 127.164,
+      "end": 131.243
      },
      {
       "scene": 3,
-      "text": "Arquitetura de Micro Frontends para isolamento de domínios e evolução independente.",
-      "start": 126.805,
-      "end": 131.691
+      "text": "Arquitetura de Micro Frontends: domínios isolados e deploys independentes.",
+      "start": 131.563,
+      "end": 136.106
      },
      {
       "scene": 3,
       "text": "Referência técnica de frontend — padrões de código e arquitetura.",
-      "start": 132.011,
-      "end": 135.842
+      "start": 136.426,
+      "end": 140.257
      },
      {
       "scene": 4,
       "text": "TaqTaq, como Tech Lead (Jul 2024 — Out 2024).",
-      "start": 136.592,
-      "end": 141.21
+      "start": 141.007,
+      "end": 145.625
      },
      {
       "scene": 4,
-      "text": "Liderança técnica de um novo app multiplataforma para B2C, B2B e eventos — do conceito à produção, dentro do prazo e do orçamento.",
-      "start": 141.53,
-      "end": 149.536
+      "text": "Tech Lead do novo app multiplataforma da TaqTaq — cartões de visita digitais compartilhados por QR, NFC e proximidade — do conceito à App Store e ao Google Play, dentro do prazo e do orçamento.",
+      "start": 145.945,
+      "end": 157.523
      },
      {
       "scene": 4,
       "text": "Resultado: +20% — taxa de conclusão de projetos após adoção de práticas ágeis.",
-      "start": 149.856,
-      "end": 155.581
+      "start": 157.843,
+      "end": 163.568
      },
      {
       "scene": 4,
       "text": "Liderei um novo app multiplataforma do conceito à produção.",
-      "start": 155.901,
-      "end": 159.374
+      "start": 163.888,
+      "end": 167.362
      },
      {
       "scene": 4,
       "text": "Responsável pela arquitetura, planejamento técnico e priorização.",
-      "start": 159.694,
-      "end": 163.713
+      "start": 167.682,
+      "end": 171.7
      },
      {
       "scene": 4,
-      "text": "Apps mobile responsivos em Flutter (Dart).",
-      "start": 164.033,
-      "end": 166.572
+      "text": "Desenvolvimento hands-on em Flutter (Dart) para iOS e Android.",
+      "start": 172.02,
+      "end": 175.601
      },
      {
       "scene": 5,
       "text": "CI&T, como Desenvolvedor Fullstack (Dez 2023 — Ago 2024).",
-      "start": 167.322,
-      "end": 172.846
+      "start": 176.351,
+      "end": 181.875
      },
      {
       "scene": 5,
-      "text": "Projetos internacionais para grandes empresas financeiras e corporativas — aplicações de crédito imobiliário com Angular, C#/.",
-      "start": 173.166,
-      "end": 180.789
+      "text": "Projetos internacionais para grandes clientes financeiros e corporativos — aplicações de crédito imobiliário em Angular, C#/.",
+      "start": 182.195,
+      "end": 189.617
      },
      {
       "scene": 5,
-      "text": "NET e Python, e liderança técnica em projetos cloud.",
-      "start": 181.109,
-      "end": 184.517
+      "text": "NET e Python, e liderança técnica em projetos cloud que aumentaram o engajamento em 30% e reduziram o tempo de carregamento em 20%.",
+      "start": 189.937,
+      "end": 199.114
      },
      {
       "scene": 5,
       "text": "Resultado: +30% — engajamento de usuários.",
-      "start": 184.837,
-      "end": 188.294
+      "start": 199.434,
+      "end": 202.891
      },
      {
       "scene": 5,
       "text": "Projetos internacionais para grandes empresas financeiras e corporativas.",
-      "start": 188.614,
-      "end": 193.15
+      "start": 203.211,
+      "end": 207.747
      },
      {
       "scene": 5,
       "text": "Aplicações de crédito imobiliário (Angular, C#/.",
-      "start": 193.47,
-      "end": 196.478
+      "start": 208.067,
+      "end": 211.075
      },
      {
       "scene": 5,
       "text": "NET, Python).",
-      "start": 196.798,
-      "end": 197.82
+      "start": 211.395,
+      "end": 212.417
      },
      {
       "scene": 5,
       "text": "Pipelines de CI/CD, práticas de testes e qualidade.",
-      "start": 198.14,
-      "end": 201.623
+      "start": 212.737,
+      "end": 216.22
      },
      {
       "scene": 6,
-      "text": "ECS Inovação, como Desenvolvedor Fullstack · Líder Frontend (Jun 2020 — Out 2023).",
-      "start": 202.373,
-      "end": 208.592
+      "text": "Pharmalink, como Desenvolvedor Fullstack · Líder Frontend (Jun 2020 — Out 2023).",
+      "start": 216.97,
+      "end": 222.751
      },
      {
       "scene": 6,
-      "text": "Responsável técnico pelo Pharmalink Online — hub e marketplace farmacêutico usado por muitos players do setor.",
-      "start": 208.912,
-      "end": 215.384
+      "text": "Responsável técnico pelo Pharmalink Online, o hub que conecta a indústria farmacêutica brasileira a distribuidores e farmácias.",
+      "start": 223.071,
+      "end": 230.664
      },
      {
       "scene": 6,
-      "text": "Liderei a migração completa de AngularJS 1.",
-      "start": 215.704,
-      "end": 218.942
+      "text": "Liderei sua migração completa de AngularJS 1.",
+      "start": 230.984,
+      "end": 234.297
      },
      {
       "scene": 6,
-      "text": "8 → Angular 14.",
-      "start": 219.262,
-      "end": 221.033
+      "text": "8 para Angular 14 e reduzi o tempo de carregamento em até 50%.",
+      "start": 234.617,
+      "end": 239.57
      },
      {
       "scene": 6,
       "text": "Resultado: −50% — tempo de carregamento com estratégias de cache.",
-      "start": 221.353,
-      "end": 226.148
+      "start": 239.89,
+      "end": 244.685
      },
      {
       "scene": 6,
-      "text": "Responsável técnico pelo Pharmalink Online, hub e marketplace farmacêutico.",
-      "start": 226.468,
-      "end": 230.961
+      "text": "Responsável técnico pelo Pharmalink Online, o hub comercial da indústria farmacêutica.",
+      "start": 245.005,
+      "end": 250.036
      },
      {
       "scene": 6,
       "text": "Liderei a migração completa de AngularJS 1.",
-      "start": 231.281,
-      "end": 234.52
+      "start": 250.356,
+      "end": 253.594
      },
      {
       "scene": 6,
       "text": "8.",
-      "start": 234.84,
-      "end": 235.52
+      "start": 253.914,
+      "end": 254.595
      },
      {
       "scene": 6,
-      "text": "2 → Angular 14.",
-      "start": 235.84,
-      "end": 237.606
+      "text": "2 → Angular 14 com a plataforma em produção.",
+      "start": 254.915,
+      "end": 258.139
      },
      {
       "scene": 6,
       "text": "Contribuição direta no motor de cálculo do Ciclo Financeiro.",
-      "start": 237.926,
-      "end": 241.576
+      "start": 258.459,
+      "end": 262.108
      },
      {
       "scene": 7,
       "text": "Herrmann IT Consultoria, como Fundador · Engenheiro de Software · Especialista Frontend (Dez 2013 — Atual).",
-      "start": 242.326,
-      "end": 248.788
+      "start": 262.858,
+      "end": 269.321
      },
      {
       "scene": 7,
-      "text": "Minha própria consultoria de tecnologia.",
-      "start": 249.108,
-      "end": 251.739
+      "text": "Minha própria consultoria, desde 2013.",
+      "start": 269.641,
+      "end": 272.467
      },
      {
       "scene": 7,
-      "text": "Engenharia frontend, desenvolvimento fullstack e arquitetura de aplicações para clientes nacionais e internacionais em bancos, saúde e SaaS.",
-      "start": 252.059,
-      "end": 260.14
+      "text": "Por ela entreguei para PicPay, Grupo Madero, Lojas Lebes, Pacto, upLexis, Pernambucanas, Milvus e outros — como Engenheiro Frontend, Engenheiro Fullstack ou Tech Lead, conforme o projeto precisa.",
+      "start": 272.787,
+      "end": 283.794
      },
      {
       "scene": 7,
       "text": "Consultor (PJ) em projetos estratégicos de médio e grande porte.",
-      "start": 260.46,
-      "end": 264.522
+      "start": 284.114,
+      "end": 288.176
      },
      {
       "scene": 7,
       "text": "Engenheiro Frontend, Engenheiro Fullstack ou Tech Lead conforme a necessidade de cada cliente.",
-      "start": 264.842,
-      "end": 270.093
+      "start": 288.496,
+      "end": 293.747
      },
      {
       "scene": 7,
-      "text": "Produtos enterprise, de missão crítica e alto tráfego.",
-      "start": 270.413,
-      "end": 273.692
+      "text": "Apps de consumo publicados na App Store e no Google Play.",
+      "start": 294.067,
+      "end": 297.268
      },
      {
       "scene": 8,
       "text": "Pacto Soluções, como Engenheiro Frontend.",
-      "start": 274.442,
-      "end": 276.84
+      "start": 298.018,
+      "end": 300.416
      },
      {
       "scene": 8,
-      "text": "Frontend do ecossistema de gestão fitness da Pacto — incluindo os apps de alunos de duas das maiores redes de academias do Sul do Brasil, Engenharia do Corpo e Usina do Corpo, e seus hotsites.",
-      "start": 277.16,
-      "end": 288.118
+      "text": "Frontend da plataforma fitness da Pacto — os apps de alunos de duas das maiores redes de academias do Sul do Brasil, Engenharia do Corpo e Usina do Corpo, seus hotsites, o hotsite de vendas da Pacto e o sistema de gestão ZW.",
+      "start": 300.736,
+      "end": 313.811
      },
      {
       "scene": 8,
-      "text": "Apps de alunos da Engenharia do Corpo (EC PRO) e da Usina do Corpo — treinos, agendamento de aulas, check-in e contratos.",
-      "start": 288.438,
-      "end": 294.894
+      "text": "Apps de alunos da Engenharia do Corpo (EC PRO) e da Usina do Corpo.",
+      "start": 314.131,
+      "end": 317.555
+     },
+     {
+      "scene": 8,
+      "text": "Treinos com cargas e repetições, avaliações, agendamento de aulas, check-in e contratos.",
+      "start": 317.875,
+      "end": 323.037
      },
      {
       "scene": 8,
       "text": "Hotsites das redes de academias: planos, unidades e matrícula online.",
-      "start": 295.214,
-      "end": 299.239
-     },
-     {
-      "scene": 8,
-      "text": "Hotsite de vendas da Pacto.",
-      "start": 299.559,
-      "end": 301.404
+      "start": 323.357,
+      "end": 327.382
      },
      {
       "scene": 9,
-      "text": "Também entreguei projetos para PicPay, upLexis, Pernambucanas, Milvus, Maxxidata, UDS, Inform / Ekantika, Scale, Facepass, Lojas Lebes, Grupo Madero, Pevepas, Relevo Lab, SoftWrap, Tríade Social e Dollar Donation Club.",
-      "start": 302.154,
-      "end": 315.023
+      "text": "Também entreguei projetos para Lojas Lebes, Grupo Madero, PicPay, upLexis, Milvus, UDS, Facepass, Pernambucanas, Maxxidata, Inform / Ekantika, Scale, Pevepas, Relevo Lab, SoftWrap, Tríade Social e Dollar Donation Club.",
+      "start": 328.132,
+      "end": 340.901
      },
      {
       "scene": 10,
       "text": "12+: anos entregando software (desde 2014).",
-      "start": 315.773,
-      "end": 319.547
+      "start": 341.651,
+      "end": 345.426
      },
      {
       "scene": 10,
       "text": "1M+: usuários no super app bancário em que trabalhei.",
-      "start": 319.867,
-      "end": 323.461
+      "start": 345.746,
+      "end": 349.34
      },
      {
       "scene": 10,
       "text": "−50%: no tempo de carregamento com cache (Pharmalink).",
-      "start": 323.781,
-      "end": 328.013
+      "start": 349.66,
+      "end": 353.891
      },
      {
       "scene": 10,
       "text": "20+: empresas e produtos entregues.",
-      "start": 328.333,
-      "end": 331.139
+      "start": 354.211,
+      "end": 357.017
      },
      {
       "scene": 11,
       "text": "IA & LLM: LLMs, RAG, Agentic patterns, Evals, Fine-tuning.",
-      "start": 331.889,
-      "end": 336.179
+      "start": 357.767,
+      "end": 362.057
      },
      {
       "scene": 11,
       "text": "Frontend: Angular, React, Vue.",
-      "start": 336.499,
-      "end": 338.409
+      "start": 362.377,
+      "end": 364.287
      },
      {
       "scene": 11,
       "text": "js, Next.",
-      "start": 338.729,
-      "end": 339.968
+      "start": 364.607,
+      "end": 365.846
      },
      {
       "scene": 11,
       "text": "js, Nuxt.",
-      "start": 340.288,
-      "end": 341.608
+      "start": 366.166,
+      "end": 367.486
      },
      {
       "scene": 11,
       "text": "Backend: Python, FastAPI, Django, C# / .",
-      "start": 341.928,
-      "end": 344.666
+      "start": 367.806,
+      "end": 370.544
      },
      {
       "scene": 11,
       "text": "NET, Node.",
-      "start": 344.986,
-      "end": 345.978
+      "start": 370.864,
+      "end": 371.856
      },
      {
       "scene": 11,
       "text": "js.",
-      "start": 346.298,
-      "end": 347.265
+      "start": 372.176,
+      "end": 373.143
      },
      {
       "scene": 11,
       "text": "Mobile: Flutter, Dart, Kotlin, React Native, Ionic.",
-      "start": 347.585,
-      "end": 350.741
+      "start": 373.463,
+      "end": 376.62
      },
      {
       "scene": 11,
       "text": "Dados & Infra: PostgreSQL, SQL Server, MongoDB, Redis, Docker.",
-      "start": 351.061,
-      "end": 355.573
+      "start": 376.94,
+      "end": 381.451
      },
      {
       "scene": 12,
       "text": "“Gabriel é um profissional esforçado, comprometido e com muito talento!",
-      "start": 356.323,
-      "end": 360.372
+      "start": 382.201,
+      "end": 386.25
      },
      {
       "scene": 12,
       "text": "Sempre disposto a dialogar, aceita críticas com receptividade e sempre se esforça para entregar a melhor qualidade possível.",
-      "start": 360.692,
-      "end": 368.066
+      "start": 386.57,
+      "end": 393.944
      },
      {
       "scene": 12,
       "text": "Tê-lo em sua equipe é ter alguém trabalhador, sincero e com muito bom humor!”",
-      "start": 368.386,
-      "end": 372.449
+      "start": 394.264,
+      "end": 398.328
      },
      {
       "scene": 12,
       "text": "— Lucas Assumpção de Oliveira.",
-      "start": 372.769,
-      "end": 374.664
+      "start": 398.648,
+      "end": 400.542
      },
      {
       "scene": 13,
       "text": "“O Gabriel é um profissional muito capaz e comprometido, sempre estudando e disposto a aprender.",
-      "start": 375.414,
-      "end": 380.962
+      "start": 401.292,
+      "end": 406.84
      },
      {
       "scene": 13,
       "text": "propondo melhorias, novas práticas e tecnologias, pensando no todo para a melhoria dos produtos.”",
-      "start": 381.282,
-      "end": 387.073
+      "start": 407.16,
+      "end": 412.951
      },
      {
       "scene": 13,
       "text": "— Aaron Pierre Glienke Nunez.",
-      "start": 387.393,
-      "end": 389.45
+      "start": 413.271,
+      "end": 415.328
      },
      {
       "scene": 14,
       "text": "“Gabriel é um ótimo programador e colega de trabalho!",
-      "start": 390.2,
-      "end": 393.247
+      "start": 416.078,
+      "end": 419.126
      },
      {
       "scene": 14,
       "text": "Sempre disposto a aprender e ensinar, preocupado com as entregas e qualidade de todo o sistema.",
-      "start": 393.567,
-      "end": 399.154
+      "start": 419.446,
+      "end": 425.033
      },
      {
       "scene": 14,
       "text": "Seu conhecimento técnico em diversos frameworks JS para front-end e sua facilidade em se comunicar e ajudar faz com que seja muito legal e gratificante trabalhar com ele!”",
-      "start": 399.474,
-      "end": 409.749
+      "start": 425.353,
+      "end": 435.628
      },
      {
       "scene": 14,
       "text": "— Gabriel Romero de Souza.",
-      "start": 410.069,
-      "end": 411.901
+      "start": 435.948,
+      "end": 437.78
      },
      {
       "scene": 15,
       "text": "Aberto a oportunidades como Lead AI Engineer e Tech Lead — remoto, Brasil e exterior.",
-      "start": 412.651,
-      "end": 417.473
+      "start": 438.53,
+      "end": 443.375
      },
      {
       "scene": 15,
       "text": "Escreva para herrmannjob@gmail.",
-      "start": 417.793,
-      "end": 420.088
+      "start": 443.695,
+      "end": 445.99
      },
      {
       "scene": 15,
       "text": "com.",
-      "start": 420.408,
-      "end": 420.879
+      "start": 446.31,
+      "end": 446.781
      },
      {
       "scene": 15,
       "text": "Obrigado por assistir.",
-      "start": 421.199,
-      "end": 422.729
+      "start": 447.101,
+      "end": 448.631
      }
     ]
    }
   },
   "es": {
    "short": {
-    "hash": "18o1v0f",
+    "hash": "6rkuoy",
     "src": "/studio/es/short.mp3",
-    "duration": 57.123,
+    "duration": 61.798,
     "scenes": [
      {
       "kind": "intro",
       "start": 0.35,
-      "end": 9.576
+      "end": 9.73
      },
      {
       "kind": "work",
-      "start": 9.576,
-      "end": 28.932
+      "start": 9.73,
+      "end": 30.841
      },
      {
       "kind": "work",
-      "start": 28.932,
-      "end": 45.6
+      "start": 30.841,
+      "end": 50.301
      },
      {
       "kind": "outro",
-      "start": 45.6,
-      "end": 56.523
+      "start": 50.301,
+      "end": 61.198
      }
     ],
     "sentences": [
@@ -1840,107 +1840,107 @@
       "scene": 0,
       "text": "Lead AI Engineer · Especialista Fullstack y Frontend, desde Novo Hamburgo, RS — Brasil.",
       "start": 3.938,
-      "end": 8.826
+      "end": 8.98
      },
      {
       "scene": 1,
-      "text": "Zup Innovation, como Ingeniero Frontend Senior · Fullstack (May 2025 — Nov 2025).",
-      "start": 9.576,
-      "end": 15.682
+      "text": "Zup Innovation, como Desarrollador Fullstack · Especialista Frontend (May 2025 — Nov 2025).",
+      "start": 9.73,
+      "end": 16.486
      },
      {
       "scene": 1,
-      "text": "Especialista frontend en una super app bancaria a gran escala usada por millones — plataformas de tesorería corporativa y bróker de inversiones, con requisitos estrictos de seguridad, rendimiento y fiabilidad.",
-      "start": 16.002,
-      "end": 28.182
+      "text": "Especialista frontend en una super app bancaria usada por millones de personas — tesorería empresarial y bróker de inversiones, donde cada pantalla mueve dinero real y la seguridad, el rendimiento y la fiabilidad no se negocian.",
+      "start": 16.806,
+      "end": 30.091
      },
      {
       "scene": 2,
       "text": "Deal, como Desarrollador Fullstack · Especialista Frontend (Ago 2024 — Dic 2024).",
-      "start": 28.932,
-      "end": 35.263
+      "start": 30.841,
+      "end": 37.172
      },
      {
       "scene": 2,
-      "text": "Plataformas de banca web para dos clientes del sector financiero sobre una arquitectura de Micro Frontends — referente técnico en estándares y arquitectura frontend.",
-      "start": 35.583,
-      "end": 44.85
+      "text": "Banca web para dos instituciones financieras sobre una arquitectura de Micro Frontends — fui el referente frontend que definió los estándares de código y arquitectura sobre los que se construyeron ambos productos.",
+      "start": 37.492,
+      "end": 49.551
      },
      {
       "scene": 3,
       "text": "Abierto a oportunidades como Lead AI Engineer y Tech Lead — remoto, Brasil e internacional.",
-      "start": 45.6,
-      "end": 50.945
+      "start": 50.301,
+      "end": 55.621
      },
      {
       "scene": 3,
       "text": "Escríbeme a herrmannjob@gmail.",
-      "start": 51.265,
-      "end": 53.467
+      "start": 55.941,
+      "end": 58.142
      },
      {
       "scene": 3,
       "text": "com.",
-      "start": 53.787,
-      "end": 54.31
+      "start": 58.462,
+      "end": 58.985
      },
      {
       "scene": 3,
       "text": "Gracias por ver.",
-      "start": 54.63,
-      "end": 55.773
+      "start": 59.305,
+      "end": 60.448
      }
     ]
    },
    "medium": {
-    "hash": "1pa8ftd",
+    "hash": "1oil5iz",
     "src": "/studio/es/medium.mp3",
-    "duration": 147.131,
+    "duration": 161.062,
     "scenes": [
      {
       "kind": "intro",
       "start": 0.35,
-      "end": 9.576
+      "end": 9.73
      },
      {
       "kind": "text",
-      "start": 9.576,
-      "end": 21.389
+      "start": 9.73,
+      "end": 21.543
      },
      {
       "kind": "work",
-      "start": 21.389,
-      "end": 40.745
+      "start": 21.543,
+      "end": 42.653
      },
      {
       "kind": "work",
-      "start": 40.745,
-      "end": 57.413
+      "start": 42.653,
+      "end": 62.113
      },
      {
       "kind": "work",
-      "start": 57.413,
-      "end": 77.231
+      "start": 62.113,
+      "end": 85.631
      },
      {
       "kind": "work",
-      "start": 77.231,
-      "end": 99.594
+      "start": 85.631,
+      "end": 113.551
      },
      {
       "kind": "stats",
-      "start": 99.594,
-      "end": 116.157
+      "start": 113.551,
+      "end": 130.113
      },
      {
       "kind": "quote",
-      "start": 116.157,
-      "end": 135.609
+      "start": 130.113,
+      "end": 149.565
      },
      {
       "kind": "outro",
-      "start": 135.609,
-      "end": 146.531
+      "start": 149.565,
+      "end": 160.462
      }
     ],
     "sentences": [
@@ -1954,238 +1954,238 @@
       "scene": 0,
       "text": "Lead AI Engineer · Especialista Fullstack y Frontend, desde Novo Hamburgo, RS — Brasil.",
       "start": 3.938,
-      "end": 8.826
+      "end": 8.98
      },
      {
       "scene": 1,
       "text": "Construyo plataformas de misión crítica para banca, salud y tecnología — arquitectura frontend empresarial, backends escalables y, desde 2020, productos con IA y LLMs.",
-      "start": 9.576,
-      "end": 20.639
+      "start": 9.73,
+      "end": 20.793
      },
      {
       "scene": 2,
-      "text": "Zup Innovation, como Ingeniero Frontend Senior · Fullstack (May 2025 — Nov 2025).",
-      "start": 21.389,
-      "end": 27.495
+      "text": "Zup Innovation, como Desarrollador Fullstack · Especialista Frontend (May 2025 — Nov 2025).",
+      "start": 21.543,
+      "end": 28.299
      },
      {
       "scene": 2,
-      "text": "Especialista frontend en una super app bancaria a gran escala usada por millones — plataformas de tesorería corporativa y bróker de inversiones, con requisitos estrictos de seguridad, rendimiento y fiabilidad.",
-      "start": 27.815,
-      "end": 39.995
+      "text": "Especialista frontend en una super app bancaria usada por millones de personas — tesorería empresarial y bróker de inversiones, donde cada pantalla mueve dinero real y la seguridad, el rendimiento y la fiabilidad no se negocian.",
+      "start": 28.619,
+      "end": 41.903
      },
      {
       "scene": 3,
       "text": "Deal, como Desarrollador Fullstack · Especialista Frontend (Ago 2024 — Dic 2024).",
-      "start": 40.745,
-      "end": 47.076
+      "start": 42.653,
+      "end": 48.985
      },
      {
       "scene": 3,
-      "text": "Plataformas de banca web para dos clientes del sector financiero sobre una arquitectura de Micro Frontends — referente técnico en estándares y arquitectura frontend.",
-      "start": 47.396,
-      "end": 56.663
+      "text": "Banca web para dos instituciones financieras sobre una arquitectura de Micro Frontends — fui el referente frontend que definió los estándares de código y arquitectura sobre los que se construyeron ambos productos.",
+      "start": 49.305,
+      "end": 61.363
      },
      {
       "scene": 4,
       "text": "TaqTaq, como Tech Lead (Jul 2024 — Oct 2024).",
-      "start": 57.413,
-      "end": 61.901
+      "start": 62.113,
+      "end": 66.601
      },
      {
       "scene": 4,
-      "text": "Liderazgo técnico de una nueva app multiplataforma para B2C, B2B y eventos — del concepto a producción, en plazo y presupuesto.",
-      "start": 62.221,
-      "end": 70.226
+      "text": "Tech Lead de la nueva app multiplataforma de TaqTaq — tarjetas de presentación digitales compartidas por QR, NFC y proximidad — del concepto a App Store y Google Play, en plazo y presupuesto.",
+      "start": 66.921,
+      "end": 78.626
      },
      {
       "scene": 4,
       "text": "Resultado: +20% — tasa de finalización de proyectos tras adoptar prácticas ágiles.",
-      "start": 70.546,
-      "end": 76.481
+      "start": 78.946,
+      "end": 84.881
      },
      {
       "scene": 5,
       "text": "CI&T, como Desarrollador Fullstack (Dic 2023 — Ago 2024).",
-      "start": 77.231,
-      "end": 82.737
+      "start": 85.631,
+      "end": 91.137
      },
      {
       "scene": 5,
-      "text": "Proyectos internacionales para grandes empresas financieras y corporativas — aplicaciones de crédito hipotecario con Angular, C#/.",
-      "start": 83.057,
-      "end": 91.325
+      "text": "Proyectos internacionales para grandes clientes financieros y corporativos — aplicaciones de crédito hipotecario en Angular, C#/.",
+      "start": 91.457,
+      "end": 99.475
      },
      {
       "scene": 5,
-      "text": "NET y Python, y liderazgo técnico en proyectos cloud.",
-      "start": 91.645,
-      "end": 95.039
+      "text": "NET y Python, y liderazgo técnico en proyectos cloud que aumentaron la interacción un 30% y redujeron el tiempo de carga un 20%.",
+      "start": 99.795,
+      "end": 108.995
      },
      {
       "scene": 5,
       "text": "Resultado: +30% — interacción de usuarios.",
-      "start": 95.359,
-      "end": 98.844
+      "start": 109.315,
+      "end": 112.801
      },
      {
       "scene": 6,
       "text": "12+: años entregando software (desde 2014).",
-      "start": 99.594,
-      "end": 103.208
+      "start": 113.551,
+      "end": 117.164
      },
      {
       "scene": 6,
       "text": "1M+: usuarios en la super app bancaria en la que trabajé.",
-      "start": 103.528,
-      "end": 107.46
+      "start": 117.484,
+      "end": 121.416
      },
      {
       "scene": 6,
       "text": "−50%: en tiempo de carga gracias al caché (Pharmalink).",
-      "start": 107.78,
-      "end": 112.173
+      "start": 121.736,
+      "end": 126.13
      },
      {
       "scene": 6,
       "text": "20+: empresas y productos entregados.",
-      "start": 112.493,
-      "end": 115.407
+      "start": 126.45,
+      "end": 129.363
      },
      {
       "scene": 7,
       "text": "“¡Gabriel es un profesional esforzado, comprometido y con mucho talento!",
-      "start": 116.157,
-      "end": 120.289
+      "start": 130.113,
+      "end": 134.246
      },
      {
       "scene": 7,
       "text": "Siempre dispuesto a dialogar, recibe las críticas con apertura y siempre se esfuerza por entregar la mejor calidad posible.",
-      "start": 120.609,
-      "end": 127.766
+      "start": 134.566,
+      "end": 141.722
      },
      {
       "scene": 7,
       "text": "Tenerlo en tu equipo es tener a alguien trabajador, sincero y con muy buen humor.”",
-      "start": 128.086,
-      "end": 132.699
+      "start": 142.042,
+      "end": 146.655
      },
      {
       "scene": 7,
       "text": "— Lucas Assumpção de Oliveira.",
-      "start": 133.019,
-      "end": 134.859
+      "start": 146.975,
+      "end": 148.815
      },
      {
       "scene": 8,
       "text": "Abierto a oportunidades como Lead AI Engineer y Tech Lead — remoto, Brasil e internacional.",
-      "start": 135.609,
-      "end": 140.954
+      "start": 149.565,
+      "end": 154.885
      },
      {
       "scene": 8,
       "text": "Escríbeme a herrmannjob@gmail.",
-      "start": 141.274,
-      "end": 143.475
+      "start": 155.205,
+      "end": 157.406
      },
      {
       "scene": 8,
       "text": "com.",
-      "start": 143.795,
-      "end": 144.318
+      "start": 157.726,
+      "end": 158.249
      },
      {
       "scene": 8,
       "text": "Gracias por ver.",
-      "start": 144.638,
-      "end": 145.781
+      "start": 158.569,
+      "end": 159.712
      }
     ]
    },
    "full": {
-    "hash": "1axnpqn",
+    "hash": "8j285g",
     "src": "/studio/es/full.mp3",
-    "duration": 428.741,
+    "duration": 457.221,
     "scenes": [
      {
       "kind": "intro",
       "start": 0.35,
-      "end": 9.576
+      "end": 9.73
      },
      {
       "kind": "text",
-      "start": 9.576,
-      "end": 73.609
+      "start": 9.73,
+      "end": 73.763
      },
      {
       "kind": "work",
-      "start": 73.609,
-      "end": 105.017
+      "start": 73.763,
+      "end": 108.672
      },
      {
       "kind": "work",
-      "start": 105.017,
-      "end": 135.414
+      "start": 108.672,
+      "end": 141.414
      },
      {
       "kind": "work",
-      "start": 135.414,
-      "end": 167.162
+      "start": 141.414,
+      "end": 177.562
      },
      {
       "kind": "work",
-      "start": 167.162,
-      "end": 203.199
+      "start": 177.562,
+      "end": 219.155
      },
      {
       "kind": "work",
-      "start": 203.199,
-      "end": 242.728
+      "start": 219.155,
+      "end": 264.318
      },
      {
       "kind": "work",
-      "start": 242.728,
-      "end": 274.964
+      "start": 264.318,
+      "end": 300.207
      },
      {
       "kind": "work",
-      "start": 274.964,
-      "end": 303.675
+      "start": 300.207,
+      "end": 332.154
      },
      {
       "kind": "text",
-      "start": 303.675,
-      "end": 318.745
+      "start": 332.154,
+      "end": 347.25
      },
      {
       "kind": "stats",
-      "start": 318.745,
-      "end": 335.308
+      "start": 347.25,
+      "end": 363.813
      },
      {
       "kind": "stack",
-      "start": 335.308,
-      "end": 360.77
+      "start": 363.813,
+      "end": 389.275
      },
      {
       "kind": "quote",
-      "start": 360.77,
-      "end": 380.222
+      "start": 389.275,
+      "end": 408.727
      },
      {
       "kind": "quote",
-      "start": 380.222,
-      "end": 394.426
+      "start": 408.727,
+      "end": 422.93
      },
      {
       "kind": "quote",
-      "start": 394.426,
-      "end": 417.218
+      "start": 422.93,
+      "end": 445.723
      },
      {
       "kind": "outro",
-      "start": 417.218,
-      "end": 428.141
+      "start": 445.723,
+      "end": 456.621
      }
     ],
     "sentences": [
@@ -2199,508 +2199,508 @@
       "scene": 0,
       "text": "Lead AI Engineer · Especialista Fullstack y Frontend, desde Novo Hamburgo, RS — Brasil.",
       "start": 3.938,
-      "end": 8.826
+      "end": 8.98
      },
      {
       "scene": 1,
       "text": "Puedes llamarme Herrmann — en los papeles, Gabriel Herrmann Grecchi.",
-      "start": 9.576,
-      "end": 13.037
+      "start": 9.73,
+      "end": 13.192
      },
      {
       "scene": 1,
       "text": "Desarrollador fullstack desde 2014, móvil desde 2017, Web3 e IA desde 2020.",
-      "start": 13.357,
-      "end": 20.014
+      "start": 13.512,
+      "end": 20.168
      },
      {
       "scene": 1,
       "text": "La mayor parte de mi trabajo ha sido en plataformas de misión crítica en banca y finanzas, salud y farmacéutica, y SaaS — productos con millones de usuarios, seguridad estricta y ningún margen para caídas — además de apps de consumo para retail, restaurantes y gimnasios.",
-      "start": 20.334,
-      "end": 35.815
+      "start": 20.488,
+      "end": 35.969
      },
      {
       "scene": 1,
       "text": "Mi especialidad es la ingeniería frontend a escala empresarial: arquitectura Angular, Micro Frontends, design systems, rendimiento y accesibilidad.",
-      "start": 36.135,
-      "end": 44.567
+      "start": 36.289,
+      "end": 44.721
      },
      {
       "scene": 1,
       "text": "Me desenvuelvo igual de bien en el backend con Python, C#/.",
-      "start": 44.887,
-      "end": 48.644
+      "start": 45.041,
+      "end": 48.798
      },
      {
       "scene": 1,
       "text": "NET, Node.",
-      "start": 48.964,
-      "end": 49.814
+      "start": 49.118,
+      "end": 49.968
      },
      {
       "scene": 1,
       "text": "js e integraciones en Kotlin, y lidero equipos como Tech Lead cuando el proyecto lo requiere.",
-      "start": 50.134,
-      "end": 55.973
+      "start": 50.288,
+      "end": 56.127
      },
      {
       "scene": 1,
       "text": "Hoy me enfoco en ingeniería de IA — LLMs, RAG, patrones agénticos, evals y fine-tuning — a través de mi propia consultora, Herrmann IT Consultoria.",
-      "start": 56.293,
-      "end": 65.525
+      "start": 56.447,
+      "end": 65.679
      },
      {
       "scene": 1,
       "text": "En 2020 fundé Projeto Dev, un proyecto social que ayuda a personas a conseguir su primer empleo en tecnología.",
-      "start": 65.845,
-      "end": 72.859
+      "start": 65.999,
+      "end": 73.013
      },
      {
       "scene": 2,
-      "text": "Zup Innovation, como Ingeniero Frontend Senior · Fullstack (May 2025 — Nov 2025).",
-      "start": 73.609,
-      "end": 79.715
+      "text": "Zup Innovation, como Desarrollador Fullstack · Especialista Frontend (May 2025 — Nov 2025).",
+      "start": 73.763,
+      "end": 80.52
      },
      {
       "scene": 2,
-      "text": "Especialista frontend en una super app bancaria a gran escala usada por millones — plataformas de tesorería corporativa y bróker de inversiones, con requisitos estrictos de seguridad, rendimiento y fiabilidad.",
-      "start": 80.035,
-      "end": 92.216
+      "text": "Especialista frontend en una super app bancaria usada por millones de personas — tesorería empresarial y bróker de inversiones, donde cada pantalla mueve dinero real y la seguridad, el rendimiento y la fiabilidad no se negocian.",
+      "start": 80.84,
+      "end": 94.124
      },
      {
       "scene": 2,
-      "text": "Super app bancaria a gran escala usada por millones de usuarios.",
-      "start": 92.536,
-      "end": 96.397
+      "text": "Super app bancaria usada por millones de clientes.",
+      "start": 94.444,
+      "end": 97.583
      },
      {
       "scene": 2,
-      "text": "Plataformas de tesorería corporativa y bróker de inversiones.",
-      "start": 96.717,
-      "end": 100.378
+      "text": "Plataformas de tesorería empresarial y bróker de inversiones.",
+      "start": 97.903,
+      "end": 101.489
      },
      {
       "scene": 2,
-      "text": "Arquitectura Angular empresarial y design system propietario.",
-      "start": 100.698,
-      "end": 104.267
+      "text": "Angular empresarial sobre un design system propietario, con Angular Material, Tailwind CSS y BEM.",
+      "start": 101.809,
+      "end": 107.922
      },
      {
       "scene": 3,
       "text": "Deal, como Desarrollador Fullstack · Especialista Frontend (Ago 2024 — Dic 2024).",
-      "start": 105.017,
-      "end": 111.348
+      "start": 108.672,
+      "end": 115.003
      },
      {
       "scene": 3,
-      "text": "Plataformas de banca web para dos clientes del sector financiero sobre una arquitectura de Micro Frontends — referente técnico en estándares y arquitectura frontend.",
-      "start": 111.668,
-      "end": 120.935
+      "text": "Banca web para dos instituciones financieras sobre una arquitectura de Micro Frontends — fui el referente frontend que definió los estándares de código y arquitectura sobre los que se construyeron ambos productos.",
+      "start": 115.323,
+      "end": 127.382
      },
      {
       "scene": 3,
       "text": "Plataformas de banca web para dos clientes del sector financiero.",
-      "start": 121.255,
-      "end": 125.072
+      "start": 127.702,
+      "end": 131.519
      },
      {
       "scene": 3,
-      "text": "Arquitectura de Micro Frontends para aislar dominios y evolucionar de forma independiente.",
-      "start": 125.392,
-      "end": 130.449
+      "text": "Arquitectura de Micro Frontends: dominios aislados y despliegues independientes.",
+      "start": 131.839,
+      "end": 136.448
      },
      {
       "scene": 3,
       "text": "Referente técnico de frontend — estándares de código y arquitectura.",
-      "start": 130.769,
-      "end": 134.664
+      "start": 136.768,
+      "end": 140.664
      },
      {
       "scene": 4,
       "text": "TaqTaq, como Tech Lead (Jul 2024 — Oct 2024).",
-      "start": 135.414,
-      "end": 139.902
+      "start": 141.414,
+      "end": 145.902
      },
      {
       "scene": 4,
-      "text": "Liderazgo técnico de una nueva app multiplataforma para B2C, B2B y eventos — del concepto a producción, en plazo y presupuesto.",
-      "start": 140.222,
-      "end": 148.227
+      "text": "Tech Lead de la nueva app multiplataforma de TaqTaq — tarjetas de presentación digitales compartidas por QR, NFC y proximidad — del concepto a App Store y Google Play, en plazo y presupuesto.",
+      "start": 146.222,
+      "end": 157.927
      },
      {
       "scene": 4,
       "text": "Resultado: +20% — tasa de finalización de proyectos tras adoptar prácticas ágiles.",
-      "start": 148.547,
-      "end": 154.482
+      "start": 158.247,
+      "end": 164.181
      },
      {
       "scene": 4,
       "text": "Lideré una nueva app multiplataforma del concepto a producción.",
-      "start": 154.802,
-      "end": 158.615
+      "start": 164.501,
+      "end": 168.314
      },
      {
       "scene": 4,
       "text": "Responsable de la arquitectura, la planificación técnica y la priorización.",
-      "start": 158.935,
-      "end": 163.403
+      "start": 168.634,
+      "end": 173.102
      },
      {
       "scene": 4,
-      "text": "Apps móviles responsivas en Flutter (Dart).",
-      "start": 163.723,
-      "end": 166.412
+      "text": "Desarrollo práctico en Flutter (Dart) para iOS y Android.",
+      "start": 173.422,
+      "end": 176.812
      },
      {
       "scene": 5,
       "text": "CI&T, como Desarrollador Fullstack (Dic 2023 — Ago 2024).",
-      "start": 167.162,
-      "end": 172.668
+      "start": 177.562,
+      "end": 183.068
      },
      {
       "scene": 5,
-      "text": "Proyectos internacionales para grandes empresas financieras y corporativas — aplicaciones de crédito hipotecario con Angular, C#/.",
-      "start": 172.988,
-      "end": 181.257
+      "text": "Proyectos internacionales para grandes clientes financieros y corporativos — aplicaciones de crédito hipotecario en Angular, C#/.",
+      "start": 183.388,
+      "end": 191.407
      },
      {
       "scene": 5,
-      "text": "NET y Python, y liderazgo técnico en proyectos cloud.",
-      "start": 181.577,
-      "end": 184.97
+      "text": "NET y Python, y liderazgo técnico en proyectos cloud que aumentaron la interacción un 30% y redujeron el tiempo de carga un 20%.",
+      "start": 191.727,
+      "end": 200.926
      },
      {
       "scene": 5,
       "text": "Resultado: +30% — interacción de usuarios.",
-      "start": 185.29,
-      "end": 188.775
+      "start": 201.246,
+      "end": 204.732
      },
      {
       "scene": 5,
       "text": "Proyectos internacionales para grandes empresas financieras y corporativas.",
-      "start": 189.095,
-      "end": 193.546
+      "start": 205.052,
+      "end": 209.502
      },
      {
       "scene": 5,
       "text": "Aplicaciones de crédito hipotecario (Angular, C#/.",
-      "start": 193.866,
-      "end": 197.546
+      "start": 209.822,
+      "end": 213.503
      },
      {
       "scene": 5,
       "text": "NET, Python).",
-      "start": 197.866,
-      "end": 198.822
+      "start": 213.823,
+      "end": 214.779
      },
      {
       "scene": 5,
       "text": "Pipelines de CI/CD, prácticas de pruebas y calidad.",
-      "start": 199.142,
-      "end": 202.449
+      "start": 215.099,
+      "end": 218.405
      },
      {
       "scene": 6,
-      "text": "ECS Inovação, como Desarrollador Fullstack · Líder Frontend (Jun 2020 — Oct 2023).",
-      "start": 203.199,
-      "end": 209.362
+      "text": "Pharmalink, como Desarrollador Fullstack · Líder Frontend (Jun 2020 — Oct 2023).",
+      "start": 219.155,
+      "end": 224.893
      },
      {
       "scene": 6,
-      "text": "Responsable técnico de Pharmalink Online — hub y marketplace farmacéutico usado por muchos actores del sector.",
-      "start": 209.682,
-      "end": 216.296
+      "text": "Responsable técnico de Pharmalink Online, el hub que conecta la industria farmacéutica brasileña con distribuidores y farmacias.",
+      "start": 225.213,
+      "end": 232.848
      },
      {
       "scene": 6,
-      "text": "Lideré la migración completa de AngularJS 1.",
-      "start": 216.616,
-      "end": 219.923
+      "text": "Lideré su migración completa de AngularJS 1.",
+      "start": 233.168,
+      "end": 236.425
      },
      {
       "scene": 6,
-      "text": "8 → Angular 14.",
-      "start": 220.243,
-      "end": 221.867
+      "text": "8 a Angular 14 y reduje el tiempo de carga hasta un 50%.",
+      "start": 236.745,
+      "end": 241.401
      },
      {
       "scene": 6,
       "text": "Resultado: −50% — tiempo de carga con estrategias de caché.",
-      "start": 222.187,
-      "end": 226.695
+      "start": 241.721,
+      "end": 246.229
      },
      {
       "scene": 6,
-      "text": "Responsable técnico de Pharmalink Online, hub y marketplace farmacéutico.",
-      "start": 227.015,
-      "end": 231.453
+      "text": "Responsable técnico de Pharmalink Online, el hub comercial de la industria farmacéutica.",
+      "start": 246.549,
+      "end": 251.642
      },
      {
       "scene": 6,
       "text": "Lideré la migración completa de AngularJS 1.",
-      "start": 231.773,
-      "end": 235.081
+      "start": 251.962,
+      "end": 255.27
      },
      {
       "scene": 6,
       "text": "8.",
-      "start": 235.401,
-      "end": 236.012
+      "start": 255.59,
+      "end": 256.201
      },
      {
       "scene": 6,
-      "text": "2 → Angular 14.",
-      "start": 236.332,
-      "end": 238.001
+      "text": "2 → Angular 14 con la plataforma en producción.",
+      "start": 256.521,
+      "end": 259.59
      },
      {
       "scene": 6,
       "text": "Contribución directa al motor de cálculo del Ciclo Financiero.",
-      "start": 238.321,
-      "end": 241.978
+      "start": 259.91,
+      "end": 263.568
      },
      {
       "scene": 7,
       "text": "Herrmann IT Consultoria, como Fundador · Ingeniero de Software · Especialista Frontend (Dic 2013 — Actual).",
-      "start": 242.728,
-      "end": 249.303
+      "start": 264.318,
+      "end": 270.892
      },
      {
       "scene": 7,
-      "text": "Mi propia consultora tecnológica.",
-      "start": 249.623,
-      "end": 251.768
+      "text": "Mi propia consultora, desde 2013.",
+      "start": 271.212,
+      "end": 273.833
      },
      {
       "scene": 7,
-      "text": "Ingeniería frontend, desarrollo fullstack y arquitectura de aplicaciones para clientes nacionales e internacionales en banca, salud y SaaS.",
-      "start": 252.088,
-      "end": 260.101
+      "text": "A través de ella he entregado para PicPay, Grupo Madero, Lojas Lebes, Pacto, upLexis, Pernambucanas, Milvus y más — como Ingeniero Frontend, Ingeniero Fullstack o Tech Lead, según lo que pida el proyecto.",
+      "start": 274.153,
+      "end": 285.797
      },
      {
       "scene": 7,
       "text": "Consultor independiente en proyectos estratégicos medianos y grandes.",
-      "start": 260.421,
-      "end": 264.735
+      "start": 286.117,
+      "end": 290.43
      },
      {
       "scene": 7,
       "text": "Ingeniero Frontend, Ingeniero Fullstack o Tech Lead según lo que necesite cada cliente.",
-      "start": 265.055,
-      "end": 270.161
+      "start": 290.75,
+      "end": 295.856
      },
      {
       "scene": 7,
-      "text": "Productos empresariales, de misión crítica y alto tráfico.",
-      "start": 270.481,
-      "end": 274.214
+      "text": "Apps de consumo publicadas en App Store y Google Play.",
+      "start": 296.176,
+      "end": 299.457
      },
      {
       "scene": 8,
       "text": "Pacto Soluções, como Ingeniero Frontend.",
-      "start": 274.964,
-      "end": 277.37
+      "start": 300.207,
+      "end": 302.613
      },
      {
       "scene": 8,
-      "text": "Frontend del ecosistema de gestión fitness de Pacto — incluidas las apps para socios de dos de las mayores cadenas de gimnasios del sur de Brasil, Engenharia do Corpo y Usina do Corpo, y sus hotsites.",
-      "start": 277.69,
-      "end": 289.199
+      "text": "Frontend de la plataforma fitness de Pacto — las apps para socios de dos de las mayores cadenas de gimnasios del sur de Brasil, Engenharia do Corpo y Usina do Corpo, sus hotsites, el hotsite de ventas de Pacto y el sistema de gestión ZW.",
+      "start": 302.933,
+      "end": 316.814
      },
      {
       "scene": 8,
-      "text": "Apps para socios de Engenharia do Corpo (EC PRO) y Usina do Corpo — entrenamientos, reserva de clases, check-in y contratos.",
-      "start": 289.519,
-      "end": 296.233
+      "text": "Apps para socios de Engenharia do Corpo (EC PRO) y Usina do Corpo.",
+      "start": 317.134,
+      "end": 321.023
+     },
+     {
+      "scene": 8,
+      "text": "Entrenamientos con cargas y repeticiones, evaluaciones, reserva de clases, check-in y contratos.",
+      "start": 321.343,
+      "end": 326.85
      },
      {
       "scene": 8,
       "text": "Hotsites de las cadenas de gimnasios: planes, sedes e inscripción online.",
-      "start": 296.553,
-      "end": 300.786
-     },
-     {
-      "scene": 8,
-      "text": "Hotsite de ventas de Pacto.",
-      "start": 301.106,
-      "end": 302.925
+      "start": 327.17,
+      "end": 331.404
      },
      {
       "scene": 9,
-      "text": "También he entregado proyectos para PicPay, upLexis, Pernambucanas, Milvus, Maxxidata, UDS, Inform / Ekantika, Scale, Facepass, Lojas Lebes, Grupo Madero, Pevepas, Relevo Lab, SoftWrap, Tríade Social y Dollar Donation Club.",
-      "start": 303.675,
-      "end": 317.995
+      "text": "También he entregado proyectos para Lojas Lebes, Grupo Madero, PicPay, upLexis, Milvus, UDS, Facepass, Pernambucanas, Maxxidata, Inform / Ekantika, Scale, Pevepas, Relevo Lab, SoftWrap, Tríade Social y Dollar Donation Club.",
+      "start": 332.154,
+      "end": 346.5
      },
      {
       "scene": 10,
       "text": "12+: años entregando software (desde 2014).",
-      "start": 318.745,
-      "end": 322.358
+      "start": 347.25,
+      "end": 350.863
      },
      {
       "scene": 10,
       "text": "1M+: usuarios en la super app bancaria en la que trabajé.",
-      "start": 322.678,
-      "end": 326.61
+      "start": 351.183,
+      "end": 355.115
      },
      {
       "scene": 10,
       "text": "−50%: en tiempo de carga gracias al caché (Pharmalink).",
-      "start": 326.93,
-      "end": 331.324
+      "start": 355.435,
+      "end": 359.829
      },
      {
       "scene": 10,
       "text": "20+: empresas y productos entregados.",
-      "start": 331.644,
-      "end": 334.558
+      "start": 360.149,
+      "end": 363.063
      },
      {
       "scene": 11,
       "text": "IA & LLM: LLMs, RAG, Agentic patterns, Evals, Fine-tuning.",
-      "start": 335.308,
-      "end": 340.182
+      "start": 363.813,
+      "end": 368.687
      },
      {
       "scene": 11,
       "text": "Frontend: Angular, React, Vue.",
-      "start": 340.502,
-      "end": 342.461
+      "start": 369.007,
+      "end": 370.966
      },
      {
       "scene": 11,
       "text": "js, Next.",
-      "start": 342.781,
-      "end": 344.028
+      "start": 371.286,
+      "end": 372.533
      },
      {
       "scene": 11,
       "text": "js, Nuxt.",
-      "start": 344.348,
-      "end": 345.621
+      "start": 372.853,
+      "end": 374.126
      },
      {
       "scene": 11,
       "text": "Backend: Python, FastAPI, Django, C# / .",
-      "start": 345.941,
-      "end": 349.004
+      "start": 374.446,
+      "end": 377.509
      },
      {
       "scene": 11,
       "text": "NET, Node.",
-      "start": 349.324,
-      "end": 350.174
+      "start": 377.829,
+      "end": 378.679
      },
      {
       "scene": 11,
       "text": "js.",
-      "start": 350.494,
-      "end": 351.398
+      "start": 378.999,
+      "end": 379.902
      },
      {
       "scene": 11,
       "text": "Móvil: Flutter, Dart, Kotlin, React Native, Ionic.",
-      "start": 351.718,
-      "end": 354.662
+      "start": 380.222,
+      "end": 383.167
      },
      {
       "scene": 11,
       "text": "Datos & Infra: PostgreSQL, SQL Server, MongoDB, Redis, Docker.",
-      "start": 354.982,
-      "end": 360.02
+      "start": 383.487,
+      "end": 388.525
      },
      {
       "scene": 12,
       "text": "“¡Gabriel es un profesional esforzado, comprometido y con mucho talento!",
-      "start": 360.77,
-      "end": 364.902
+      "start": 389.275,
+      "end": 393.407
      },
      {
       "scene": 12,
       "text": "Siempre dispuesto a dialogar, recibe las críticas con apertura y siempre se esfuerza por entregar la mejor calidad posible.",
-      "start": 365.222,
-      "end": 372.379
+      "start": 393.727,
+      "end": 400.884
      },
      {
       "scene": 12,
       "text": "Tenerlo en tu equipo es tener a alguien trabajador, sincero y con muy buen humor.”",
-      "start": 372.699,
-      "end": 377.312
+      "start": 401.204,
+      "end": 405.817
      },
      {
       "scene": 12,
       "text": "— Lucas Assumpção de Oliveira.",
-      "start": 377.632,
-      "end": 379.472
+      "start": 406.137,
+      "end": 407.977
      },
      {
       "scene": 13,
       "text": "“Gabriel es un profesional muy capaz y comprometido, siempre estudiando y dispuesto a aprender, proponiendo mejoras, nuevas prácticas y tecnologías, pensando en el conjunto para mejorar los productos.”",
-      "start": 380.222,
-      "end": 391.506
+      "start": 408.727,
+      "end": 420.011
      },
      {
       "scene": 13,
       "text": "— Aaron Pierre Glienke Nunez.",
-      "start": 391.826,
-      "end": 393.676
+      "start": 420.331,
+      "end": 422.18
      },
      {
       "scene": 14,
       "text": "“¡Gabriel es un excelente programador y compañero de trabajo!",
-      "start": 394.426,
-      "end": 397.927
+      "start": 422.93,
+      "end": 426.431
      },
      {
       "scene": 14,
       "text": "Siempre dispuesto a aprender y a enseñar, preocupado por las entregas y la calidad de todo el sistema.",
-      "start": 398.247,
-      "end": 403.962
+      "start": 426.751,
+      "end": 432.467
      },
      {
       "scene": 14,
       "text": "Su conocimiento técnico en diversos frameworks JS de front-end y su facilidad para comunicarse y ayudar hacen que trabajar con él sea muy agradable y gratificante.”",
-      "start": 404.282,
-      "end": 414.359
+      "start": 432.787,
+      "end": 442.864
      },
      {
       "scene": 14,
       "text": "— Gabriel Romero de Souza.",
-      "start": 414.679,
-      "end": 416.468
+      "start": 443.184,
+      "end": 444.973
      },
      {
       "scene": 15,
       "text": "Abierto a oportunidades como Lead AI Engineer y Tech Lead — remoto, Brasil e internacional.",
-      "start": 417.218,
-      "end": 422.563
+      "start": 445.723,
+      "end": 451.043
      },
      {
       "scene": 15,
       "text": "Escríbeme a herrmannjob@gmail.",
-      "start": 422.883,
-      "end": 425.085
+      "start": 451.363,
+      "end": 453.565
      },
      {
       "scene": 15,
       "text": "com.",
-      "start": 425.405,
-      "end": 425.928
+      "start": 453.885,
+      "end": 454.408
      },
      {
       "scene": 15,
       "text": "Gracias por ver.",
-      "start": 426.248,
-      "end": 427.391
+      "start": 454.728,
+      "end": 455.871
      }
     ]
    }
   },
   "zh": {
    "short": {
-    "hash": "5ne1sz",
+    "hash": "afbixj",
     "src": "/studio/zh/short.mp3",
-    "duration": 53.071,
+    "duration": 57.631,
     "scenes": [
      {
       "kind": "intro",
@@ -2710,17 +2710,17 @@
      {
       "kind": "work",
       "start": 9.902,
-      "end": 27.788
+      "end": 30.62
      },
      {
       "kind": "work",
-      "start": 27.788,
-      "end": 42.101
+      "start": 30.62,
+      "end": 46.661
      },
      {
       "kind": "outro",
-      "start": 42.101,
-      "end": 52.471
+      "start": 46.661,
+      "end": 57.031
      }
     ],
     "sentences": [
@@ -2738,58 +2738,64 @@
      },
      {
       "scene": 1,
-      "text": "Zup Innovation，担任高级前端工程师 · 全栈（2025年5月 — 2025年11月）。",
+      "text": "Zup Innovation，担任全栈开发工程师 · 前端专家（2025年5月 — 2025年11月）。",
       "start": 9.902,
-      "end": 15.809
+      "end": 16.016
      },
      {
       "scene": 1,
-      "text": "在一款拥有数百万用户的大型银行超级应用中担任前端专家——负责企业资金管理和投资经纪平台，对安全性、性能和可靠性有严格要求。",
-      "start": 16.129,
-      "end": 27.038
+      "text": "在一款数百万人使用的银行超级应用中担任前端专家——负责企业资金管理与投资经纪平台。",
+      "start": 16.336,
+      "end": 23.911
+     },
+     {
+      "scene": 1,
+      "text": "每个界面都在处理真金白银，安全、性能与可靠性没有任何妥协余地。",
+      "start": 24.231,
+      "end": 29.87
      },
      {
       "scene": 2,
       "text": "Deal，担任全栈开发工程师 · 前端专家（2024年8月 — 2024年12月）。",
-      "start": 27.788,
-      "end": 33.409
+      "start": 30.62,
+      "end": 36.241
      },
      {
       "scene": 2,
-      "text": "基于微前端架构，为两家金融行业客户打造网上银行平台——担任前端规范与架构的技术负责人。",
-      "start": 33.729,
-      "end": 41.351
+      "text": "基于微前端架构，为两家金融机构打造网上银行——我担任前端技术标杆，制定了两款产品共同遵循的代码与架构规范。",
+      "start": 36.561,
+      "end": 45.911
      },
      {
       "scene": 3,
       "text": "正在寻找首席 AI 工程师和技术负责人机会——远程，巴西及海外均可。",
-      "start": 42.101,
-      "end": 47.864
+      "start": 46.661,
+      "end": 52.424
      },
      {
       "scene": 3,
       "text": "邮箱：herrmannjob@gmail.",
-      "start": 48.184,
-      "end": 49.558
+      "start": 52.744,
+      "end": 54.118
      },
      {
       "scene": 3,
       "text": "com。",
-      "start": 49.878,
-      "end": 50.326
+      "start": 54.438,
+      "end": 54.885
      },
      {
       "scene": 3,
       "text": "感谢观看。",
-      "start": 50.646,
-      "end": 51.721
+      "start": 55.205,
+      "end": 56.281
      }
     ]
    },
    "medium": {
-    "hash": "1kydyi8",
+    "hash": "crlb6f",
     "src": "/studio/zh/medium.mp3",
-    "duration": 131.402,
+    "duration": 142.696,
     "scenes": [
      {
       "kind": "intro",
@@ -2804,37 +2810,37 @@
      {
       "kind": "work",
       "start": 20.391,
-      "end": 38.276
+      "end": 41.108
      },
      {
       "kind": "work",
-      "start": 38.276,
-      "end": 52.589
+      "start": 41.108,
+      "end": 57.149
      },
      {
       "kind": "work",
-      "start": 52.589,
-      "end": 70.427
+      "start": 57.149,
+      "end": 77.065
      },
      {
       "kind": "work",
-      "start": 70.427,
-      "end": 89.142
+      "start": 77.065,
+      "end": 100.437
      },
      {
       "kind": "stats",
-      "start": 89.142,
-      "end": 103.318
+      "start": 100.437,
+      "end": 114.613
      },
      {
       "kind": "quote",
-      "start": 103.318,
-      "end": 120.431
+      "start": 114.613,
+      "end": 131.726
      },
      {
       "kind": "outro",
-      "start": 120.431,
-      "end": 130.802
+      "start": 131.726,
+      "end": 142.096
      }
     ],
     "sentences": [
@@ -2858,130 +2864,136 @@
      },
      {
       "scene": 2,
-      "text": "Zup Innovation，担任高级前端工程师 · 全栈（2025年5月 — 2025年11月）。",
+      "text": "Zup Innovation，担任全栈开发工程师 · 前端专家（2025年5月 — 2025年11月）。",
       "start": 20.391,
-      "end": 26.298
+      "end": 26.504
      },
      {
       "scene": 2,
-      "text": "在一款拥有数百万用户的大型银行超级应用中担任前端专家——负责企业资金管理和投资经纪平台，对安全性、性能和可靠性有严格要求。",
-      "start": 26.618,
-      "end": 37.526
+      "text": "在一款数百万人使用的银行超级应用中担任前端专家——负责企业资金管理与投资经纪平台。",
+      "start": 26.824,
+      "end": 34.399
+     },
+     {
+      "scene": 2,
+      "text": "每个界面都在处理真金白银，安全、性能与可靠性没有任何妥协余地。",
+      "start": 34.719,
+      "end": 40.358
      },
      {
       "scene": 3,
       "text": "Deal，担任全栈开发工程师 · 前端专家（2024年8月 — 2024年12月）。",
-      "start": 38.276,
-      "end": 43.898
+      "start": 41.108,
+      "end": 46.73
      },
      {
       "scene": 3,
-      "text": "基于微前端架构，为两家金融行业客户打造网上银行平台——担任前端规范与架构的技术负责人。",
-      "start": 44.218,
-      "end": 51.839
+      "text": "基于微前端架构，为两家金融机构打造网上银行——我担任前端技术标杆，制定了两款产品共同遵循的代码与架构规范。",
+      "start": 47.05,
+      "end": 56.399
      },
      {
       "scene": 4,
       "text": "TaqTaq，担任技术负责人（2024年7月 — 2024年10月）。",
-      "start": 52.589,
-      "end": 56.881
+      "start": 57.149,
+      "end": 61.441
      },
      {
       "scene": 4,
-      "text": "主导一款面向 B2C、B2B 和活动场景的全新跨平台应用的技术工作——从概念到上线，按时且不超预算。",
-      "start": 57.201,
-      "end": 65.204
+      "text": "担任 TaqTaq 全新跨平台应用的技术负责人——通过二维码、NFC 和近距离分享的数字名片——从概念到登陆 App Store 与 Google Play，按时且不超预算。",
+      "start": 61.761,
+      "end": 71.841
      },
      {
       "scene": 4,
       "text": "成果：+20%——采用敏捷实践后的项目完成率。",
-      "start": 65.524,
-      "end": 69.677
+      "start": 72.161,
+      "end": 76.315
      },
      {
       "scene": 5,
       "text": "CI&T，担任全栈开发工程师（2023年12月 — 2024年8月）。",
-      "start": 70.427,
-      "end": 75.291
+      "start": 77.065,
+      "end": 81.929
      },
      {
       "scene": 5,
       "text": "为大型金融与企业客户开展国际项目——使用 Angular、C#/.",
-      "start": 75.611,
-      "end": 79.931
+      "start": 82.249,
+      "end": 86.569
      },
      {
       "scene": 5,
-      "text": "NET 和 Python 构建房地产信贷应用，并在云项目中担任技术负责人。",
-      "start": 80.251,
-      "end": 85.49
+      "text": "NET 和 Python 构建房地产信贷应用，并在云项目中担任技术负责人，使用户参与度提升 30%、加载时间缩短 20%。",
+      "start": 86.889,
+      "end": 96.784
      },
      {
       "scene": 5,
       "text": "成果：+30%——用户参与度。",
-      "start": 85.81,
-      "end": 88.392
+      "start": 97.104,
+      "end": 99.687
      },
      {
       "scene": 6,
       "text": "12+：年软件交付经验（始于 2014 年）；1M+：我参与的银行超级应用的用户数；−50%：通过缓存缩短的加载时间（Pharmalink）；20+：家已交付的公司与产品。",
-      "start": 89.142,
-      "end": 102.568
+      "start": 100.437,
+      "end": 113.863
      },
      {
       "scene": 7,
       "text": "“Gabriel 是一位勤奋、投入且非常有才华的专业人士！",
-      "start": 103.318,
-      "end": 107.222
+      "start": 114.613,
+      "end": 118.517
      },
      {
       "scene": 7,
       "text": "他总是乐于沟通，能虚心接受批评，并始终努力交付最好的质量。",
-      "start": 107.542,
-      "end": 112.906
+      "start": 118.837,
+      "end": 124.2
      },
      {
       "scene": 7,
       "text": "团队里有他，就有了一位勤恳、真诚又很有幽默感的伙伴！”",
-      "start": 113.226,
-      "end": 117.492
+      "start": 124.52,
+      "end": 128.787
      },
      {
       "scene": 7,
       "text": "——Lucas Assumpção de Oliveira",
-      "start": 117.812,
-      "end": 119.681
+      "start": 129.107,
+      "end": 130.976
      },
      {
       "scene": 8,
       "text": "正在寻找首席 AI 工程师和技术负责人机会——远程，巴西及海外均可。",
-      "start": 120.431,
-      "end": 126.195
+      "start": 131.726,
+      "end": 137.489
      },
      {
       "scene": 8,
       "text": "邮箱：herrmannjob@gmail.",
-      "start": 126.515,
-      "end": 127.888
+      "start": 137.809,
+      "end": 139.183
      },
      {
       "scene": 8,
       "text": "com。",
-      "start": 128.208,
-      "end": 128.656
+      "start": 139.503,
+      "end": 139.951
      },
      {
       "scene": 8,
       "text": "感谢观看。",
-      "start": 128.976,
-      "end": 130.052
+      "start": 140.271,
+      "end": 141.346
      }
     ]
    },
    "full": {
-    "hash": "e1c0as",
+    "hash": "1ujx3h0",
     "src": "/studio/zh/full.mp3",
-    "duration": 359.7,
+    "duration": 384.393,
     "scenes": [
      {
       "kind": "intro",
@@ -2996,72 +3008,72 @@
      {
       "kind": "work",
       "start": 68.719,
-      "end": 95.459
+      "end": 99.152
      },
      {
       "kind": "work",
-      "start": 95.459,
-      "end": 119.282
+      "start": 99.152,
+      "end": 124.055
      },
      {
       "kind": "work",
-      "start": 119.282,
-      "end": 146.038
+      "start": 124.055,
+      "end": 152.929
      },
      {
       "kind": "work",
-      "start": 146.038,
-      "end": 173.516
+      "start": 152.929,
+      "end": 185.064
      },
      {
       "kind": "work",
-      "start": 173.516,
-      "end": 207.304
+      "start": 185.064,
+      "end": 223.751
      },
      {
       "kind": "work",
-      "start": 207.304,
-      "end": 233.675
+      "start": 223.751,
+      "end": 255.487
      },
      {
       "kind": "work",
-      "start": 233.675,
-      "end": 256.576
+      "start": 255.487,
+      "end": 281.269
      },
      {
       "kind": "text",
-      "start": 256.576,
-      "end": 267.837
+      "start": 281.269,
+      "end": 292.53
      },
      {
       "kind": "stats",
-      "start": 267.837,
-      "end": 282.014
+      "start": 292.53,
+      "end": 306.706
      },
      {
       "kind": "stack",
-      "start": 282.014,
-      "end": 299.345
+      "start": 306.706,
+      "end": 324.037
      },
      {
       "kind": "quote",
-      "start": 299.345,
-      "end": 316.458
+      "start": 324.037,
+      "end": 341.15
      },
      {
       "kind": "quote",
-      "start": 316.458,
-      "end": 329.676
+      "start": 341.15,
+      "end": 354.369
      },
      {
       "kind": "quote",
-      "start": 329.676,
-      "end": 348.73
+      "start": 354.369,
+      "end": 373.422
      },
      {
       "kind": "outro",
-      "start": 348.73,
-      "end": 359.1
+      "start": 373.422,
+      "end": 383.793
      }
     ],
     "sentences": [
@@ -3133,315 +3145,321 @@
      },
      {
       "scene": 2,
-      "text": "Zup Innovation，担任高级前端工程师 · 全栈（2025年5月 — 2025年11月）。",
+      "text": "Zup Innovation，担任全栈开发工程师 · 前端专家（2025年5月 — 2025年11月）。",
       "start": 68.719,
-      "end": 74.626
+      "end": 74.833
      },
      {
       "scene": 2,
-      "text": "在一款拥有数百万用户的大型银行超级应用中担任前端专家——负责企业资金管理和投资经纪平台，对安全性、性能和可靠性有严格要求。",
-      "start": 74.946,
-      "end": 85.855
+      "text": "在一款数百万人使用的银行超级应用中担任前端专家——负责企业资金管理与投资经纪平台。",
+      "start": 75.153,
+      "end": 82.728
      },
      {
       "scene": 2,
-      "text": "数百万用户使用的大型银行超级应用；企业资金管理与投资经纪平台；企业级 Angular 架构与专有设计系统。",
-      "start": 86.175,
-      "end": 94.709
+      "text": "每个界面都在处理真金白银，安全、性能与可靠性没有任何妥协余地。",
+      "start": 83.048,
+      "end": 88.687
+     },
+     {
+      "scene": 2,
+      "text": "数百万客户使用的银行超级应用；企业资金管理与投资经纪平台；基于专有设计系统的企业级 Angular，结合 Angular Material、Tailwind CSS 与 BEM。",
+      "start": 89.007,
+      "end": 98.402
      },
      {
       "scene": 3,
       "text": "Deal，担任全栈开发工程师 · 前端专家（2024年8月 — 2024年12月）。",
-      "start": 95.459,
-      "end": 101.08
+      "start": 99.152,
+      "end": 104.774
      },
      {
       "scene": 3,
-      "text": "基于微前端架构，为两家金融行业客户打造网上银行平台——担任前端规范与架构的技术负责人。",
-      "start": 101.4,
-      "end": 109.022
+      "text": "基于微前端架构，为两家金融机构打造网上银行——我担任前端技术标杆，制定了两款产品共同遵循的代码与架构规范。",
+      "start": 105.094,
+      "end": 114.443
      },
      {
       "scene": 3,
-      "text": "为两家金融行业客户打造网上银行平台；微前端架构，实现领域隔离与独立演进；前端技术负责人——代码与架构规范。",
-      "start": 109.342,
-      "end": 118.532
+      "text": "为两家金融行业客户打造网上银行平台；微前端架构：领域隔离、独立部署；前端技术标杆——代码与架构规范。",
+      "start": 114.763,
+      "end": 123.305
      },
      {
       "scene": 4,
       "text": "TaqTaq，担任技术负责人（2024年7月 — 2024年10月）。",
-      "start": 119.282,
-      "end": 123.574
+      "start": 124.055,
+      "end": 128.347
      },
      {
       "scene": 4,
-      "text": "主导一款面向 B2C、B2B 和活动场景的全新跨平台应用的技术工作——从概念到上线，按时且不超预算。",
-      "start": 123.894,
-      "end": 131.897
+      "text": "担任 TaqTaq 全新跨平台应用的技术负责人——通过二维码、NFC 和近距离分享的数字名片——从概念到登陆 App Store 与 Google Play，按时且不超预算。",
+      "start": 128.667,
+      "end": 138.747
      },
      {
       "scene": 4,
       "text": "成果：+20%——采用敏捷实践后的项目完成率。",
-      "start": 132.217,
-      "end": 136.371
+      "start": 139.067,
+      "end": 143.221
      },
      {
       "scene": 4,
-      "text": "主导新的跨平台应用从概念到上线；负责架构、技术规划与优先级排序；使用 Flutter（Dart）开发响应式移动应用。",
-      "start": 136.691,
-      "end": 145.288
+      "text": "主导新的跨平台应用从概念到上线；负责架构、技术规划与优先级排序；亲自使用 Flutter（Dart）开发 iOS 与 Android 应用。",
+      "start": 143.541,
+      "end": 152.179
      },
      {
       "scene": 5,
       "text": "CI&T，担任全栈开发工程师（2023年12月 — 2024年8月）。",
-      "start": 146.038,
-      "end": 150.902
+      "start": 152.929,
+      "end": 157.793
      },
      {
       "scene": 5,
       "text": "为大型金融与企业客户开展国际项目——使用 Angular、C#/.",
-      "start": 151.222,
-      "end": 155.542
+      "start": 158.113,
+      "end": 162.433
      },
      {
       "scene": 5,
-      "text": "NET 和 Python 构建房地产信贷应用，并在云项目中担任技术负责人。",
-      "start": 155.862,
-      "end": 161.101
+      "text": "NET 和 Python 构建房地产信贷应用，并在云项目中担任技术负责人，使用户参与度提升 30%、加载时间缩短 20%。",
+      "start": 162.753,
+      "end": 172.648
      },
      {
       "scene": 5,
       "text": "成果：+30%——用户参与度。",
-      "start": 161.421,
-      "end": 164.003
+      "start": 172.968,
+      "end": 175.551
      },
      {
       "scene": 5,
       "text": "为大型金融与企业客户开展国际项目；房地产信贷应用（Angular、C#/.",
-      "start": 164.323,
-      "end": 169.586
+      "start": 175.871,
+      "end": 181.134
      },
      {
       "scene": 5,
       "text": "NET、Python）；CI/CD 流水线、测试与质量实践。",
-      "start": 169.906,
-      "end": 172.766
+      "start": 181.454,
+      "end": 184.314
      },
      {
       "scene": 6,
-      "text": "ECS Inovação，担任全栈开发工程师 · 前端负责人（2020年6月 — 2023年10月）。",
-      "start": 173.516,
-      "end": 179.526
+      "text": "Pharmalink，担任全栈开发工程师 · 前端负责人（2020年6月 — 2023年10月）。",
+      "start": 185.064,
+      "end": 190.959
      },
      {
       "scene": 6,
-      "text": "Pharmalink Online 的技术负责人——这是一个被众多行业参与者使用的医药枢纽与交易平台。",
-      "start": 179.846,
-      "end": 186.334
+      "text": "Pharmalink Online 的技术负责人——这一枢纽连接着巴西制药行业与分销商和药店。",
+      "start": 191.279,
+      "end": 197.136
      },
      {
       "scene": 6,
-      "text": "主导了从 AngularJS 1.",
-      "start": 186.654,
-      "end": 188.105
+      "text": "我主导了它从 AngularJS 1.",
+      "start": 197.456,
+      "end": 199.309
      },
      {
       "scene": 6,
-      "text": "8 到 Angular 14 的完整迁移。",
-      "start": 188.425,
-      "end": 190.498
+      "text": "8 到 Angular 14 的完整迁移，并将加载时间最多缩短 50%。",
+      "start": 199.629,
+      "end": 204.934
      },
      {
       "scene": 6,
       "text": "成果：−50%——借助缓存策略缩短的加载时间。",
-      "start": 190.818,
-      "end": 195.647
+      "start": 205.254,
+      "end": 210.084
      },
      {
       "scene": 6,
-      "text": "Pharmalink Online（医药枢纽与交易平台）技术负责人；主导 AngularJS 1.",
-      "start": 195.967,
-      "end": 200.55
+      "text": "Pharmalink Online（制药行业商业枢纽）技术负责人；在平台持续运行的情况下主导 AngularJS 1.",
+      "start": 210.404,
+      "end": 217.196
      },
      {
       "scene": 6,
       "text": "8.",
-      "start": 200.87,
-      "end": 201.25
+      "start": 217.516,
+      "end": 217.897
      },
      {
       "scene": 6,
-      "text": "2 → Angular 14 的完整迁移；直接参与财务周期计算引擎开发。",
-      "start": 201.57,
-      "end": 206.554
+      "text": "2 → Angular 14 完整迁移；直接参与财务周期计算引擎开发。",
+      "start": 218.217,
+      "end": 223.001
      },
      {
       "scene": 7,
       "text": "Herrmann IT Consultoria，担任创始人 · 软件工程师 · 前端专家（2013年12月 — 至今）。",
-      "start": 207.304,
-      "end": 213.28
+      "start": 223.751,
+      "end": 229.727
      },
      {
       "scene": 7,
-      "text": "我自己的技术咨询公司。",
-      "start": 213.6,
-      "end": 215.537
+      "text": "我自 2013 年创办的咨询公司。",
+      "start": 230.047,
+      "end": 233.015
      },
      {
       "scene": 7,
-      "text": "为银行、医疗和 SaaS 领域的国内外客户提供前端工程、全栈开发与应用架构服务。",
-      "start": 215.857,
-      "end": 222.288
+      "text": "通过它，我为 PicPay、Grupo Madero、Lojas Lebes、Pacto、upLexis、Pernambucanas、Milvus 等客户交付项目——根据项目需要担任前端工程师、全栈工程师或技术负责人。",
+      "start": 233.335,
+      "end": 243.637
      },
      {
       "scene": 7,
-      "text": "以独立顾问身份参与中大型战略项目；根据客户需要担任前端工程师、全栈工程师或技术负责人；企业级、关键业务与高流量产品。",
-      "start": 222.608,
-      "end": 232.925
+      "text": "以独立顾问身份参与中大型战略项目；根据客户需要担任前端工程师、全栈工程师或技术负责人；已在 App Store 与 Google Play 上线的消费级应用。",
+      "start": 243.957,
+      "end": 254.737
      },
      {
       "scene": 8,
       "text": "Pacto Soluções，担任前端工程师。",
-      "start": 233.675,
-      "end": 236.081
+      "start": 255.487,
+      "end": 257.893
      },
      {
       "scene": 8,
-      "text": "负责 Pacto 健身管理生态的前端——包括巴西南部两大连锁健身房 Engenharia do Corpo 和 Usina do Corpo 的会员应用及其官网落地页。",
-      "start": 236.401,
-      "end": 245.294
+      "text": "负责 Pacto 健身平台的前端——巴西南部两大连锁健身房 Engenharia do Corpo 和 Usina do Corpo 的会员应用、它们的官网落地页、Pacto 自己的销售落地页以及 ZW 管理系统。",
+      "start": 258.213,
+      "end": 268.981
      },
      {
       "scene": 8,
-      "text": "Engenharia do Corpo（EC PRO）与 Usina do Corpo 会员应用——训练、课程预约、签到与合同；连锁健身房官网落地页：会员方案、门店与在线报名；Pacto 销售落地页。",
-      "start": 245.614,
-      "end": 255.826
+      "text": "Engenharia do Corpo（EC PRO）与 Usina do Corpo 会员应用；含重量与次数的训练计划、体测、课程预约、签到与合同；连锁健身房官网落地页：会员方案、门店与在线报名。",
+      "start": 269.301,
+      "end": 280.519
      },
      {
       "scene": 9,
-      "text": "我还为 PicPay、upLexis、Pernambucanas、Milvus、Maxxidata、UDS、Inform / Ekantika、Scale、Facepass、Lojas Lebes、Grupo Madero、Pevepas、Relevo Lab、SoftWrap、Tríade Social、Dollar Donation Club 交付过项目。",
-      "start": 256.576,
-      "end": 267.087
+      "text": "我还为 Lojas Lebes、Grupo Madero、PicPay、upLexis、Milvus、UDS、Facepass、Pernambucanas、Maxxidata、Inform / Ekantika、Scale、Pevepas、Relevo Lab、SoftWrap、Tríade Social、Dollar Donation Club 交付过项目。",
+      "start": 281.269,
+      "end": 291.78
      },
      {
       "scene": 10,
       "text": "12+：年软件交付经验（始于 2014 年）；1M+：我参与的银行超级应用的用户数；−50%：通过缓存缩短的加载时间（Pharmalink）；20+：家已交付的公司与产品。",
-      "start": 267.837,
-      "end": 281.264
+      "start": 292.53,
+      "end": 305.956
      },
      {
       "scene": 11,
       "text": "AI 与大语言模型：LLMs、RAG、Agentic patterns、Evals、Fine-tuning；前端：Angular、React、Vue.",
-      "start": 282.014,
-      "end": 287.539
+      "start": 306.706,
+      "end": 312.231
      },
      {
       "scene": 11,
       "text": "js、Next.",
-      "start": 287.859,
-      "end": 288.479
+      "start": 312.551,
+      "end": 313.171
      },
      {
       "scene": 11,
       "text": "js、Nuxt；后端：Python、FastAPI、Django、C# / .",
-      "start": 288.799,
-      "end": 291.332
+      "start": 313.491,
+      "end": 316.025
      },
      {
       "scene": 11,
       "text": "NET、Node.",
-      "start": 291.652,
-      "end": 292.207
+      "start": 316.345,
+      "end": 316.899
      },
      {
       "scene": 11,
       "text": "js；移动端：Flutter、Dart、Kotlin、React Native、Ionic；数据与基础设施：PostgreSQL、SQL Server、MongoDB、Redis、Docker。",
-      "start": 292.527,
-      "end": 298.595
+      "start": 317.219,
+      "end": 323.287
      },
      {
       "scene": 12,
       "text": "“Gabriel 是一位勤奋、投入且非常有才华的专业人士！",
-      "start": 299.345,
-      "end": 303.249
+      "start": 324.037,
+      "end": 327.941
      },
      {
       "scene": 12,
       "text": "他总是乐于沟通，能虚心接受批评，并始终努力交付最好的质量。",
-      "start": 303.569,
-      "end": 308.932
+      "start": 328.261,
+      "end": 333.625
      },
      {
       "scene": 12,
       "text": "团队里有他，就有了一位勤恳、真诚又很有幽默感的伙伴！”",
-      "start": 309.252,
-      "end": 313.519
+      "start": 333.945,
+      "end": 338.211
      },
      {
       "scene": 12,
       "text": "——Lucas Assumpção de Oliveira",
-      "start": 313.839,
-      "end": 315.708
+      "start": 338.531,
+      "end": 340.4
      },
      {
       "scene": 13,
       "text": "“Gabriel 是一位非常能干、投入的专业人士，始终在学习、乐于进步；他会提出改进建议、新的实践和技术，并从全局出发让产品变得更好。”",
-      "start": 316.458,
-      "end": 326.871
+      "start": 341.15,
+      "end": 351.564
      },
      {
       "scene": 13,
       "text": "——Aaron Pierre Glienke Nunez",
-      "start": 327.191,
-      "end": 328.926
+      "start": 351.884,
+      "end": 353.619
      },
      {
       "scene": 14,
       "text": "“Gabriel 是一位出色的程序员和同事！",
-      "start": 329.676,
-      "end": 332.376
+      "start": 354.369,
+      "end": 357.069
      },
      {
       "scene": 14,
       "text": "他总是乐于学习、乐于分享，关注交付成果以及整个系统的质量。",
-      "start": 332.696,
-      "end": 337.893
+      "start": 357.389,
+      "end": 362.586
      },
      {
       "scene": 14,
       "text": "他对多种前端 JS 框架的技术掌握，加上善于沟通、乐于助人，让和他一起工作非常愉快、很有收获！”",
-      "start": 338.213,
-      "end": 346.095
+      "start": 362.906,
+      "end": 370.787
      },
      {
       "scene": 14,
       "text": "——Gabriel Romero de Souza",
-      "start": 346.415,
-      "end": 347.98
+      "start": 371.107,
+      "end": 372.672
      },
      {
       "scene": 15,
       "text": "正在寻找首席 AI 工程师和技术负责人机会——远程，巴西及海外均可。",
-      "start": 348.73,
-      "end": 354.493
+      "start": 373.422,
+      "end": 379.185
      },
      {
       "scene": 15,
       "text": "邮箱：herrmannjob@gmail.",
-      "start": 354.813,
-      "end": 356.187
+      "start": 379.505,
+      "end": 380.879
      },
      {
       "scene": 15,
       "text": "com。",
-      "start": 356.507,
-      "end": 356.954
+      "start": 381.199,
+      "end": 381.647
      },
      {
       "scene": 15,
       "text": "感谢观看。",
-      "start": 357.274,
-      "end": 358.35
+      "start": 381.967,
+      "end": 383.043
      }
     ]
    }
@@ -3490,13 +3508,13 @@
      "start": 28.8,
      "voiceStart": 29.1,
      "voiceEnd": 34.185,
-     "end": 36
+     "end": 36.0
     },
     {
      "id": "range",
      "bar": 15,
      "endBar": 21,
-     "start": 36,
+     "start": 36.0,
      "voiceStart": 36.3,
      "voiceEnd": 47.855,
      "end": 50.4
@@ -3699,13 +3717,13 @@
      "start": 28.8,
      "voiceStart": 29.1,
      "voiceEnd": 33.436,
-     "end": 36
+     "end": 36.0
     },
     {
      "id": "range",
      "bar": 15,
      "endBar": 21,
-     "start": 36,
+     "start": 36.0,
      "voiceStart": 36.3,
      "voiceEnd": 47.722,
      "end": 50.4
@@ -3744,7 +3762,7 @@
      "start": 74.4,
      "voiceStart": 74.7,
      "voiceEnd": 78.45,
-     "end": 84
+     "end": 84.0
     }
    ],
    "sentences": [
@@ -3881,13 +3899,13 @@
      "start": 2.4,
      "voiceStart": 2.7,
      "voiceEnd": 9.118,
-     "end": 12
+     "end": 12.0
     },
     {
      "id": "origin",
      "bar": 5,
      "endBar": 9,
-     "start": 12,
+     "start": 12.0,
      "voiceStart": 12.3,
      "voiceEnd": 20.677,
      "end": 21.6
@@ -3926,13 +3944,13 @@
      "start": 52.8,
      "voiceStart": 53.1,
      "voiceEnd": 58.164,
-     "end": 60
+     "end": 60.0
     },
     {
      "id": "value",
      "bar": 25,
      "endBar": 28,
-     "start": 60,
+     "start": 60.0,
      "voiceStart": 60.3,
      "voiceEnd": 66.155,
      "end": 69.6

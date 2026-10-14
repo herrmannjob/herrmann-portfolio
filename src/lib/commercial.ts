@@ -141,11 +141,20 @@ export type CommercialData = {
   logos: string[];
 };
 
-export function buildCommercial(d: StudioData, works: Array<{ slug: string; company: string; logo?: string; cover?: string; images: string[] }>): CommercialData {
+type CommercialWork = {
+  slug: string;
+  company: string;
+  logo?: string;
+  cover?: string;
+  images: string[];
+  apps: Array<{ name: string; icon?: string; shots: string[] }>;
+};
+
+export function buildCommercial(d: StudioData, works: CommercialWork[]): CommercialData {
   const { voice, ...copy } = COPY[d.locale];
   const bySlug = new Map(works.map((w) => [w.slug, w]));
-  const appSlugs = ["lojas-lebes", "grupo-madero", "pacto-solucoes"];
-  const shots = (w?: { images: string[] }) => (w?.images ?? []).filter((s) => /mzstatic\.com/.test(s));
+  // Store apps in production, Madero first (best known), then the rest in work order
+  const storeApps = works.flatMap((w) => w.apps).sort((a, b) => Number(b.name === "Grupo Madero") - Number(a.name === "Grupo Madero"));
   const quotes = d.recommendations
     .filter((r) => r.text.length <= (d.locale === "zh" ? 60 : 150))
     .slice(0, 4);
@@ -165,11 +174,11 @@ export function buildCommercial(d: StudioData, works: Array<{ slug: string; comp
       { value: "1M+", label: copy.proof[0], logo: bySlug.get("zup-innovation")?.logo, cover: bySlug.get("zup-innovation")?.cover },
       { value: "−50%", label: copy.proof[1], logo: bySlug.get("pharmalink-ecs")?.logo, cover: bySlug.get("pharmalink-ecs")?.cover },
     ],
-    apps: appSlugs.map((s) => bySlug.get(s)).filter(Boolean).map((w) => ({ name: w!.company, icon: w!.logo, shots: shots(w).slice(0, 3) })),
-    // Product screens only — stock photos of people would read as "this is him".
-    wall: works
-      .flatMap((w) => w.images)
-      .filter((s) => !/culture|AdobeStock|hero|Thumb_|preview|logo|og-image/i.test(s))
+    apps: storeApps.slice(0, 3).map((a) => ({ name: a.name, icon: a.icon, shots: a.shots.slice(0, 3) })),
+    // Product screens only — galleries are curated in the seed (no stock photos of people)
+    wall: [...works.flatMap((w) => w.apps.flatMap((a) => a.shots.slice(0, 2))), ...works.flatMap((w) => w.images)]
+      .filter((s) => !/logo|icon/.test(s))
+      .filter((s, i, all) => all.indexOf(s) === i)
       .slice(0, 21),
     tech: d.skills.flatMap((g) => g.items).slice(0, 28),
     quotes,

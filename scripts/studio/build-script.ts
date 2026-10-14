@@ -28,6 +28,11 @@ const works = content.works
     logo: src.get(w.logoId),
     cover: src.get(w.coverId),
     images: w.gallery.map((id) => src.get(id)).filter((x): x is string => Boolean(x)),
+    apps: w.apps.map((a) => ({
+      name: a.name,
+      icon: src.get(a.iconId),
+      shots: a.shots.map((id) => src.get(id)).filter((x): x is string => Boolean(x)),
+    })),
   }));
 
 const tracks = LOCALES.flatMap((locale) => {
