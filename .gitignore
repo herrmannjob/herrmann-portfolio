@@ -27,3 +27,6 @@ Thumbs.db
 
 # Studio pipeline working files (narration cache, script)
 .studio/
+
+# Junction to the shared Projetos agent-config layer
+.agents-global/
